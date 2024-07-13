@@ -73,6 +73,15 @@ body {
   padding-bottom: 30px;
 }
 
+.footer {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  color: #191919;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
