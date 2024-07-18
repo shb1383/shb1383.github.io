@@ -9,7 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.about {
+#about {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,7 @@ body {
   line-height: 110%;
 }
 
-#projects {
+#projects, #contact {
   font-weight: 400;
   font-style: normal;
   color: #191919;
@@ -38,6 +38,28 @@ body {
   padding-right: 30px;
   padding-bottom: 30px;
 }
+
+.projects-links {
+  justify-content: space-between;
+}
+
+.projects-links a {
+  font-size: 14px;
+  color: #191919;
+  text-decoration: none;
+}
+
+#contact p {
+  /* color: gray; */
+  color: #81D8D0;
+}
+
+#contact a {
+  font-size: 20px;;
+  color: #191919;
+  text-decoration: none;
+}
+
 
 #skills {
   display: flex;
@@ -53,39 +75,6 @@ body {
   border-bottom-style: solid;
   border-bottom-color: lightgray;
   border-bottom-width: thin;
-}
-
-.projects-links {
-  justify-content: space-between;
-}
-
-.projects-links a {
-  color: #191919;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-#contact {
-  font-weight: 400;
-  font-style: normal;
-  color: #191919;
-  border-bottom-style: solid;
-  border-bottom-color: lightgray;
-  border-bottom-width: thin;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  scroll-behavior: smooth;
-}
-
-#contact p {
-  color: gray;
-}
-
-#contact a {
-  font-size: 20px;;
-  color: #191919;
-  text-decoration: none;
 }
 
 .footer {
