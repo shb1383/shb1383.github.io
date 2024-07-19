@@ -7,13 +7,10 @@ body {
   padding: 0;
   background-color: white;
   font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 
 #about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: 64px;
   font-weight: 500;
   font-style: normal;
@@ -21,9 +18,9 @@ body {
   border-bottom-style: solid;
   border-bottom-color: lightgray;
   border-bottom-width: thin;
-  padding-top: 175px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-top: 200px;
+  padding-left: 35px;
+  padding-right: 35px;
   line-height: 110%;
 }
 
@@ -34,23 +31,47 @@ body {
   border-bottom-style: solid;
   border-bottom-color: lightgray;
   border-bottom-width: thin;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
 .projects-links {
-  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
 }
 
 .projects-links a {
-  font-size: 14px;
+  font-size: 20px;
   color: #191919;
   text-decoration: none;
+  margin-top: 15px;
+}
+
+.projects-links p {
+  color: lightslategray;
+  font-size: 17px;
+}
+
+.mpulse img {
+  border-radius: 5px;
+  width: 300px;
+  height: auto;
+}
+
+.tripl img {
+  border-radius: 5px;
+  width: 500px;
+  height: auto;
+}
+
+.mpulse, .tripl {
+  display: flex;
+  flex-direction: column;
 }
 
 #contact p {
-  /* color: gray; */
   color: #81D8D0;
 }
 
@@ -82,24 +103,21 @@ body {
   font-weight: 400;
   font-style: normal;
   color: #191919;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 /* Add a black background color to the top navigation */
-.topnav {
+#topnav {
   overflow: hidden;
+  background-color: white;
   border-bottom-style: solid;
   border-bottom-color: lightgray;
   border-bottom-width: thin;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 3px;
-  padding-bottom: 3px;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+#topnav a {
   float: left;
   color: #191919;
   text-align: center;
@@ -109,17 +127,23 @@ body {
 }
 
 /* Change the color of links on hover */
-.topnav a.split:hover {
+#topnav a.split:hover {
   color: #191919;;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+#topnav a.active {
   color: #191919;
 }
 
 /* Create a right-aligned (split) link inside the navigation bar */
-.topnav a.split {
+#topnav a.split {
   float: right;
   color: lightslategray;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

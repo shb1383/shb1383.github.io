@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="topnav">
-    <a href="#about" class="active">SHB</a>
+  <div id="topnav">
+    <a href="#about" class="active">/syrene</a>
     <a href="#contact" class="split">Contact</a>
     <a href="#skills" class="split">Skills</a>
     <a href="#projects" class="split">Projects</a>
@@ -21,11 +21,22 @@
   </div>
   <div id="projects">
     <p style="font-size: 32px; color: lightslategray;">Projects</p>
-    <div class="projects-links">
-      <a href = "https://www.m-pulse.live/">Mpulse</a>
-      <a href = "https://tripl-komegi1215-c3f7a7733216.herokuapp.com/">Tripl</a>
+      <div class="projects-links">
+        <div class="mpulse">
+          <img src="./images/mpulse.png" alt="mpulse">
+          <a href = "https://www.m-pulse.live/">Mpulse</a>
+          <p>Discover a vibrant world of live events in your local and surrounding
+            areas with our mobile app, designed to help you find the perfect
+            experiences to attend.</p>
+        </div>
+        <div class="tripl">
+          <img src="./images/tripl.png" alt="tripl">
+          <a href = "https://tripl-komegi1215-c3f7a7733216.herokuapp.com/">Tripl</a>
+          <p>Embark on spontaneous adventures with our innovative trip app,
+            connecting users for unforgettable day trips.</p>
+        </div>
+      </div>
     </div>
-  </div>
   <div id="skills">
     <p style="font-size: 32px; color: lightslategray;">Skills</p>
     <div class="devicons">
@@ -56,4 +67,25 @@
   <div class="footer">
     <p>Copyright 2024, Syrene Bartolome</p>
   </div>
+
+<script>
+  // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("topnav");
+
+// Get the offset position of the navbar
+var sticky = topnav.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    topnav.classList.add("sticky")
+  } else {
+    topnav.classList.remove("sticky");
+  }
+}
+</script>
+
 </body>
