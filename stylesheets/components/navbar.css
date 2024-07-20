@@ -1,0 +1,40 @@
+/* Add a white background color to the top navigation */
+#topnav {
+  overflow: hidden;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  border-bottom-width: thin;
+}
+
+/* Style the links inside the navigation bar */
+#topnav a {
+  float: left;
+  color: #191919;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+#topnav a.split:hover {
+  color: #191919;;
+}
+
+/* Add a color to the active/current link */
+#topnav a.active {
+  color: #191919;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+#topnav a.split {
+  float: right;
+  color: lightslategray;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

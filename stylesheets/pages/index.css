@@ -1,15 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  font-family: "Poppins", sans-serif;
-  width: 100%;
-}
-
 #about {
   font-size: 64px;
   font-weight: 500;
@@ -37,9 +25,45 @@ body {
 }
 
 .projects-links {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
   padding-top: 100px;
+}
+
+/* Smallest device */
+@media (min-width: 100px) and (max-width: 575px) {
+  .projects-links {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .projects-links {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .projects-links {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .projects-links {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .projects-links {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .projects-links a {
@@ -52,6 +76,7 @@ body {
 .projects-links p {
   color: lightslategray;
   font-size: 17px;
+  margin-top: 0;
 }
 
 .mpulse img {
@@ -71,17 +96,6 @@ body {
   flex-direction: column;
 }
 
-#contact p {
-  color: #81D8D0;
-}
-
-#contact a {
-  font-size: 20px;;
-  color: #191919;
-  text-decoration: none;
-}
-
-
 #skills {
   display: flex;
   flex-direction: column;
@@ -98,52 +112,12 @@ body {
   border-bottom-width: thin;
 }
 
-.footer {
-  font-size: 15px;
-  font-weight: 400;
-  font-style: normal;
-  color: #191919;
-  padding-left: 35px;
-  padding-right: 35px;
+#contact p {
+  color: #81D8D0;
 }
 
-/* Add a black background color to the top navigation */
-#topnav {
-  overflow: hidden;
-  background-color: white;
-  border-bottom-style: solid;
-  border-bottom-color: lightgray;
-  border-bottom-width: thin;
-}
-
-/* Style the links inside the navigation bar */
-#topnav a {
-  float: left;
+#contact a {
+  font-size: 20px;;
   color: #191919;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-#topnav a.split:hover {
-  color: #191919;;
-}
-
-/* Add a color to the active/current link */
-#topnav a.active {
-  color: #191919;
-}
-
-/* Create a right-aligned (split) link inside the navigation bar */
-#topnav a.split {
-  float: right;
-  color: lightslategray;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
