@@ -67,27 +67,29 @@
 }
 
 .projects-links a {
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 500;
   color: #191919;
   text-decoration: none;
-  margin-top: 15px;
+  margin-top: 14px;
 }
 
 .projects-links p {
-  color: lightslategray;
-  font-size: 17px;
+  color: #191919;
+  font-size: 12px;
   margin-top: 0;
+  width: inherit;
 }
 
 .mpulse img {
   border-radius: 5px;
-  width: 300px;
+  width: 250px;
   height: auto;
 }
 
 .tripl img {
   border-radius: 5px;
-  width: 500px;
+  width: 400px;
   height: auto;
 }
 
@@ -113,11 +115,13 @@
 }
 
 #contact p {
-  color: #81D8D0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #191919;
 }
 
 #contact a {
-  font-size: 20px;;
+  font-size: 12px;;
   color: #191919;
   text-decoration: none;
 }
