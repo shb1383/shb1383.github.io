@@ -19,12 +19,14 @@
 
 /* Change the color of links on hover */
 #topnav a.split:hover {
-  color: #191919;;
+  color: #191919;
+  font-weight: 500;
 }
 
 /* Add a color to the active/current link */
 #topnav a.active {
   color: #191919;
+  font-weight: 500;
 }
 
 /* Create a right-aligned (split) link inside the navigation bar */

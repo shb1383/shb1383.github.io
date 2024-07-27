@@ -2,7 +2,8 @@
   font-size: 12px;
   font-weight: 400;
   font-style: normal;
-  color: #191919;
+  color: lightslategray;
   padding-left: 35px;
   padding-right: 35px;
+  float: right;
 }
