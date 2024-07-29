@@ -117,6 +117,10 @@
   filter: grayscale(100%);
 }
 
+.contact-info p {
+  margin-bottom: -3px;
+}
+
 #contact p {
   font-size: 12px;
   font-weight: 500;
@@ -126,5 +130,9 @@
 #contact a {
   font-size: 12px;;
   color: #191919;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+#contact a:hover {
+  font-weight: 500;
 }
