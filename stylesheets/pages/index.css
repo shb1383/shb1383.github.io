@@ -113,6 +113,10 @@
   border-bottom-width: thin;
 }
 
+.devicons img {
+  filter: grayscale(100%);
+}
+
 #contact p {
   font-size: 12px;
   font-weight: 500;
