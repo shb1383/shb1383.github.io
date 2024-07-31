@@ -13,12 +13,22 @@
   <link rel="stylesheet" href="./stylesheets/pages/index.css">
 </head>
 <body>
-  <div id="topnav">
-    <a href="#hero" class="active" style="font-size: 14px;">S/B</a>
-    <a href="#projects" class="split">Projects</a>
-    <a href="#skills" class="split">Skills</a>
-    <a href="#contact" class="split">Contact</a>
-  </div>
+  <nav id="topnav">
+    <ul class="nav_list">
+      <li class="nav_item">
+        <a href="#hero" class="nav_link active" style="font-size: 16px; font-weight: 500;">S/B</a>
+      </li>
+      <li class="nav_item">
+        <a href="#projects" class="nav_link">Projects</a>
+      </li>
+      <li class="nav_item">
+        <a href="#skills" class="nav_link">Skills</a>
+      </li>
+      <li class="nav_item">
+        <a href="#contact" class="nav_link">Contact</a>
+      </li>
+    </ul>
+  </nav>
   <div id="hero">
     <div class="header">
     <h1>Syrene Bartolome</h1>
@@ -104,6 +114,17 @@ function myFunction() {
     topnav.classList.remove("sticky");
   }
 }
+
+const navElements = document.querySelectorAll(".nav_link");
+
+navElements.forEach(navElement => {
+  navElement.addEventListener('click', () => {
+    document.querySelector('.active')?.classList.remove('active');
+    navElement.classList.add('active');
+  });
+});
+
+
 </script>
 
 </body>
