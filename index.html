@@ -29,7 +29,8 @@
       </li>
     </ul>
   </nav>
-  <div id="hero">
+  <main>
+  <section id="hero">
     <div class="header">
     <h1>Syrene Bartolome</h1>
       <img src="./images/headshot.jpeg" alt="headshot">
@@ -38,8 +39,8 @@
         <p>OS & Frontend Engineer with a background in Multimedia Production passionate about delivering aesthetically pleasing
           & high-quality work through creativity & precision.</p>
         </div>
-  </div>
-  <div id="projects">
+      </section>
+  <section id="projects">
     <p style="font-size: 24px; color: lightslategray;">Projects</p>
       <div class="projects-links">
         <div class="mpulse">
@@ -56,8 +57,8 @@
             connecting users for unforgettable day trips.</p>
         </div>
       </div>
-    </div>
-  <div id="skills">
+    </section>
+  <section id="skills">
     <p style="font-size: 24px; color: lightslategray;">Skills</p>
     <div class="devicons">
       <img src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" width="45" height="45" />
@@ -74,8 +75,8 @@
       <img src = "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/figma/figma-original.svg" width="45" height="45" />
       <img src = "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/heroku/heroku-original.svg" width="45" height="45" />
     </div>
-  </div>
-  <div id="contact">
+  </section>
+  <section id="contact">
     <p style="font-size: 24px; font-weight: 400; color: lightslategray;">Contact</p>
     <div class="contact-info">
       <div class="contact-info-head">
@@ -91,7 +92,8 @@
           </div>
             <a href = "https://github.com/shb1383">GitHub</a>
     </div>
-  </div>
+  </section>
+</main>
   <div class="footer">
     <p><i class="fa-regular fa-copyright" style="color: lightslategray;"></i> 2024 Syrene Bartolome</p>
   </div>
@@ -124,6 +126,21 @@ navElements.forEach(navElement => {
   });
 });
 
+const sections = document.querySelectorAll('section');
+
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    let sectionTop = section.offsetTop;
+    if (scrollY + 80 >= sectionTop) {
+        current = section.getAttribute('id');
+    }
+  });
+  navElements.forEach(navElement => {
+    navElement.classList.remove('active');
+    document.querySelector('.nav_link[href*= '+ current +']').classList.add('active');
+  });
+});
 
 </script>
 
