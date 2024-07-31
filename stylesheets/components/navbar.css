@@ -1,5 +1,8 @@
 /* Add a white background color to the top navigation */
 #topnav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   overflow: hidden;
   background-color: white;
   border-bottom-style: solid;
@@ -10,7 +13,7 @@
 /* Style the links inside the navigation bar */
 #topnav a {
   float: left;
-  color: #191919;
+  color: lightslategray;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
