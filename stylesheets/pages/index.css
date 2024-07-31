@@ -172,3 +172,8 @@
 #contact a:hover {
   font-weight: 500;
 }
+
+.contact-info-head {
+  display: flex;
+  flex-direction: row;
+}
