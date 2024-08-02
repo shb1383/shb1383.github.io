@@ -1,4 +1,4 @@
-/* Add a white background color to the top navigation */
+/* Add a white background color to the navigation bar*/
 #topnav {
   overflow: hidden;
   background-color: white;
@@ -7,6 +7,7 @@
   border-bottom-width: thin;
 }
 
+/* Format the navigation bar */
 .nav_list {
   display: flex;
   flex-direction: row;
@@ -15,9 +16,11 @@
   padding: 0;
 }
 
+/* Remove bullet points for navigation bar links */
 .nav_list li {
   list-style-type: none;
 }
+
 /* Style the links inside the navigation bar */
 .nav_link {
   color: lightslategray;
@@ -31,11 +34,13 @@
   font-weight: 500;
 }
 
+/* Change the style of links when active */
 .active {
   color: #191919;
   font-weight: 500;
 }
 
+/* Sticks navbar to top of page */
 .sticky {
   position: fixed;
   top: 0;

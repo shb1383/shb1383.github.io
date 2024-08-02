@@ -1,8 +1,7 @@
-#hero {
+#hero, #projects, #skills, #contact {
   border-bottom-style: solid;
   border-bottom-color: lightgray;
   border-bottom-width: thin;
-  padding-top: 250px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
@@ -16,7 +15,7 @@
 }
 
 .header h1 {
-  font-size: 105px;
+  font-size: 115px;
   font-weight: 500;
   font-style: normal;
   color: #272829;
@@ -31,10 +30,6 @@
 }
 
 .about {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   text-align: right;
 }
 
@@ -46,22 +41,24 @@
   line-height: 100%;
 }
 
-#projects, #skills, #contact {
-  border-bottom-style: solid;
-  border-bottom-color: lightgray;
-  border-bottom-width: thin;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
+#projects, #skills, #contact p {
+  font-size: 24px;
+  color: lightslategray;
 }
 
-.projects-links {
+.projects_links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
 }
 
-.projects-links a {
+.projects_links p {
+  color: #191919;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.projects_links a {
   font-size: 12px;
   font-weight: 500;
   color: #191919;
@@ -69,11 +66,9 @@
   margin-top: 14px;
 }
 
-.projects-links p {
-  color: #191919;
-  font-size: 12px;
-  margin-top: 0;
-  width: inherit;
+.mpulse, .tripl {
+  display: flex;
+  flex-direction: column;
 }
 
 .mpulse img {
@@ -88,11 +83,6 @@
   height: auto;
 }
 
-.mpulse, .tripl {
-  display: flex;
-  flex-direction: column;
-}
-
 .skills_categories p {
   font-size: 14px;
   font-weight: 500;
@@ -104,27 +94,29 @@
   height: 45px;
 }
 
-.contact-info p {
-  margin-bottom: -3px;
+.contact_info p {
+  font-size: 14px!important;
+  font-weight: 500!important;
+  color: #191919!important;
+  margin-bottom: -3px!important;
 }
 
-#contact p {
-  font-size: 12px;
-  font-weight: 500;
-  color: #191919;
+.contact_info i {
+  padding-top: 12px;
+  margin-right: 5px;
 }
 
-#contact a {
+.contact_info a {
   font-size: 12px;;
   color: #191919;
   text-decoration: underline;
 }
 
-#contact a:hover {
+.contact_info a:hover {
   font-weight: 500;
 }
 
-.contact-info-head {
+.contact_info_head {
   display: flex;
   flex-direction: row;
 }
