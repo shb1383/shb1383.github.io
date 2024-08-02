@@ -22,7 +22,7 @@
   font-weight: 500;
   font-style: normal;
   color: #272829;
-  line-height: 72%;
+  line-height: 69.5%;
   text-align: left;
   margin-top: -190px;
 }
@@ -50,10 +50,7 @@
   line-height: 100%;
 }
 
-#projects, #contact {
-  font-weight: 400;
-  font-style: normal;
-  color: #191919;
+#projects, #skills, #contact {
   border-bottom-style: solid;
   border-bottom-color: lightgray;
   border-bottom-width: thin;
@@ -135,24 +132,15 @@
   flex-direction: column;
 }
 
-#skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-weight: 400;
-  font-style: normal;
-  width: 100vw;
-  height: 50vh;
+.skills_categories p {
+  font-size: 14px;
+  font-weight: 500;
   color: #191919;
-  border-bottom-style: solid;
-  border-bottom-color: lightgray;
-  border-bottom-width: thin;
 }
 
-.devicons img {
-  filter: grayscale(100%);
+.skills_categories img {
+  width: 45px;
+  height: 45px;
 }
 
 .contact-info p {
