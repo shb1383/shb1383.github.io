@@ -1,11 +1,16 @@
-.footer {
-  font-size: 12px;
-  font-weight: 400;
-  font-style: normal;
-  color: lightslategray;
+/* Format the footer */
+#footer {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 5px;
   padding-bottom: 5px;
   float: right;
+}
+
+/* Style the the text inside the footer */
+#footer p {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  color: lightslategray;
 }
