@@ -2,10 +2,10 @@
   border-bottom-style: solid;
   border-bottom-color: lightgray;
   border-bottom-width: thin;
-  padding-top: 230px;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-bottom: 35px;
+  padding-top: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 .header {
@@ -13,8 +13,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .header h1 {
@@ -38,8 +36,6 @@
   align-items: center;
   justify-content: center;
   text-align: right;
-  padding-right: 50px;
-  padding-left: 50px;
 }
 
 .about p {
@@ -54,50 +50,15 @@
   border-bottom-style: solid;
   border-bottom-color: lightgray;
   border-bottom-width: thin;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-bottom: 35px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 .projects-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
-}
-
-/* Smallest device */
-@media (min-width: 100px) and (max-width: 575px) {
-  .projects-links {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .projects-links {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .projects-links {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .projects-links {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .projects-links {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 }
 
 .projects-links a {
