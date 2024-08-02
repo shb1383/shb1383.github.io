@@ -1,4 +1,4 @@
-#hero, #projects, #skills, #contact {
+#hero, #projects, #skills, #services, #contact {
   border-bottom-style: solid;
   border-bottom-color: lightgray;
   border-bottom-width: thin;
@@ -41,7 +41,7 @@
   line-height: 100%;
 }
 
-#projects, #skills, #contact p {
+#projects, #skills, #services, #contact p {
   font-size: 24px;
   color: lightslategray;
 }
@@ -83,14 +83,14 @@
   height: auto;
 }
 
-.skills_categories {
+.skills_categories, .services_categories {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
 }
 
-.skills_categories p {
+.skills_categories, .services_categories p {
   font-size: 14px;
   font-weight: 500;
   color: #191919;
@@ -99,6 +99,11 @@
 .skills_categories img {
   width: 45px;
   height: 45px;
+}
+
+.services_categories i {
+  color: #191919;
+  font-size: 80px;
 }
 
 .contact_info p {
