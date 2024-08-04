@@ -1,16 +1,25 @@
-/* Format the footer */
+/* Formats the footer */
 #footer {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 5px;
   padding-bottom: 5px;
-  float: right;
 }
 
-/* Style the the text inside the footer */
+/* Styles the the text inside the footer */
 #footer p {
   font-size: 12px;
   font-weight: 400;
   font-style: normal;
   color: lightslategray;
+}
+
+/* Formats the text inside location div */
+.location {
+  float: left;
+}
+
+/* Formats the text inside copyright div */
+.copyright {
+  float: right;
 }
