@@ -1,11 +1,15 @@
+/* Formats the sections */
+
 #hero, #projects, #skills, #services, #contact {
   border-bottom-style: solid;
-  border-bottom-color: lightgray;
+  border-bottom-color: whitesmoke;
   border-bottom-width: thin;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
 }
+
+/* Hero section styling */
 
 .header {
   display: flex;
@@ -41,10 +45,14 @@
   line-height: 100%;
 }
 
+/* Section header styling */
+
 #projects, #skills, #services, #contact p {
   font-size: 24px;
   color: lightslategray;
 }
+
+/* Projects section styling */
 
 .projects_links {
   display: grid;
@@ -83,6 +91,8 @@
   height: auto;
 }
 
+/* Skills and Services section styling */
+
 .skills_categories, .services_categories {
   display: flex;
   flex-direction: row;
@@ -106,29 +116,26 @@
   font-size: 80px;
 }
 
-.contact_info p {
+/* Contact section styling */
+
+.contact_categories p {
+  margin-bottom: -3px;
   font-size: 14px!important;
   font-weight: 500!important;
   color: #191919!important;
-  margin-bottom: -3px!important;
 }
 
-.contact_info i {
+.contact_categories i {
   padding-top: 12px;
   margin-right: 5px;
 }
 
-.contact_info a {
+.contact_categories a {
   font-size: 12px;
   color: #191919;
   text-decoration: underline;
 }
 
-.contact_info a:hover {
+.contact_categories a:hover {
   font-weight: 500;
-}
-
-.contact_info_head {
-  display: flex;
-  flex-direction: row;
 }

@@ -1,13 +1,13 @@
-/* Add a white background color to the navigation bar*/
+/* Styles the navigation bar*/
 #topnav {
   overflow: hidden;
   background-color: white;
   border-bottom-style: solid;
-  border-bottom-color: lightgray;
+  border-bottom-color: whitesmoke;
   border-bottom-width: thin;
 }
 
-/* Format the navigation bar */
+/* Formats the navigation bar */
 .nav_list {
   display: flex;
   flex-direction: row;
@@ -16,25 +16,26 @@
   padding: 0;
 }
 
-/* Remove bullet points for navigation bar links */
+/* Removes bullet points from navigation bar links */
+
 .nav_list li {
   list-style-type: none;
 }
 
-/* Style the links inside the navigation bar */
+/* Styles the navigation bar links */
 .nav_link {
   color: lightslategray;
   text-decoration: none;
   font-size: 14px;
 }
 
-/* Change the color of links on hover */
+/* Styles the navigation bar links on hover */
 .nav_link:hover {
   color: #191919;
   font-weight: 500;
 }
 
-/* Change the style of links when active */
+/* Styles the active navigation bar links */
 .active {
   color: #191919;
   font-weight: 500;
