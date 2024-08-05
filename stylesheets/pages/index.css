@@ -1,5 +1,4 @@
 /* Formats the sections */
-
 #hero, #projects, #skills, #services, #contact {
   border-bottom-style: solid;
   border-bottom-color: whitesmoke;
@@ -10,7 +9,6 @@
 }
 
 /* Hero section styling */
-
 .header {
   display: flex;
   flex-direction: row;
@@ -46,14 +44,12 @@
 }
 
 /* Section header styling */
-
 #projects, #skills, #services, #contact p {
   font-size: 24px;
   color: lightslategray;
 }
 
 /* Projects section styling */
-
 .projects_links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -92,7 +88,6 @@
 }
 
 /* Skills and Services section styling */
-
 .skills_categories, .services_categories {
   display: flex;
   flex-direction: row;
@@ -117,7 +112,6 @@
 }
 
 /* Contact section styling */
-
 .contact_categories p {
   margin-bottom: -3px;
   font-size: 14px!important;
