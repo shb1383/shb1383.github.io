@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./stylesheets/pages/index.css">
 </head>
 <body>
-  <nav id="topnav">
+  <nav id="navbar">
     <ul class="nav_list">
       <li class="nav_item">
         <a href="#hero" class="nav_link active">S/B</a>
@@ -131,50 +131,6 @@
     </div>
   </footer>
 
-<script>
-  // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the navbar
-var navbar = document.getElementById("topnav");
-
-// Get the offset position of the navbar
-var sticky = topnav.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    topnav.classList.add("sticky")
-  } else {
-    topnav.classList.remove("sticky");
-  }
-}
-
-const navElements = document.querySelectorAll(".nav_link");
-
-navElements.forEach(navElement => {
-  navElement.addEventListener('click', () => {
-    document.querySelector('.active')?.classList.remove('active');
-    navElement.classList.add('active');
-  });
-});
-
-const sections = document.querySelectorAll('section');
-
-window.addEventListener('scroll', () => {
-  let current = '';
-  sections.forEach(section => {
-    let sectionTop = section.offsetTop;
-    if (scrollY + 80 >= sectionTop) {
-        current = section.getAttribute('id');
-    }
-  });
-  navElements.forEach(navElement => {
-    navElement.classList.remove('active');
-    document.querySelector('.nav_link[href*= '+ current +']').classList.add('active');
-  });
-});
-
-</script>
+  <script src="./javascript/navbar.js"></script>
 
 </body>
