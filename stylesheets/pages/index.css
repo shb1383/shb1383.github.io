@@ -51,8 +51,8 @@
 /* Projects section styling */
 .projects_links {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .projects_links p {
