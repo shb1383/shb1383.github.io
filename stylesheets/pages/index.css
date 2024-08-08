@@ -143,8 +143,15 @@ button {
   font-size: 14px;
   font-weight: 500;
   border: solid;
+  border-width: thin;
   display: inline-block;
   cursor: pointer;
   padding: 10px 100px;
   margin-top: 20px;
+}
+
+button:hover {
+  background-color: #191919;
+  color: white;
+  transition: all 0.1s ease;
 }
