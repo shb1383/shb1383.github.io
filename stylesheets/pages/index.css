@@ -3,8 +3,6 @@
   border-bottom-style: solid;
   border-bottom-color: whitesmoke;
   border-bottom-width: thin;
-  padding-left: 50px;
-  padding-right: 50px;
   padding-bottom: 50px;
 }
 
@@ -17,19 +15,17 @@
 }
 
 .header h1 {
-  font-size: 115px;
+  font-size: 10vw;
   font-weight: 500;
   font-style: normal;
   color: #272829;
   line-height: 69.5%;
   text-align: left;
-  margin-top: -190px;
 }
 
 .header img {
-  width: 275px;
+  width: 30%;
   height: auto;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .about {
