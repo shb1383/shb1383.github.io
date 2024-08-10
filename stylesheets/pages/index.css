@@ -1,8 +1,6 @@
 /* Formats the sections */
 #hero, #projects, #skills, #services, #contact {
-  border-bottom-style: solid;
-  border-bottom-color: whitesmoke;
-  border-bottom-width: thin;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -12,6 +10,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  padding-bottom: 20px;
 }
 
 .header h1 {
@@ -111,24 +110,23 @@
 .contact_categories_head {
   display: flex;
   flex-direction: row;
-  text-align: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .contact_categories p {
-  margin-bottom: -3px;
+  margin-bottom: -2px;
   font-size: 14px!important;
   font-weight: 500!important;
   color: #191919!important;
 }
 
 .contact_categories i {
-  margin-top: 15px;
   margin-right: 5px;
 }
 
 .contact_categories a {
-  font-size: 12px!important;
+  font-size: 12px;
   color: #191919;
   text-decoration: underline;
 }

@@ -13,8 +13,12 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 25px;
+}
+
+hr {
+  width: 100%;
+  color: whitesmoke;
 }
 
 /* Smallest device */
