@@ -108,6 +108,13 @@
 }
 
 /* Contact section styling */
+.contact_categories_head {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
 .contact_categories p {
   margin-bottom: -3px;
   font-size: 14px!important;
@@ -116,12 +123,12 @@
 }
 
 .contact_categories i {
-  padding-top: 12px;
+  margin-top: 15px;
   margin-right: 5px;
 }
 
 .contact_categories a {
-  font-size: 12px;
+  font-size: 12px!important;
   color: #191919;
   text-decoration: underline;
 }
