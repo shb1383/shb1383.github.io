@@ -23,7 +23,7 @@
 }
 
 .header img {
-  width: 30%;
+  width: 35%;
   height: auto;
 }
 
@@ -47,8 +47,8 @@
 /* Projects section styling */
 .projects_links {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 24px;
 }
 
 .projects_links p {
