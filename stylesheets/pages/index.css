@@ -47,7 +47,6 @@
 /* Projects section styling */
 .projects_links {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 24px;
 }
 
@@ -68,18 +67,6 @@
 .mpulse, .tripl {
   display: flex;
   flex-direction: column;
-}
-
-.mpulse img {
-  border-radius: 5px;
-  width: 250px;
-  height: auto;
-}
-
-.tripl img {
-  border-radius: 5px;
-  width: 400px;
-  height: auto;
 }
 
 /* Skills and Services section styling */
