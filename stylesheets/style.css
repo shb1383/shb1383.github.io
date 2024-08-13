@@ -26,12 +26,28 @@ hr {
   .projects_links {
     grid-template-columns: 1fr!important;
   }
+
+  .skills_categories, .services_categories {
+    flex-direction: column!important;
+  }
+
+  .frontend, .backend, .other, .web_design, .web_development, .mobile_development {
+    margin: 20px!important;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
   .projects_links {
     grid-template-columns: 1fr!important;
+  }
+
+  .skills_categories, .services_categories {
+    flex-direction: column!important;
+  }
+
+  .frontend, .backend, .other, .web_design, .web_development, .mobile_development {
+    margin: 20px!important;
   }
 }
 
@@ -40,6 +56,10 @@ hr {
   .projects_links {
     grid-template-columns: 1fr 1fr!important;
   }
+
+  .skills_categories, .services_categories {
+    flex-direction: row!important;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -47,11 +67,19 @@ hr {
   .projects_links {
     grid-template-columns: 1fr 1fr!important;
   }
+
+  .skills_categories, .services_categories {
+    flex-direction: row!important;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
   .projects_links {
     grid-template-columns: 1fr 1fr 1fr!important;
+  }
+
+  .skills_categories, .services_categories {
+    flex-direction: row!important;
   }
 }
