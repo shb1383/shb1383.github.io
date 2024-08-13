@@ -85,8 +85,7 @@
 /* Skills and Services section styling */
 .skills_categories, .services_categories {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
 }
 
@@ -104,6 +103,7 @@
 .services_categories i {
   color: #191919;
   font-size: 80px;
+  margin-bottom: 15px;
 }
 
 /* Contact section styling */
