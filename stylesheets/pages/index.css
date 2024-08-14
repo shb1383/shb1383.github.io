@@ -94,6 +94,16 @@
 }
 
 /* Contact section styling */
+.contact_categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contact_categories_left, .contact_categories_right {
+  width: 35vw;
+}
+
 .contact_categories_head {
   display: flex;
   flex-direction: row;
@@ -134,8 +144,9 @@ button {
   border-width: thin;
   display: inline-block;
   cursor: pointer;
-  padding: 10px 100px;
+  padding: 12px;
   margin-top: 20px;
+  width: 34vw;
 }
 
 button:hover {
