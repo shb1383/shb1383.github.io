@@ -23,7 +23,7 @@ hr {
 
 /* Smallest device */
 @media screen and (min-width: 100px) and (max-width: 575px) {
-  .header {
+  .header, .skills_categories, .services_categories, .contact_categories {
     flex-direction: column!important;
   }
 
@@ -32,17 +32,16 @@ hr {
   }
 
   .header img {
-    width: 100%!important;
     height: auto;
     padding-top: 20px;
   }
 
-  .projects_links {
-    grid-template-columns: 1fr!important;
+  .header img, .contact_categories_left, .contact_categories_right, button {
+    width: 100%!important;
   }
 
-  .skills_categories, .services_categories {
-    flex-direction: column!important;
+  .projects_links {
+    grid-template-columns: 1fr!important;
   }
 
   .frontend, .backend, .other, .web_design, .web_development, .mobile_development {
@@ -52,7 +51,7 @@ hr {
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .header {
+  .header, .skills_categories, .services_categories, .contact_categories {
     flex-direction: column!important;
   }
 
@@ -61,17 +60,16 @@ hr {
   }
 
   .header img {
-    width: 100%!important;
     height: auto;
     padding-top: 20px;
   }
 
-  .projects_links {
-    grid-template-columns: 1fr!important;
+  .header img, .contact_categories_left, .contact_categories_right, button {
+    width: 100%!important;
   }
 
-  .skills_categories, .services_categories {
-    flex-direction: column!important;
+  .projects_links {
+    grid-template-columns: 1fr!important;
   }
 
   .frontend, .backend, .other, .web_design, .web_development, .mobile_development {
