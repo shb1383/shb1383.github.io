@@ -15,3 +15,21 @@ function stickyFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+// Get the mobile menu icon
+var mobileMenuIcon = document.querySelector('.icon');
+
+// Get the mobile menu
+var mobileMenu = document.querySelector('.mobile_menu');
+
+// Toggle the styling for the mobile menu to be displayed and not displayed when the mobile icon is clicked
+mobileMenuIcon.addEventListener('click', () => {
+  if (mobileMenu.style.display === "none") {
+    mobileMenu.style.display = "flex";
+    mobileMenuIcon.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+  }
+  else {
+    mobileMenu.style.display = "none";
+    mobileMenuIcon.innerHTML = '<i class="fa-solid fa-bars"></i>';
+  }
+});
