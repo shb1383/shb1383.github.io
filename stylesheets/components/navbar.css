@@ -28,18 +28,17 @@
   color: lightslategray;
   text-decoration: none;
   font-size: 14px;
+  font-weight: 500;
 }
 
 /* Styles the navigation bar links on hover */
 .nav_link:hover {
   color: #191919;
-  font-weight: 500;
 }
 
 /* Styles the active navigation bar links */
 .active {
   color: #191919;
-  font-weight: 500;
 }
 
 /* Sticks navbar to top of page */
@@ -47,4 +46,33 @@
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+/* Hides the link that should open and close the navbar on small screens */
+.nav_list .icon {
+  color: lightslategray;
+  display: none;
+}
+
+/* Add a dark color on navbar links and the dropdown button on hover */
+.nav_list a:hover {
+  color: #191919;
+  text-decoration: none;
+}
+
+/* When the screen is less than 767 pixels wide, hide all links, except for the first one ("S/B"). Show the link that should open and close the navbar (.icon) */
+@media screen and (max-width: 767px) {
+  .nav_list {
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .nav_list li:not(:first-child) {
+    display: none!important;
+  }
+  .nav_list a.icon {
+    float: right!important;
+    display: block!important;
+  }
 }
