@@ -50,7 +50,7 @@ hr {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) and (max-width: 767px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
   .header, .skills_categories, .services_categories, .contact_categories {
     flex-direction: column!important;
   }
@@ -77,8 +77,8 @@ hr {
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
+/* Medium devices (tablets, 769px and up) */
+@media screen and (min-width: 769px) {
   .projects_links {
     grid-template-columns: 1fr 1fr!important;
   }
