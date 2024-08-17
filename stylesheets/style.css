@@ -23,6 +23,20 @@ hr {
 
 /* Smallest device */
 @media screen and (min-width: 100px) and (max-width: 575px) {
+  .nav_list {
+    justify-content: space-between!important;
+    padding-left: 25px!important;
+    padding-right: 25px!important;
+  }
+
+  .nav_list li:not(:first-child) {
+    display: none!important;
+  }
+  .nav_list .icon {
+    float: right!important;
+    display: block!important;
+  }
+
   .header, .skills_categories, .services_categories, .contact_categories {
     flex-direction: column!important;
   }
@@ -51,6 +65,20 @@ hr {
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) and (max-width: 768px) {
+  .nav_list {
+    justify-content: space-between!important;
+    padding-left: 25px!important;
+    padding-right: 25px!important;
+  }
+
+  .nav_list li:not(:first-child) {
+    display: none!important;
+  }
+  .nav_list .icon {
+    float: right!important;
+    display: block!important;
+  }
+
   .header, .skills_categories, .services_categories, .contact_categories {
     flex-direction: column!important;
   }
@@ -85,6 +113,10 @@ hr {
 
   .skills_categories, .services_categories {
     flex-direction: row!important;
+  }
+
+  .mobile_menu {
+    display: none!important;
   }
 }
 
