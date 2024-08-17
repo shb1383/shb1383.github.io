@@ -60,29 +60,16 @@
   text-decoration: none;
 }
 
-/* When the screen is less than 768 pixels wide, hide all links, except for the first one ("S/B"). Show the mobile menu icon that should open and close the mobile menu (.icon) */
-@media screen and (max-width: 768px) {
-  .nav_list {
-    justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-  .nav_list li:not(:first-child) {
-    display: none!important;
-  }
-  .nav_list .icon {
-    float: right!important;
-    display: block!important;
-  }
-
 /* Styles the mobile menu dropdown */
   .mobile_menu {
     flex-direction: column;
-    padding: 25px;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
     bottom: 0;
     right: 0;
-    height: 90vh;
+    height: 35vh;
     width: 100vw;
     background-color: white;
   }
@@ -94,4 +81,7 @@
   .mobile_menu a {
     font-size: 24px;
   }
-}
+
+  .mobile_menu a:hover {
+    text-decoration: none;
+  }
