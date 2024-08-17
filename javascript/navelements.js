@@ -26,3 +26,12 @@ window.addEventListener('scroll', () => {
     document.querySelector('.nav_link[href*= '+ current +']').classList.add('active');
   });
 });
+
+
+// Changes mobile menu display to none and icon to "hamburger" after selecting navbar link
+navElements.forEach(navElement => {
+  navElement.addEventListener('click', () => {
+    document.querySelector('.mobile_menu').style.display= "none";
+    document.querySelector('.icon').innerHTML = '<i class="fa-solid fa-bars"></i>';
+  });
+});
