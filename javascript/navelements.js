@@ -28,7 +28,7 @@ window.addEventListener('scroll', () => {
 });
 
 
-// Changes mobile menu display to none and icon to "hamburger" after selecting navbar link
+// Changes mobile menu display to none and icon to "bars" after selecting navbar link
 navElements.forEach(navElement => {
   navElement.addEventListener('click', () => {
     document.querySelector('.mobile_menu').style.display= "none";
