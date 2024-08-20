@@ -35,3 +35,11 @@ navElements.forEach(navElement => {
     document.querySelector('.icon').innerHTML = '<i class="fa-solid fa-bars"></i>';
   });
 });
+
+// Changes mobile menu display to none and icon to "bars" after selecting clicking outside of mobile menu
+sections.forEach(section => {
+  section.addEventListener('click', () => {
+    document.querySelector('.mobile_menu').style.display= "none";
+    document.querySelector('.icon').innerHTML = '<i class="fa-solid fa-bars"></i>';
+  });
+});
