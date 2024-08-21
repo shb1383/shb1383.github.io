@@ -36,7 +36,7 @@ navElements.forEach(navElement => {
   });
 });
 
-// Changes mobile menu display to none and icon to "bars" after selecting clicking outside of mobile menu
+// Changes mobile menu display to none and icon to "bars" after clicking outside of mobile menu
 sections.forEach(section => {
   section.addEventListener('click', () => {
     document.querySelector('.mobile_menu').style.display= "none";
