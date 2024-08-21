@@ -40,10 +40,12 @@ navElements.forEach(navElement => {
   });
 });
 
-// Changes mobile menu display to none and icon to "bars" after clicking outside of mobile menu
+// Changes mobile menu display to none, icon to "bars", and enables body scrolling after clicking outside of mobile menu
 sections.forEach(section => {
   section.addEventListener('click', () => {
     document.querySelector('.mobile_menu').style.display= "none";
     document.querySelector('.icon').innerHTML = '<i class="fa-solid fa-bars"></i>';
+    body.style.height = 'auto';
+    body.style.overflow = 'auto';
   });
 });
