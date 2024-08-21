@@ -22,14 +22,21 @@ var mobileMenuIcon = document.querySelector('.icon');
 // Get the mobile menu
 var mobileMenu = document.querySelector('.mobile_menu');
 
+// Get the body
+var body = document.querySelector('body');
+
 // Toggle the styling for the mobile menu to be displayed and not displayed when the mobile icon is clicked
 mobileMenuIcon.addEventListener('click', () => {
   if (mobileMenu.style.display === "none") {
     mobileMenu.style.display = "flex";
     mobileMenuIcon.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+    body.style.height = '100%';
+    body.style.overflow = 'hidden';
   }
   else {
     mobileMenu.style.display = "none";
     mobileMenuIcon.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    body.style.height = 'auto';
+    body.style.overflow = 'auto';
   }
 });
