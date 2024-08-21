@@ -60,6 +60,10 @@ hr {
     grid-template-columns: 1fr!important;
   }
 
+  .skills_categories {
+    align-items: center;
+  }
+
   .frontend, .backend, .other, .web_design, .web_development, .mobile_development {
     margin: 20px!important;
   }
@@ -100,6 +104,10 @@ hr {
 
   .projects_links {
     grid-template-columns: 1fr!important;
+  }
+
+  .skills_categories {
+    align-items: center;
   }
 
   .frontend, .backend, .other, .web_design, .web_development, .mobile_development {

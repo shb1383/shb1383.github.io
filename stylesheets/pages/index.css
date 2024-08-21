@@ -73,6 +73,9 @@
 .skills_categories, .services_categories {
   display: flex;
   justify-content: space-evenly;
+}
+
+.services_categories {
   text-align: center;
 }
 
