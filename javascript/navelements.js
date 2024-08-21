@@ -27,12 +27,16 @@ window.addEventListener('scroll', () => {
   });
 });
 
+// Get the body
+var body = document.querySelector('body');
 
-// Changes mobile menu display to none and icon to "bars" after selecting navbar link
+// Changes mobile menu display to none, icon to "bars", and enables body scrolling after selecting navbar link
 navElements.forEach(navElement => {
   navElement.addEventListener('click', () => {
     document.querySelector('.mobile_menu').style.display= "none";
     document.querySelector('.icon').innerHTML = '<i class="fa-solid fa-bars"></i>';
+    body.style.height = 'auto';
+    body.style.overflow = 'auto';
   });
 });
 

@@ -25,7 +25,7 @@ var mobileMenu = document.querySelector('.mobile_menu');
 // Get the body
 var body = document.querySelector('body');
 
-// Toggle the styling for the mobile menu to be displayed and not displayed when the mobile icon is clicked
+// Toggle the styling for the mobile menu to be displayed (body scrolling disabled) and not displayed (scrolling enabled) when the mobile icon is clicked
 mobileMenuIcon.addEventListener('click', () => {
   if (mobileMenu.style.display === "none") {
     mobileMenu.style.display = "flex";
