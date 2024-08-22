@@ -24,9 +24,21 @@ var webDesignHeader = document.getElementById("web_design_header");
 var webDevelopmentHeader = document.getElementById("web_development_header");
 var mobileDevelopmentHeader = document.getElementById("mobile_development_header");
 
+// Get the contact section subheaders
+var emailHeader = document.getElementById("email_header");
+var linkedinHeader = document.getElementById("linkedin_header");
+var githubHeader = document.getElementById("github_header");
+var cvHeader = document.getElementById("cv_header");
+
+// Get the cv subheader caption
+var cvCaption = document.getElementById("cv_caption");
+
+// Get the cv subheader button
+var cvButton = document.getElementById("cv_button");
+
 // Toggle the styling between japanese and english when the translate nav element is selected
 translate.addEventListener('click', () => {
-  if (translate.innerHTML === "JA") {
+  if (translate.innerHTML === "JP") {
     projectsNav.innerHTML = "プロジェクト";
     skillsNav.innerHTML = "スキル";
     servicesNav.innerHTML = "サービス";
@@ -43,13 +55,19 @@ translate.addEventListener('click', () => {
     webDesignHeader.innerHTML = "ウェブデザイン";
     webDevelopmentHeader.innerHTML = "ウェブ開発";
     mobileDevelopmentHeader.innerHTML = "モバイルアプリ開発";
+    emailHeader.innerHTML = "メールアドレス";
+    linkedinHeader.innerHTML = "ネットワーク";
+    githubHeader.innerHTML = "フォロー";
+    cvHeader.innerHTML = "職歴";
+    cvCaption.innerHTML = "豊富な経験と専門的なスキルで、貴社とのパートナーシップを通じてどのような素晴らしい成果を生み出せるかご確認ください。";
+    cvButton.innerHTML = "履歴書をダウンロード";
   }
   else {
     projectsNav.innerHTML = "PROJECTS";
     skillsNav.innerHTML = "SKILLS";
     servicesNav.innerHTML = "SERVICES";
     contactNav.innerHTML = "CONTACT";
-    translate.innerHTML = "JA";
+    translate.innerHTML = "JP";
     locationFooter.innerHTML = '<p><i class="fa-solid fa-location-dot"></i> Tokyo, Japan</p>';
     projectsHeader.innerHTML = "PROJECTS";
     skillsHeader.innerHTML = "SKILLS";
@@ -61,5 +79,11 @@ translate.addEventListener('click', () => {
     webDesignHeader.innerHTML = "Web Design";
     webDevelopmentHeader.innerHTML = "Web Development";
     mobileDevelopmentHeader.innerHTML = "Mobile Development";
+    emailHeader.innerHTML = "Write";
+    linkedinHeader.innerHTML = "Connect";
+    githubHeader.innerHTML = "Follow";
+    cvHeader.innerHTML = "Experience";
+    cvCaption.innerHTML = "Learn how my experience and skills can help us create great things together.";
+    cvButton.innerHTML = "DOWNLOAD CV";
   }
 });
