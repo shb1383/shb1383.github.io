@@ -46,8 +46,8 @@
 
 /* Projects section styling */
 .projects_links {
-  display: grid;
-  grid-gap: 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects_links p {
@@ -64,9 +64,53 @@
   margin-top: 14px;
 }
 
+.mpulse p {
+  color: white;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.mpulse a {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  margin-top: 14px;
+}
+
 .mpulse, .tripl {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.mpulse {
+  background-color: black;
+}
+
+.mpulse img {
+  width: 45vw;
+  height: 70vh;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.tripl img {
+  width: 60vw;
+  height: 55vh;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.projects_links_info {
+  width: 40vw;
+  font-weight: 500;
+  font-style: normal;
+  color: #272829;
+  text-align: left;
 }
 
 /* Skills and Services section styling */
