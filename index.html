@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Font imports -->
-    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');</style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+           @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+    </style>
     <script src="https://kit.fontawesome.com/f348863b6b.js" crossorigin="anonymous"></script>
 
     <!-- Stylesheets -->
@@ -78,22 +80,26 @@
       <p id="projects_header">PROJECTS</p>
       <div class="projects_links">
         <div class="mpulse">
-          <img src="./images/mpulse.JPG" alt="headshot">
+          <img src="./images/mpulse.JPG" alt="headshot" id="mpulse_app_image">
           <div class="projects_links_info">
-            <img src="./images/mpulse_logo.gif" alt="headshot">
+            <img src="./images/mpulse_logo.gif" alt="headshot" id="mpulse_logo_image">
             <p id="mpulse_description">Discover a vibrant world of live events in your local and surrounding
               areas with our mobile app, designed to help you find the perfect
               experiences to attend.</p>
-              <a href = "https://github.com/shb1383/m-pulse"><button type="button" id="mpulse_button"><i class="fa-brands fa-square-github"></i> VIEW CODE</button></a>
+            <a href = "https://github.com/shb1383/m-pulse"><button type="button" id="mpulse_button"><i class="fa-brands fa-square-github"></i> VIEW CODE</button></a>
           </div>
         </div>
         <div class="tripl">
           <div class="projects_links_info">
-            <a href = "https://tripl-komegi1215-c3f7a7733216.herokuapp.com/">Tripl <i class="fa-solid fa-link"></i></a><a href = "https://github.com/shb1383/Tripl"> <i class="fa-brands fa-square-github"></i></a>
+            <h2><i class="fa-solid fa-leaf"></i> Tripl</h2>
             <p id="tripl_description">Embark on spontaneous adventures with our innovative trip app,
               connecting users for unforgettable day trips.</p>
+              <div class="tripl_buttons">
+                <a href = "https://tripl-komegi1215-c3f7a7733216.herokuapp.com/"><button type="button" id="tripl_app_button"><i class="fa-solid fa-link"></i> TRY THE APP</button></a>
+                <a href = "https://github.com/shb1383/Tripl"><button type="button" id="tripl_github_button"><i class="fa-brands fa-square-github"></i> VIEW CODE</button></a>
+              </div>
           </div>
-          <img src="./images/tripl.png" alt="headshot">
+          <img src="./images/tripl.png" id="tripl_app_image" alt="headshot">
         </div>
       </div>
     </section>

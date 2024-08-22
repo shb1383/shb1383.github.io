@@ -76,19 +76,29 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .mpulse {
   background-color: black;
 }
 
-.mpulse img {
-  width: 45vw;
-  height: 70vh;
-  object-fit: cover;
+#mpulse_app_image {
+  width: auto;
+  height: 50vh;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-style: solid;
+  border-color: #343d46;
+  border-width: thin;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+#mpulse_logo_image {
+  width: 24vw;
+  height: 18vh;
+  object-fit: cover;
 }
 
 .mpulse button {
@@ -115,30 +125,70 @@
   transition: all 0.1s ease;
 }
 
-.projects_links_info {
+.mpulse .projects_links_info, .tripl .projects_links_info {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.projects_links_info img {
-  width: 25vw;
-  height: 20vh;
-}
-
-.tripl img {
-  width: 60vw;
-  height: 55vh;
-  object-fit: cover;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
-
-.projects_links_info {
   width: 35vw;
   font-weight: 500;
   font-style: normal;
-  color: #272829;
-  text-align: left;
+}
+
+.tripl h2 {
+  color: #F26419;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tripl p {
+  text-align: center;
+}
+
+#tripl_app_image {
+  width: 50vw;
+  height: auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-style: solid;
+  border-width: 7px;
+  border-color: black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.tripl_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#tripl_app_button, #tripl_github_button {
+  margin: 5px;
+}
+
+.tripl button {
+  background-color: white;
+  color: #191919;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  border: solid;
+  border-width: thin;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 10px;
+  width: 15vw;
+}
+
+.tripl button:hover {
+  background-color: #F26419;
+  color: white;
+  transition: all 0.1s ease;
 }
 
 /* Skills and Services section styling */
