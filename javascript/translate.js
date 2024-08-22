@@ -21,12 +21,12 @@ var otherHeader = document.getElementById("otherHeader");
 
 // Toggle the styling between japanese and english when the translate nav element is selected
 translate.addEventListener('click', () => {
-  if (translate.innerHTML === "日本語") {
+  if (translate.innerHTML === "JA") {
     projectsNav.innerHTML = "プロジェクト";
     skillsNav.innerHTML = "スキル";
     servicesNav.innerHTML = "サービス";
     contactNav.innerHTML = "コンタクト";
-    translate.innerHTML = "ENGLISH";
+    translate.innerHTML = "EN";
     locationFooter.innerHTML = '<p><i class="fa-solid fa-location-dot"></i> 東京</p>';
     projectsHeader.innerHTML = "プロジェクト";
     skillsHeader.innerHTML = "スキル";
@@ -41,7 +41,7 @@ translate.addEventListener('click', () => {
     skillsNav.innerHTML = "SKILLS";
     servicesNav.innerHTML = "SERVICES";
     contactNav.innerHTML = "CONTACT";
-    translate.innerHTML = "日本語";
+    translate.innerHTML = "JA";
     locationFooter.innerHTML = '<p><i class="fa-solid fa-location-dot"></i> Tokyo, Japan</p>';
     projectsHeader.innerHTML = "PROJECTS";
     skillsHeader.innerHTML = "SKILLS";
