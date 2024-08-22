@@ -1,23 +1,28 @@
 // Get the nav elements
-var projectsNav = document.getElementById("projectsNav");
-var skillsNav = document.getElementById("skillsNav");
-var servicesNav = document.getElementById("servicesNav");
-var contactNav = document.getElementById("contactNav");
+var projectsNav = document.getElementById("projects_nav");
+var skillsNav = document.getElementById("skills_nav");
+var servicesNav = document.getElementById("services_nav");
+var contactNav = document.getElementById("contact_nav");
 var translate = document.getElementById("translate");
 
 // Get the footer location
 var locationFooter = document.querySelector('.location');
 
 // Get the section headers
-var projectsHeader = document.getElementById("projectsHeader");
-var skillsHeader = document.getElementById("skillsHeader");
-var servicesHeader = document.getElementById("servicesHeader");
-var contactHeader = document.getElementById("contactHeader");
+var projectsHeader = document.getElementById("projects_header");
+var skillsHeader = document.getElementById("skills_header");
+var servicesHeader = document.getElementById("services_header");
+var contactHeader = document.getElementById("contact_header");
 
 // Get the skills section subheaders
-var frontendHeader = document.getElementById("frontendHeader");
-var backendHeader = document.getElementById("backendHeader");
-var otherHeader = document.getElementById("otherHeader");
+var frontendHeader = document.getElementById("frontend_header");
+var backendHeader = document.getElementById("backend_header");
+var otherHeader = document.getElementById("other_header");
+
+// Get the services section subheaders
+var webDesignHeader = document.getElementById("web_design_header");
+var webDevelopmentHeader = document.getElementById("web_development_header");
+var mobileDevelopmentHeader = document.getElementById("mobile_development_header");
 
 // Toggle the styling between japanese and english when the translate nav element is selected
 translate.addEventListener('click', () => {
@@ -35,6 +40,9 @@ translate.addEventListener('click', () => {
     frontendHeader.innerHTML = "フロントエンド";
     backendHeader.innerHTML = "バックエンド";
     otherHeader.innerHTML = "その他";
+    webDesignHeader.innerHTML = "ウェブデザイン";
+    webDevelopmentHeader.innerHTML = "ウェブ開発";
+    mobileDevelopmentHeader.innerHTML = "モバイルアプリ開発";
   }
   else {
     projectsNav.innerHTML = "PROJECTS";
@@ -50,5 +58,8 @@ translate.addEventListener('click', () => {
     frontendHeader.innerHTML = "Frontend";
     backendHeader.innerHTML = "Backend";
     otherHeader.innerHTML = "Other";
+    webDesignHeader.innerHTML = "Web Design";
+    webDevelopmentHeader.innerHTML = "Web Development";
+    mobileDevelopmentHeader.innerHTML = "Mobile Development";
   }
 });
