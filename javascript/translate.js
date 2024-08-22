@@ -14,6 +14,10 @@ var skillsHeader = document.getElementById("skills_header");
 var servicesHeader = document.getElementById("services_header");
 var contactHeader = document.getElementById("contact_header");
 
+// Get the projects section descriptions
+var mpulseDescription = document.getElementById("mpulse_description");
+var triplDescription = document.getElementById("tripl_description");
+
 // Get the skills section subheaders
 var frontendHeader = document.getElementById("frontend_header");
 var backendHeader = document.getElementById("backend_header");
@@ -39,22 +43,35 @@ var cvButton = document.getElementById("cv_button");
 // Toggle the styling between japanese and english when the translate nav element is selected
 translate.addEventListener('click', () => {
   if (translate.innerHTML === "JP") {
+    // Navbar
     projectsNav.innerHTML = "プロジェクト";
     skillsNav.innerHTML = "スキル";
     servicesNav.innerHTML = "サービス";
     contactNav.innerHTML = "コンタクト";
     translate.innerHTML = "EN";
+
+    // Footer
     locationFooter.innerHTML = '<p><i class="fa-solid fa-location-dot"></i> 東京</p>';
+
+    // Projects section
     projectsHeader.innerHTML = "プロジェクト";
+    mpulseDescription.innerHTML = "参加するのに最適な体験を見つけるのに役立つように設計されたモバイル アプリを使用して、地元および周辺地域のライブ イベントの活気に満ちた世界を発見してください。";
+    triplDescription.innerHTML = "革新的な旅行アプリで自発的な冒険に乗り出し、ユーザーを忘れられない日帰り旅行に結び付けましょう。";
+
+    // Skills section
     skillsHeader.innerHTML = "スキル";
-    servicesHeader.innerHTML = "サービス";
-    contactHeader.innerHTML = "コンタクト";
     frontendHeader.innerHTML = "フロントエンド";
     backendHeader.innerHTML = "バックエンド";
     otherHeader.innerHTML = "その他";
+
+    // Services section
+    servicesHeader.innerHTML = "サービス";
     webDesignHeader.innerHTML = "ウェブデザイン";
     webDevelopmentHeader.innerHTML = "ウェブ開発";
     mobileDevelopmentHeader.innerHTML = "モバイルアプリ開発";
+
+    // Contact section
+    contactHeader.innerHTML = "コンタクト";
     emailHeader.innerHTML = "メールアドレス";
     linkedinHeader.innerHTML = "ネットワーク";
     githubHeader.innerHTML = "フォロー";
@@ -63,22 +80,35 @@ translate.addEventListener('click', () => {
     cvButton.innerHTML = "履歴書をダウンロード";
   }
   else {
+    // Navbar
     projectsNav.innerHTML = "PROJECTS";
     skillsNav.innerHTML = "SKILLS";
     servicesNav.innerHTML = "SERVICES";
     contactNav.innerHTML = "CONTACT";
     translate.innerHTML = "JP";
+
+    // Footer
     locationFooter.innerHTML = '<p><i class="fa-solid fa-location-dot"></i> Tokyo, Japan</p>';
+
+    // Projects section
     projectsHeader.innerHTML = "PROJECTS";
+    mpulseDescription.innerHTML = "Discover a vibrant world of live events in your local and surrounding areas with our mobile app, designed to help you find the perfect experiences to attend.";
+    triplDescription.innerHTML = "Embark on spontaneous adventures with our innovative trip app, connecting users for unforgettable day trips.";
+
+    // Skills section
     skillsHeader.innerHTML = "SKILLS";
-    servicesHeader.innerHTML = "SERVICES";
-    contactHeader.innerHTML = "CONTACT";
     frontendHeader.innerHTML = "Frontend";
     backendHeader.innerHTML = "Backend";
     otherHeader.innerHTML = "Other";
+
+    // Services section
+    servicesHeader.innerHTML = "SERVICES";
     webDesignHeader.innerHTML = "Web Design";
     webDevelopmentHeader.innerHTML = "Web Development";
     mobileDevelopmentHeader.innerHTML = "Mobile Development";
+
+    // Contact section
+    contactHeader.innerHTML = "CONTACT";
     emailHeader.innerHTML = "Write";
     linkedinHeader.innerHTML = "Connect";
     githubHeader.innerHTML = "Follow";
