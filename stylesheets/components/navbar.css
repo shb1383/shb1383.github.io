@@ -25,20 +25,28 @@
 
 /* Styles the navigation bar links */
 .nav_link {
-  color: lightslategray;
+  color: #191919;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
 }
 
 /* Styles the navigation bar links on hover */
 .nav_link:hover {
-  color: #191919;
+  color: #272829;
 }
 
 /* Styles the active navigation bar links */
 .active {
+  color: #272829;
+}
+
+.nav_list .translate {
   color: #191919;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  display: block;
 }
 
 /* Sticks navbar to top of page */
@@ -50,13 +58,13 @@
 
 /* Hides the link that should open and close the navbar on small screens */
 .nav_list .icon {
-  color: lightslategray;
+  color: #191919;
   display: none;
 }
 
 /* Add a dark color on navbar links and the dropdown button on hover */
 .nav_list a:hover {
-  color: #191919;
+  color: #272829;
   text-decoration: none;
 }
 
@@ -71,9 +79,6 @@
     height: 30vh;
     width: 100vw;
     background-color: white;
-    border-top-style: solid;
-    border-top-color: whitesmoke;
-    border-top-width: thin;
   }
 
   .mobile_menu li {
@@ -81,7 +86,7 @@
   }
 
   .mobile_menu a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .mobile_menu a:hover {
