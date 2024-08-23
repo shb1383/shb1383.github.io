@@ -49,6 +49,8 @@
 .projects_links {
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .projects_links p {
@@ -82,6 +84,7 @@
 
 .mpulse {
   background-color: black;
+  margin-top: 15px;
 }
 
 #mpulse_app_image {
@@ -135,6 +138,12 @@
   font-style: normal;
 }
 
+.tripl {
+  background-color: whitesmoke;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
 .tripl h2 {
   color: #F26419;
   font-family: "Nunito", sans-serif;
@@ -148,7 +157,7 @@
 }
 
 #tripl_app_image {
-  width: 50vw;
+  width: 55vw;
   height: auto;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-style: solid;
@@ -156,6 +165,8 @@
   border-color: black;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  margin-right: -9rem;
+  margin-bottom: -58px;
 }
 
 .tripl_buttons {
@@ -196,6 +207,8 @@
 .skills_categories, .services_categories {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 .services_categories {
@@ -229,6 +242,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 .contact_categories_left, .contact_categories_right {
