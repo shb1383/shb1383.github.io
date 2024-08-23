@@ -18,6 +18,11 @@ var contactHeader = document.getElementById("contact_header");
 var mpulseDescription = document.getElementById("mpulse_description");
 var triplDescription = document.getElementById("tripl_description");
 
+// Get the projects section buttons
+var mpulseButton = document.getElementById("mpulse_button");
+var triplAppButton = document.getElementById("tripl_app_button");
+var triplGithubButton = document.getElementById("tripl_github_button");
+
 // Get the skills section subheaders
 var frontendHeader = document.getElementById("frontend_header");
 var backendHeader = document.getElementById("backend_header");
@@ -55,8 +60,11 @@ translate.addEventListener('click', () => {
 
     // Projects section
     projectsHeader.innerHTML = "プロジェクト";
-    mpulseDescription.innerHTML = "参加するのに最適な体験を見つけるのに役立つように設計されたモバイル アプリを使用して、地元および周辺地域のライブ イベントの活気に満ちた世界を発見してください。";
-    triplDescription.innerHTML = "革新的な旅行アプリで自発的な冒険に乗り出し、ユーザーを忘れられない日帰り旅行に結び付けましょう。";
+    mpulseDescription.innerHTML = "周辺地域で開催されるライブイベントの多彩な世界を発見し、あなたにぴったりな体験を見つけることができます。";
+    mpulseButton.innerHTML = "コードを表示";
+    triplDescription.innerHTML = "革新的なトリップアプリで、忘れられない日帰り旅行に出かけましょう。";
+    triplAppButton.innerHTML = "アプリを試す";
+    triplGithubButton.innerHTML = "コードを表示";
 
     // Skills section
     skillsHeader.innerHTML = "スキル";
@@ -93,7 +101,10 @@ translate.addEventListener('click', () => {
     // Projects section
     projectsHeader.innerHTML = "PROJECTS";
     mpulseDescription.innerHTML = "Discover a vibrant world of live events in your local and surrounding areas with our mobile app, designed to help you find the perfect experiences to attend.";
+    mpulseButton.innerHTML = "VIEW CODE";
     triplDescription.innerHTML = "Embark on spontaneous adventures with our innovative trip app, connecting users for unforgettable day trips.";
+    triplAppButton.innerHTML = "TRY THE APP";
+    triplGithubButton.innerHTML = "VIEW CODE";
 
     // Skills section
     skillsHeader.innerHTML = "SKILLS";
