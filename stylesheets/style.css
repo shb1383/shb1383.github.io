@@ -53,12 +53,29 @@ hr {
     padding-top: 20px;
   }
 
-  .header img, .contact_categories_left, .contact_categories_right, button {
+  .header img, .contact_categories_left, .contact_categories_right {
     width: 100%!important;
   }
 
-  .projects_links {
-    grid-template-columns: 1fr!important;
+  .projects_links_info {
+    width: 300px!important;
+  }
+
+  .mpulse, .tripl {
+    flex-direction: column!important;
+  }
+
+  .mpulse .projects_links_info {
+    margin-top: -30px!important;
+  }
+
+  #mpulse_logo_image {
+    margin-bottom: -55px;
+  }
+
+  #tripl_app_image {
+    width: 85vw!important;
+    margin-top: 50px;
   }
 
   .skills_categories {
@@ -68,10 +85,14 @@ hr {
   .frontend, .backend, .other, .web_design, .web_development, .mobile_development {
     margin: 20px!important;
   }
+
+  #cv_button {
+    width: 100%!important;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .nav_list {
     justify-content: space-between!important;
     padding-left: 25px!important;
@@ -100,12 +121,29 @@ hr {
     padding-top: 20px;
   }
 
-  .header img, .contact_categories_left, .contact_categories_right, button {
+  .header img, .contact_categories_left, .contact_categories_right {
     width: 100%!important;
   }
 
-  .projects_links {
-    grid-template-columns: 1fr!important;
+  .projects_links_info {
+    width: 300px!important;
+  }
+
+  .mpulse, .tripl {
+    flex-direction: column!important;
+  }
+
+  .mpulse .projects_links_info {
+    margin-top: -25px!important;
+  }
+
+  .mpulse button, .tripl button {
+    width: 25vw!important;
+  }
+
+  #tripl_app_image {
+    width: 75vw!important;
+    margin-top: 50px;
   }
 
   .skills_categories {
@@ -117,25 +155,74 @@ hr {
   }
 }
 
-/* Medium devices (tablets, 769px and up) */
-@media screen and (min-width: 769px) {
-  .projects_links {
-    grid-template-columns: 1fr 1fr!important;
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .nav_list {
+    justify-content: space-between!important;
+    padding-left: 25px!important;
+    padding-right: 25px!important;
   }
 
-  .skills_categories, .services_categories {
-    flex-direction: row!important;
-  }
-
-  .mobile_menu {
+  .nav_list li:not(:first-child, :nth-child(6)) {
     display: none!important;
+  }
+
+  .nav_list .icon {
+    float: right!important;
+    display: block!important;
+  }
+
+  .header, .skills_categories, .services_categories, .contact_categories {
+    flex-direction: column!important;
+  }
+
+  .header h1 {
+    font-size: 15.5vw!important;
+  }
+
+  .header img {
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .header img, .contact_categories_left, .contact_categories_right {
+    width: 100%!important;
+  }
+
+  .projects_links_info {
+    width: 300px!important;
+  }
+
+  .mpulse, .tripl {
+    flex-direction: column!important;
+  }
+
+  .mpulse .projects_links_info {
+    margin-top: -30px!important;
+  }
+
+  #tripl_app_image {
+    width: 75vw!important;
+    margin-top: 50px;
+  }
+
+  .skills_categories {
+    align-items: center;
+  }
+
+  .frontend, .backend, .other, .web_design, .web_development, .mobile_development {
+    margin: 20px!important;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-  .projects_links {
-    grid-template-columns: 1fr 1fr!important;
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .projects_links_info {
+    width: 300px!important;
+  }
+
+  .mpulse .projects_links_info {
+    margin-top: -75px!important;
   }
 
   .skills_categories, .services_categories {
@@ -145,8 +232,8 @@ hr {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-  .projects_links {
-    grid-template-columns: 1fr 1fr 1fr!important;
+  .mpulse .projects_links_info {
+    margin-top: -75px!important;
   }
 
   .skills_categories, .services_categories {
