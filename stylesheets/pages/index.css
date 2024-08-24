@@ -1,5 +1,5 @@
 /* Formats the sections */
-#hero, #projects, #skills, #services, #contact {
+#hero, #projects, #skills, #contact {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -40,7 +40,7 @@
 }
 
 /* Section header styling */
-#projects, #skills, #services, #contact p {
+#projects, #skills, #contact p {
   font-size: 18px;
   font-weight: 500;
 }
@@ -203,19 +203,15 @@
   transition: all 0.1s ease;
 }
 
-/* Skills and Services section styling */
-.skills_categories, .services_categories {
+/* Skills section styling */
+.skills_categories {
   display: flex;
   justify-content: space-evenly;
   padding-top: 25px;
   padding-bottom: 50px;
 }
 
-.services_categories {
-  text-align: center;
-}
-
-.skills_categories, .services_categories p {
+.skills_categories p {
   font-size: 14px;
   font-weight: 500;
   color: #191919;
@@ -224,17 +220,6 @@
 .skills_categories img {
   width: 45px;
   height: 45px;
-}
-
-.services_categories i {
-  color: #191919;
-  font-size: 80px;
-  margin-bottom: 5px;
-}
-
-.services_categories hr {
-  width: 10px;
-  border-color: #191919;
 }
 
 /* Contact section styling */
