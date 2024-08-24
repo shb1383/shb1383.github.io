@@ -24,16 +24,10 @@ var triplGithubButton = document.getElementById("tripl_github_button");
 // Get the about section description
 var aboutDescription = document.getElementById("about_description");
 
-// Get the contact section subheaders
+// Get the email header
 var emailHeader = document.getElementById("email_header");
-var linkedinHeader = document.getElementById("linkedin_header");
-var githubHeader = document.getElementById("github_header");
-var cvHeader = document.getElementById("cv_header");
 
-// Get the cv subheader caption
-var cvCaption = document.getElementById("cv_caption");
-
-// Get the cv subheader button
+// Get the cv button
 var cvButton = document.getElementById("cv_button");
 
 // Toggle the styling between japanese and english when the translate nav element is selected
@@ -65,15 +59,11 @@ translate.addEventListener('click', () => {
     <br><br>
     ウェブ開発の仕事に加えて、日本の教育システムにも貢献していて、英語を教えるサポートをしています。また、ビデオ制作や写真撮影も続けていて、日本での冒険の瞬間をカメラに収めています。
     `;
+    cvButton.innerHTML = "履歴書をダウンロード";
 
     // Contact section
     contactHeader.innerHTML = "コンタクト";
     emailHeader.innerHTML = "メールアドレス";
-    linkedinHeader.innerHTML = "ネットワーク";
-    githubHeader.innerHTML = "フォロー";
-    cvHeader.innerHTML = "職歴";
-    cvCaption.innerHTML = "豊富な経験と専門的なスキルで、貴社とのパートナーシップを通じてどのような素晴らしい成果を生み出せるかご確認ください。";
-    cvButton.innerHTML = "履歴書をダウンロード";
   }
 
   else {
@@ -104,14 +94,10 @@ translate.addEventListener('click', () => {
     <br><br>
     In addition to my work in web development, I contribute to the Japanese educational system by assisting in teaching English. I also continue to engage in video production and photography, capturing the essence of my adventures throughout Japan.
     `;
+    cvButton.innerHTML = "DOWNLOAD CV";
 
     // Contact section
     contactHeader.innerHTML = "CONTACT";
-    emailHeader.innerHTML = "Write";
-    linkedinHeader.innerHTML = "Connect";
-    githubHeader.innerHTML = "Follow";
-    cvHeader.innerHTML = "Experience";
-    cvCaption.innerHTML = "Learn how my experience and skills can help us create great things together.";
-    cvButton.innerHTML = "DOWNLOAD CV";
+    emailHeader.innerHTML = "MAIL";
   }
 });

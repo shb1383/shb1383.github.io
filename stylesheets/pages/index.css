@@ -9,31 +9,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  padding-bottom: 50px;
+  margin-bottom: 10px;
+  overflow: hidden;
 }
 
 .hero_header h1 {
-  font-size: 10vw;
+  font-size: 250px;
   font-weight: 500;
-  font-style: normal;
-  color: #272829;
   line-height: 69.5%;
+  color: #272829;
   text-align: left;
 }
 
-.hero_about {
+.hero_title h4 {
+  font-size: 44px;
+  color: #272829;
   text-align: right;
-  width: 40vw;
-  float: right;
 }
 
-.hero_about p {
-  font-size: 30px;
+.hero_about {
+  padding-top: 50px;
+  padding-left: 25px;
+}
+
+.hero_about h6 {
+  font-size: 24px;
   font-weight: 450;
   font-style: normal;
-  color: #272829;
   line-height: 103%;
+  color: #272829;
+  text-align: center;
+  width: 550px;
 }
 
 /* Projects section styling */
