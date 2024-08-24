@@ -1,7 +1,6 @@
 // Get the nav elements
 var projectsNav = document.getElementById("projects_nav");
 var skillsNav = document.getElementById("skills_nav");
-var servicesNav = document.getElementById("services_nav");
 var contactNav = document.getElementById("contact_nav");
 var translate = document.getElementById("translate");
 
@@ -11,7 +10,6 @@ var locationFooter = document.querySelector('.location');
 // Get the section headers
 var projectsHeader = document.getElementById("projects_header");
 var skillsHeader = document.getElementById("skills_header");
-var servicesHeader = document.getElementById("services_header");
 var contactHeader = document.getElementById("contact_header");
 
 // Get the projects section descriptions
@@ -27,11 +25,6 @@ var triplGithubButton = document.getElementById("tripl_github_button");
 var frontendHeader = document.getElementById("frontend_header");
 var backendHeader = document.getElementById("backend_header");
 var otherHeader = document.getElementById("other_header");
-
-// Get the services section subheaders
-var webDesignHeader = document.getElementById("web_design_header");
-var webDevelopmentHeader = document.getElementById("web_development_header");
-var mobileDevelopmentHeader = document.getElementById("mobile_development_header");
 
 // Get the contact section subheaders
 var emailHeader = document.getElementById("email_header");
@@ -51,7 +44,6 @@ translate.addEventListener('click', () => {
     // Navbar
     projectsNav.innerHTML = "プロジェクト";
     skillsNav.innerHTML = "スキル";
-    servicesNav.innerHTML = "サービス";
     contactNav.innerHTML = "コンタクト";
     translate.innerHTML = "EN";
 
@@ -72,12 +64,6 @@ translate.addEventListener('click', () => {
     backendHeader.innerHTML = "バックエンド";
     otherHeader.innerHTML = "その他";
 
-    // Services section
-    servicesHeader.innerHTML = "サービス";
-    webDesignHeader.innerHTML = "ウェブデザイン";
-    webDevelopmentHeader.innerHTML = "ウェブ開発";
-    mobileDevelopmentHeader.innerHTML = "モバイルアプリ開発";
-
     // Contact section
     contactHeader.innerHTML = "コンタクト";
     emailHeader.innerHTML = "メールアドレス";
@@ -91,7 +77,6 @@ translate.addEventListener('click', () => {
     // Navbar
     projectsNav.innerHTML = "PROJECTS";
     skillsNav.innerHTML = "SKILLS";
-    servicesNav.innerHTML = "SERVICES";
     contactNav.innerHTML = "CONTACT";
     translate.innerHTML = "JP";
 
@@ -111,12 +96,6 @@ translate.addEventListener('click', () => {
     frontendHeader.innerHTML = "Frontend";
     backendHeader.innerHTML = "Backend";
     otherHeader.innerHTML = "Other";
-
-    // Services section
-    servicesHeader.innerHTML = "SERVICES";
-    webDesignHeader.innerHTML = "Web Design";
-    webDevelopmentHeader.innerHTML = "Web Development";
-    mobileDevelopmentHeader.innerHTML = "Mobile Development";
 
     // Contact section
     contactHeader.innerHTML = "CONTACT";

@@ -39,7 +39,7 @@ hr {
     display: block!important;
   }
 
-  .header, .skills_categories, .services_categories, .contact_categories {
+  .header, .skills_categories, .contact_categories {
     flex-direction: column!important;
   }
 
@@ -82,7 +82,7 @@ hr {
     align-items: center;
   }
 
-  .frontend, .backend, .other, .web_design, .web_development, .mobile_development {
+  .frontend, .backend, .other {
     margin: 20px!important;
   }
 
@@ -108,7 +108,7 @@ hr {
     display: block!important;
   }
 
-  .header, .skills_categories, .services_categories, .contact_categories {
+  .header, .skills_categories, .contact_categories {
     flex-direction: column!important;
   }
 
@@ -151,7 +151,7 @@ hr {
     align-items: center;
   }
 
-  .frontend, .backend, .other, .web_design, .web_development, .mobile_development {
+  .frontend, .backend, .other {
     margin: 20px!important;
   }
 }
@@ -173,7 +173,7 @@ hr {
     display: block!important;
   }
 
-  .header, .skills_categories, .services_categories, .contact_categories {
+  .header, .skills_categories, .contact_categories {
     flex-direction: column!important;
   }
 
@@ -212,7 +212,7 @@ hr {
     align-items: center;
   }
 
-  .frontend, .backend, .other, .web_design, .web_development, .mobile_development {
+  .frontend, .backend, .other {
     margin: 20px!important;
   }
 }
@@ -231,7 +231,7 @@ hr {
     margin-right: -5rem!important;
   }
 
-  .skills_categories, .services_categories {
+  .skills_categories {
     flex-direction: row!important;
   }
 }
@@ -242,7 +242,7 @@ hr {
     margin-top: -75px!important;
   }
 
-  .skills_categories, .services_categories {
+  .skills_categories {
     flex-direction: row!important;
   }
 }
