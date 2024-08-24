@@ -1,6 +1,5 @@
 // Get the nav elements
 var projectsNav = document.getElementById("projects_nav");
-var skillsNav = document.getElementById("skills_nav");
 var contactNav = document.getElementById("contact_nav");
 var translate = document.getElementById("translate");
 
@@ -9,7 +8,6 @@ var locationFooter = document.querySelector('.location');
 
 // Get the section headers
 var projectsHeader = document.getElementById("projects_header");
-var skillsHeader = document.getElementById("skills_header");
 var contactHeader = document.getElementById("contact_header");
 
 // Get the projects section descriptions
@@ -20,11 +18,6 @@ var triplDescription = document.getElementById("tripl_description");
 var mpulseButton = document.getElementById("mpulse_button");
 var triplAppButton = document.getElementById("tripl_app_button");
 var triplGithubButton = document.getElementById("tripl_github_button");
-
-// Get the skills section subheaders
-var frontendHeader = document.getElementById("frontend_header");
-var backendHeader = document.getElementById("backend_header");
-var otherHeader = document.getElementById("other_header");
 
 // Get the contact section subheaders
 var emailHeader = document.getElementById("email_header");
@@ -43,7 +36,6 @@ translate.addEventListener('click', () => {
   if (translate.innerHTML === "JP") {
     // Navbar
     projectsNav.innerHTML = "プロジェクト";
-    skillsNav.innerHTML = "スキル";
     contactNav.innerHTML = "コンタクト";
     translate.innerHTML = "EN";
 
@@ -58,12 +50,6 @@ translate.addEventListener('click', () => {
     triplAppButton.innerHTML = "アプリを試す";
     triplGithubButton.innerHTML = "コードを表示";
 
-    // Skills section
-    skillsHeader.innerHTML = "スキル";
-    frontendHeader.innerHTML = "フロントエンド";
-    backendHeader.innerHTML = "バックエンド";
-    otherHeader.innerHTML = "その他";
-
     // Contact section
     contactHeader.innerHTML = "コンタクト";
     emailHeader.innerHTML = "メールアドレス";
@@ -76,7 +62,6 @@ translate.addEventListener('click', () => {
   else {
     // Navbar
     projectsNav.innerHTML = "PROJECTS";
-    skillsNav.innerHTML = "SKILLS";
     contactNav.innerHTML = "CONTACT";
     translate.innerHTML = "JP";
 
@@ -90,12 +75,6 @@ translate.addEventListener('click', () => {
     triplDescription.innerHTML = "Embark on spontaneous adventures with our innovative trip app, connecting users for unforgettable day trips.";
     triplAppButton.innerHTML = "TRY THE APP";
     triplGithubButton.innerHTML = "VIEW CODE";
-
-    // Skills section
-    skillsHeader.innerHTML = "SKILLS";
-    frontendHeader.innerHTML = "Frontend";
-    backendHeader.innerHTML = "Backend";
-    otherHeader.innerHTML = "Other";
 
     // Contact section
     contactHeader.innerHTML = "CONTACT";
