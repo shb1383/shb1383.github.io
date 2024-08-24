@@ -18,7 +18,6 @@
 }
 
 /* Removes bullet points from navigation bar links */
-
 .nav_list li {
   list-style-type: none;
 }

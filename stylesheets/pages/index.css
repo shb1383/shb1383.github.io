@@ -105,30 +105,6 @@
   margin-left: -10px;
 }
 
-.mpulse button {
-  background-color: black;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  border: solid;
-  border-width: thin;
-  border-radius: 25px;
-  display: inline-block;
-  cursor: pointer;
-  margin-top: 5px;
-  padding: 10px;
-  width: 150px;
-}
-
-.mpulse button:hover {
-  background-color: #5CE1E6;
-  color: #191919;
-  transition: all 0.1s ease;
-}
-
 .mpulse .projects_links_info, .tripl .projects_links_info {
   display: flex;
   flex-direction: column;
@@ -139,7 +115,7 @@
 }
 
 .tripl {
-  background-color: whitesmoke;
+  background-color: rgb(250, 250, 250);
   margin-top: 15px;
   overflow: hidden;
 }
@@ -169,45 +145,10 @@
   margin-bottom: -58px;
 }
 
-.tripl_buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-#tripl_app_button, #tripl_github_button {
-  margin: 5px;
-}
-
-.tripl button {
-  background-color: white;
-  color: #191919;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  border: solid;
-  border-width: thin;
-  border-radius: 10px;
-  display: inline-block;
-  cursor: pointer;
-  margin-top: 5px;
-  padding: 10px;
-  width: 150px;
-}
-
-.tripl button:hover {
-  background-color: #F26419;
-  color: white;
-  transition: all 0.1s ease;
-}
-
 .projects_info_skills {
   display: flex;
   justify-content: space-evenly;
 }
-
 
 .projects_info_skills img {
   width: 25px;
@@ -250,27 +191,4 @@
   font-size: 12px;
   color: #191919;
   text-decoration: underline;
-}
-
-#cv_button {
-  background-color: white;
-  color: #191919;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  border: solid;
-  border-width: thin;
-  display: inline-block;
-  cursor: pointer;
-  padding: 10px;
-  margin-top: 20px;
-  width: 300px;
-}
-
-#cv_button:hover {
-  background-color: #191919;
-  color: white;
-  transition: all 0.1s ease;
 }
