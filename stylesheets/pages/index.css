@@ -1,5 +1,5 @@
 /* Formats the sections */
-#hero, #projects, #skills, #contact {
+#hero, #projects, #contact {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -40,7 +40,7 @@
 }
 
 /* Section header styling */
-#projects, #skills, #contact p {
+#projects, #contact p {
   font-size: 18px;
   font-weight: 500;
 }
@@ -203,23 +203,16 @@
   transition: all 0.1s ease;
 }
 
-/* Skills section styling */
-.skills_categories {
+.projects_info_skills {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 25px;
-  padding-bottom: 50px;
 }
 
-.skills_categories p {
-  font-size: 14px;
-  font-weight: 500;
-  color: #191919;
-}
 
-.skills_categories img {
-  width: 45px;
-  height: 45px;
+.projects_info_skills img {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 15px;
 }
 
 /* Contact section styling */

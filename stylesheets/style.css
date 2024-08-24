@@ -30,7 +30,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:first-child, :nth-child(6)) {
+  .nav_list li:not(:first-child, :nth-child(4)) {
     display: none!important;
   }
 
@@ -39,7 +39,7 @@ hr {
     display: block!important;
   }
 
-  .header, .skills_categories, .contact_categories {
+  .header, .contact_categories {
     flex-direction: column!important;
   }
 
@@ -78,14 +78,6 @@ hr {
     margin-right: 0px!important;
   }
 
-  .skills_categories {
-    align-items: center;
-  }
-
-  .frontend, .backend, .other {
-    margin: 20px!important;
-  }
-
   #cv_button {
     width: 100%!important;
   }
@@ -99,7 +91,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:first-child, :nth-child(6)) {
+  .nav_list li:not(:first-child, :nth-child(4)) {
     display: none!important;
   }
 
@@ -108,7 +100,7 @@ hr {
     display: block!important;
   }
 
-  .header, .skills_categories, .contact_categories {
+  .header, .contact_categories {
     flex-direction: column!important;
   }
 
@@ -146,14 +138,6 @@ hr {
     margin-top: 50px;
     margin-right: 0px!important;
   }
-
-  .skills_categories {
-    align-items: center;
-  }
-
-  .frontend, .backend, .other {
-    margin: 20px!important;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -164,7 +148,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:first-child, :nth-child(6)) {
+  .nav_list li:not(:first-child, :nth-child(4)) {
     display: none!important;
   }
 
@@ -173,7 +157,7 @@ hr {
     display: block!important;
   }
 
-  .header, .skills_categories, .contact_categories {
+  .header, .contact_categories {
     flex-direction: column!important;
   }
 
@@ -211,10 +195,6 @@ hr {
   .skills_categories {
     align-items: center;
   }
-
-  .frontend, .backend, .other {
-    margin: 20px!important;
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -230,19 +210,11 @@ hr {
   #tripl_app_image {
     margin-right: -5rem!important;
   }
-
-  .skills_categories {
-    flex-direction: row!important;
-  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
   .mpulse .projects_links_info {
     margin-top: -75px!important;
-  }
-
-  .skills_categories {
-    flex-direction: row!important;
   }
 }
