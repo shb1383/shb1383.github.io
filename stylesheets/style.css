@@ -30,7 +30,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:first-child, :nth-child(4)) {
+  .nav_list li:not(:first-child, :nth-child(5)) {
     display: none!important;
   }
 
@@ -39,25 +39,20 @@ hr {
     display: block!important;
   }
 
-  .header, .contact_categories {
+  .hero_header, .contact_categories {
     flex-direction: column!important;
   }
 
-  .header h1 {
+  .hero_header h1 {
     font-size: 14.75vw!important;
   }
 
-  .header img {
-    height: auto;
-    padding-top: 20px;
-  }
-
-  .header img, .contact_categories_left, .contact_categories_right {
+  .contact_categories_left, .contact_categories_right {
     width: 100%!important;
   }
 
-  .projects_links_info {
-    width: 300px!important;
+  .projects_links_info, .about_info p {
+    width: 250px!important;
   }
 
   .mpulse, .tripl {
@@ -78,6 +73,14 @@ hr {
     margin-right: 0px!important;
   }
 
+  .about_info {
+    flex-direction: column!important;
+  }
+
+  .about_info img {
+    margin-bottom: 50px;
+  }
+
   #cv_button {
     width: 100%!important;
   }
@@ -91,7 +94,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:first-child, :nth-child(4)) {
+  .nav_list li:not(:first-child, :nth-child(5)) {
     display: none!important;
   }
 
@@ -100,20 +103,15 @@ hr {
     display: block!important;
   }
 
-  .header, .contact_categories {
+  .hero_header, .contact_categories {
     flex-direction: column!important;
   }
 
-  .header h1 {
+  .hero_header h1 {
     font-size: 15.5vw!important;
   }
 
-  .header img {
-    height: auto;
-    padding-top: 20px;
-  }
-
-  .header img, .contact_categories_left, .contact_categories_right {
+  .contact_categories_left, .contact_categories_right {
     width: 100%!important;
   }
 
@@ -138,6 +136,14 @@ hr {
     margin-top: 50px;
     margin-right: 0px!important;
   }
+
+  .about_info {
+    flex-direction: column!important;
+  }
+
+  .about_info img {
+    margin-bottom: 50px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -148,7 +154,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:first-child, :nth-child(4)) {
+  .nav_list li:not(:first-child, :nth-child(5)) {
     display: none!important;
   }
 
@@ -157,20 +163,15 @@ hr {
     display: block!important;
   }
 
-  .header, .contact_categories {
+  .hero_header, .contact_categories {
     flex-direction: column!important;
   }
 
-  .header h1 {
+  .hero_header h1 {
     font-size: 15.5vw!important;
   }
 
-  .header img {
-    height: auto;
-    padding-top: 20px;
-  }
-
-  .header img, .contact_categories_left, .contact_categories_right {
+  .contact_categories_left, .contact_categories_right {
     width: 100%!important;
   }
 
@@ -192,8 +193,12 @@ hr {
     margin-right: 0px!important;
   }
 
-  .skills_categories {
-    align-items: center;
+  .about_info {
+    flex-direction: column!important;
+  }
+
+  .about_info img {
+    margin-bottom: 50px;
   }
 }
 
