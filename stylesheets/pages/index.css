@@ -190,3 +190,7 @@
   color: #191919;
   text-decoration: underline;
 }
+
+.contact_email a:hover {
+  text-decoration: line-through;
+}

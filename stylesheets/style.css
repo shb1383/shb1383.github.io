@@ -80,12 +80,7 @@ hr {
   #cv_button {
     width: 100%!important;
   }
-
-  .contact_categories {
-    padding-left: 0px!important;
-    width: 100%!important;
-  }
-  }
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) and (max-width: 767px) {

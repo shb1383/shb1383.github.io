@@ -1,33 +1,43 @@
-/* Formats the footer */
+/* Styles the footer */
 #footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 15px;
   border-top-style: solid;
   border-top-color: whitesmoke;
   border-top-width: thin;
 }
 
+/* Formats the footer */
+.footer_list {
+  display: flex;
+  justify-content: space-between; /* Space between the left-aligned items and the right-aligned p tag */
+  align-items: center; /* Vertically center items */
+  list-style-type: none; /* Remove bullet points from list items */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
 /* Styles the the text inside the footer */
-#footer p {
+.copyright {
   font-size: 12px;
   font-weight: 400;
   font-style: normal;
+  margin: 0; /* Remove default margin */
+  margin-left: auto; /* Push the copyright text to the far right */
 }
 
-/* Formats the text inside location div */
-.location {
-  float: left;
+/* Styles the links inside the footer */
+.footer_item a {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  color: #191919;
+  text-decoration: underline;
+  margin-right: 15px; /* Optional: add space between list items */
 }
 
-.contact_socials {
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
-}
-
-/* Formats the text inside copyright div */
-.copyright {
-  float: right;
-  color: lightslategray;
+.footer_item a:hover {
+  text-decoration: line-through;
 }

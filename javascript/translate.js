@@ -4,9 +4,6 @@ var aboutNav = document.getElementById("about_nav");
 var contactNav = document.getElementById("contact_nav");
 var translate = document.getElementById("translate");
 
-// Get the footer location
-var locationFooter = document.querySelector('.location');
-
 // Get the section headers
 var projectsHeader = document.getElementById("projects_header");
 var aboutHeader = document.getElementById("about_header");
@@ -35,9 +32,6 @@ translate.addEventListener('click', () => {
     aboutNav.innerHTML = "ついて";
     contactNav.innerHTML = "コンタクト";
     translate.innerHTML = "EN";
-
-    // Footer
-    locationFooter.innerHTML = '<p><i class="fa-solid fa-location-dot"></i> 東京</p>';
 
     // Projects section
     projectsHeader.innerHTML = "プロジェクト";
@@ -68,9 +62,6 @@ translate.addEventListener('click', () => {
     aboutNav.innerHTML = "ABOUT";
     contactNav.innerHTML = "CONTACT";
     translate.innerHTML = "JP";
-
-    // Footer
-    locationFooter.innerHTML = '<p><i class="fa-solid fa-location-dot"></i> Tokyo, Japan</p>';
 
     // Projects section
     projectsHeader.innerHTML = "PROJECTS";
