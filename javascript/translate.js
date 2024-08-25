@@ -24,6 +24,9 @@ var aboutDescription = document.getElementById("about_description");
 // Get the cv button
 var cvButton = document.getElementById("cv_button");
 
+// Get the contact section comment
+var contactComment = document.getElementById("contact_comment");
+
 // Toggle the styling between japanese and english when the translate nav element is selected
 translate.addEventListener('click', () => {
   if (translate.innerHTML === "JP") {
