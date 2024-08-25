@@ -57,6 +57,7 @@ translate.addEventListener('click', () => {
 
     // Contact section
     contactHeader.innerHTML = "コンタクト";
+    contactComment.innerHTML = "メッセージを送って、一緒に素晴らしいものを作りましょう。";
   }
 
   else {
@@ -88,5 +89,6 @@ translate.addEventListener('click', () => {
 
     // Contact section
     contactHeader.innerHTML = "CONTACT";
+    contactComment.innerHTML = "Send a message and let’s create something great together.";
   }
 });
