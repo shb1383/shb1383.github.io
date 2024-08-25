@@ -80,6 +80,14 @@ hr {
   #cv_button {
     width: 100%!important;
   }
+
+  .contact_email {
+    padding-left: 0px!important;
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    text-align: center!important;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -140,6 +148,14 @@ hr {
   #cv_button {
     width: 100%!important;
   }
+
+  .contact_email {
+    padding-left: 0px!important;
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    text-align: center!important;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -195,6 +211,14 @@ hr {
 
   #cv_button {
     width: 100%!important;
+  }
+
+  .contact_email {
+    padding-left: 0px!important;
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    text-align: center!important;
   }
 }
 
