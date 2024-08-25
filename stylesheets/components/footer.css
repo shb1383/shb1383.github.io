@@ -20,6 +20,12 @@
   float: left;
 }
 
+.contact_socials {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
 /* Formats the text inside copyright div */
 .copyright {
   float: right;

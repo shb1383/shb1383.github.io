@@ -24,9 +24,6 @@ var triplGithubButton = document.getElementById("tripl_github_button");
 // Get the about section description
 var aboutDescription = document.getElementById("about_description");
 
-// Get the email header
-var emailHeader = document.getElementById("email_header");
-
 // Get the cv button
 var cvButton = document.getElementById("cv_button");
 
@@ -63,7 +60,6 @@ translate.addEventListener('click', () => {
 
     // Contact section
     contactHeader.innerHTML = "コンタクト";
-    emailHeader.innerHTML = "メールアドレス";
   }
 
   else {
@@ -98,6 +94,5 @@ translate.addEventListener('click', () => {
 
     // Contact section
     contactHeader.innerHTML = "CONTACT";
-    emailHeader.innerHTML = "MAIL";
   }
 });

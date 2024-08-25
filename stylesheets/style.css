@@ -39,15 +39,11 @@ hr {
     display: block!important;
   }
 
-  .hero_header, .contact_categories {
-    flex-direction: column!important;
+  .hero_about {
+    padding-left: 0px!important;
   }
 
-  .hero_header h1 {
-    font-size: 14.75vw!important;
-  }
-
-  .contact_categories_left, .contact_categories_right {
+  .hero_about h6 {
     width: 100%!important;
   }
 
@@ -82,8 +78,13 @@ hr {
   }
 
   #cv_button {
-      width: 100%!important;
-    }
+    width: 100%!important;
+  }
+
+  .contact_categories {
+    padding-left: 0px!important;
+    width: 100%!important;
+  }
   }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -103,15 +104,11 @@ hr {
     display: block!important;
   }
 
-  .hero_header, .contact_categories {
-    flex-direction: column!important;
+  .hero_about {
+    padding-left: 0px!important;
   }
 
-  .hero_header h1 {
-    font-size: 15.5vw!important;
-  }
-
-  .contact_categories_left, .contact_categories_right {
+  .hero_about h6 {
     width: 100%!important;
   }
 
@@ -167,15 +164,11 @@ hr {
     display: block!important;
   }
 
-  .hero_header, .contact_categories {
-    flex-direction: column!important;
+  .hero_about {
+    padding-left: 0px!important;
   }
 
-  .hero_header h1 {
-    font-size: 15.5vw!important;
-  }
-
-  .contact_categories_left, .contact_categories_right {
+  .hero_about h6 {
     width: 100%!important;
   }
 
