@@ -81,6 +81,10 @@
   margin-top: 15px;
 }
 
+#mpulse_description, #tripl_description {
+  width: 325px;
+}
+
 #mpulse_app_image {
   width: auto;
   height: 50vh;
@@ -177,7 +181,7 @@
 .contact_email {
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 50px;
+  padding-left: 125px;
 }
 
 .contact_email p {

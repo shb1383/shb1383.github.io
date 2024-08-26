@@ -32,20 +32,20 @@ translate.addEventListener('click', () => {
   if (translate.innerHTML === "JP") {
     // Navbar
     projectsNav.innerHTML = "プロジェクト";
-    aboutNav.innerHTML = "ついて";
+    aboutNav.innerHTML = "自己紹介";
     contactNav.innerHTML = "コンタクト";
     translate.innerHTML = "EN";
 
     // Projects section
     projectsHeader.innerHTML = "プロジェクト";
-    mpulseDescription.innerHTML = "周辺地域で開催されるライブイベントの多彩な世界を発見し、あなたにぴったりな体験を見つけることができます。";
+    mpulseDescription.innerHTML = "周辺地域で開催されるライブイベントを発見し、<br>あなたにぴったりな体験と世界を見つけることができます。";
     mpulseButton.innerHTML = "コードを表示";
-    triplDescription.innerHTML = "革新的なトリップアプリで、忘れられない日帰り旅行に出かけましょう。";
+    triplDescription.innerHTML = "革新的なトリップアプリで、<br>忘れられない日帰り旅行に出かけましょう。";
     triplAppButton.innerHTML = "アプリを試す";
     triplGithubButton.innerHTML = "コードを表示";
 
     // About section
-    aboutHeader.innerHTML = "ついて";
+    aboutHeader.innerHTML = "自己紹介";
     aboutDescription.innerHTML = `
     マルチメディアコンテンツクリエイターとして、ウェブ開発、ビデオ制作、写真撮影など、幅広い経験を持っています。
     <br><br>
@@ -69,7 +69,7 @@ translate.addEventListener('click', () => {
 
     // Projects section
     projectsHeader.innerHTML = "PROJECTS";
-    mpulseDescription.innerHTML = "Discover a vibrant world of live events in your local and surrounding areas with our mobile app, designed to help you find the perfect experiences to attend.";
+    mpulseDescription.innerHTML = "Discover a vibrant world of live events in your local and surrounding areas with our mobile app, designed to help you find the perfect <br>experiences to attend.";
     mpulseButton.innerHTML = "VIEW CODE";
     triplDescription.innerHTML = "Embark on spontaneous adventures with our innovative trip app, connecting users for unforgettable day trips.";
     triplAppButton.innerHTML = "TRY THE APP";
