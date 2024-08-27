@@ -75,7 +75,7 @@ translate.addEventListener('click', () => {
 
     // Contact section
     contactHeader.innerHTML = "コンタクト";
-    contactComment.innerHTML = "メッセージを送って、一緒に素晴らしいものを作りましょう。";
+    contactComment.innerHTML = "共に素晴らしいものを作り上げるためにお気軽にご連絡ください。";
   }
 
   else {
