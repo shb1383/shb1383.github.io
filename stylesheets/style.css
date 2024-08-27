@@ -30,13 +30,17 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:first-child, :nth-child(5)) {
+  .nav_list li:not(:nth-child(2), :nth-child(6)) {
     display: none!important;
   }
 
   .nav_list .icon {
     float: right!important;
     display: block!important;
+  }
+
+  .hero_title h4 {
+    text-align: center!important;
   }
 
   .hero_about {
@@ -98,13 +102,17 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:first-child, :nth-child(5)) {
+  .nav_list li:not(:nth-child(2), :nth-child(6)) {
     display: none!important;
   }
 
   .nav_list .icon {
     float: right!important;
     display: block!important;
+  }
+
+  .hero_title h4 {
+    text-align: center!important;
   }
 
   .hero_about {
@@ -166,13 +174,17 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:first-child, :nth-child(5)) {
+  .nav_list li:not(:nth-child(2), :nth-child(6)) {
     display: none!important;
   }
 
   .nav_list .icon {
     float: right!important;
     display: block!important;
+  }
+
+  .hero_title h4 {
+    text-align: center!important;
   }
 
   .hero_about {
