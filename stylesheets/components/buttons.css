@@ -19,8 +19,13 @@
 
 .mpulse button:hover {
   background-color: #5CE1E6;
-  color: #191919;
+  color: black;
   transition: all 0.1s ease;
+}
+
+.mpulse button:focus {
+  outline: 1px solid transparent;
+  box-shadow: 0 0 0 1px white;
 }
 
 .tripl button {
@@ -45,6 +50,11 @@
   background-color: #F26419;
   color: white;
   transition: all 0.1s ease;
+}
+
+.tripl button:focus {
+  outline: 1px solid transparent;
+  box-shadow: 0 0 0 1px #191919;
 }
 
 .tripl_buttons {
@@ -79,4 +89,9 @@
   background-color: #191919;
   color: white;
   transition: all 0.1s ease;
+}
+
+#cv_button:focus {
+  outline: 1px solid transparent;
+  box-shadow: 0 0 0 1px #191919;
 }
