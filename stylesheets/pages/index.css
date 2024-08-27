@@ -167,14 +167,14 @@
 }
 
 .about_info img {
-  width: 225px;
-  height: 225px;
+  width: 290px;
+  height: auto;
 }
 
 .about_info p {
   font-size: 12px;
   font-weight: 400;
-  width: 350px;
+  width: 290px;
 }
 
 /* Contact section styling */

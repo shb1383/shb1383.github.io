@@ -80,8 +80,12 @@ hr {
     margin-bottom: 50px;
   }
 
+  .about_info p {
+    width: 290px!important;
+  }
+
   #cv_button {
-    width: 100%!important;
+    width: 290px!important;
   }
 
   .contact_email {
@@ -90,6 +94,10 @@ hr {
     flex-direction: column!important;
     align-items: center!important;
     text-align: center!important;
+  }
+
+  .contact_email p {
+    width: 300px;
   }
 }
 
@@ -152,8 +160,12 @@ hr {
     margin-bottom: 50px;
   }
 
+  .about_info p {
+    width: 290px!important;
+  }
+
   #cv_button {
-    width: 100%!important;
+    width: 290px!important;
   }
 
   .contact_email {
@@ -220,7 +232,7 @@ hr {
   }
 
   #cv_button {
-    width: 100%!important;
+    width: 290px!important;
   }
 
   .contact_email {
