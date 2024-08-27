@@ -14,6 +14,10 @@ var projectsHeader = document.getElementById("projects_header");
 var aboutHeader = document.getElementById("about_header");
 var contactHeader = document.getElementById("contact_header");
 
+// Get the hero section content
+var heroSubheader = document.getElementById("hero_subheader");
+var heroCaption = document.getElementById("hero_caption");
+
 // Get the projects section descriptions
 var mpulseDescription = document.getElementById("mpulse_description");
 var triplDescription = document.getElementById("tripl_description");
@@ -41,10 +45,14 @@ translate.addEventListener('click', () => {
     contactNav.innerHTML = "コンタクト";
     translate.innerHTML = "EN";
 
-    // Mobiel Navbar
+    // Mobile Navbar
     mobileProjectsNav.innerHTML = "プロジェクト";
     mobileAboutNav.innerHTML = "自己紹介";
     mobileContactNav.innerHTML = "コンタクト";
+
+    // Hero section
+    heroSubheader.innerHTML = "フロントエンドエンジニア",
+    heroCaption.innerHTML = "東京を拠点として、創造性と正確性を持って、美しく高品質な仕事を作り上げます。";
 
     // Projects section
     projectsHeader.innerHTML = "プロジェクト";
@@ -57,11 +65,11 @@ translate.addEventListener('click', () => {
     // About section
     aboutHeader.innerHTML = "自己紹介";
     aboutDescription.innerHTML = `
-    マルチメディアコンテンツクリエイターとして、ウェブ開発、ビデオ制作、写真撮影など、幅広い経験を持っています。
+    みなさんこんにちは、サイリーンです。私は、ウェブ開発からビデオ制作、写真撮影まで様々なバックグラウンドを持つ、サンディエゴ出身のフロントエンドエンジニアです。
     <br><br>
-    ウェブ開発に興味を持ち始めたのは、カリフォルニア州立大学ノースリッジ校で勉強していたときです。でも、卒業後はビデオ制作と写真撮影に集中することにしました。2019年に日本に旅行したことで人生が変わり、2020年に日本に移住しました。それ以来、ウェブ開発にまた取り組み始め、テクノロジー業界でクリエイティブなスキルを活かせる機会を探しています。
+    カリフォルニア州立大学ノースリッジ校でマルチメディア制作を学んでる際に、初めてコーディングを勉強しましたが、卒業後は映像制作と写真撮影のフリーランスに専念してきました。そんな中、2019年こ日本旅行をきっかけに、翌年には日本へ移住して来ました。日本での生活がテクノロジーへの情熱を呼び起こし、Le Wagon Tokyoのウェブ開発ブートキャンプへ参加しました。
     <br><br>
-    ウェブ開発の仕事に加えて、日本の教育システムにも貢献していて、英語を教えるサポートをしています。また、ビデオ制作や写真撮影も続けていて、日本での冒険の瞬間をカメラに収めています。
+    コーディング以外の時間は、日本各地での旅行の瞬間を捉えたビデオ制作を楽しんでいます。
     `;
     cvButton.innerHTML = "履歴書をダウンロード";
 
@@ -77,10 +85,14 @@ translate.addEventListener('click', () => {
     contactNav.innerHTML = "CONTACT";
     translate.innerHTML = "JP";
 
-    // Mobiel Navbar
+    // Mobile Navbar
     mobileProjectsNav.innerHTML = "PROJECTS";
     mobileAboutNav.innerHTML = "ABOUT";
-     mobileContactNav.innerHTML = "CONTACT";
+    mobileContactNav.innerHTML = "CONTACT";
+
+    // Hero section
+    heroSubheader.innerHTML = "frontend developer",
+    heroCaption.innerHTML = "Building aesthetically pleasing & high-quality work through creativity & precision in <br>Tokyo, Japan.";
 
     // Projects section
     projectsHeader.innerHTML = "PROJECTS";
@@ -93,12 +105,11 @@ translate.addEventListener('click', () => {
     // About section
     aboutHeader.innerHTML = "ABOUT";
     aboutDescription.innerHTML = `
-    I am a multimedia content creator with a diverse background in web development, video production, and photography.
+    Hello, I’m Syrene. I’m a frontend developer from San Diego with a diverse background in web development, video production, and photography.
     <br><br>
-    My journey into web development began during my studies at California State University, Northridge. However, upon graduating, I chose to focus on video production and photography.
-    A transformative trip to Japan in 2019 led me to relocate here in 2020. Since then, I've been delving back into web development and am enthusiastic about finding opportunities to apply my creativity and expertise in the tech industry.
+    I first delved into coding while studying Multimedia Production at California State University, Northridge. However, upon graduating, I focused on freelancing in video production and photography. A trip to Japan in 2019 inspired me to move here in 2020, where I reignited my passion for tech and completed Le Wagon Tokyo's web development bootcamp.
     <br><br>
-    In addition to my work in web development, I contribute to the Japanese educational system by assisting in teaching English. I also continue to engage in video production and photography, capturing the essence of my adventures throughout Japan.
+    When I’m not coding, I enjoy creating videos and capturing moments from my adventures around Japan.
     `;
     cvButton.innerHTML = "DOWNLOAD CV";
 
