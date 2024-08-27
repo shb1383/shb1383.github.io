@@ -42,6 +42,10 @@ hr {
     padding-left: 0px!important;
   }
 
+  .hero_title h4 {
+    text-align: center!important;
+  }
+
   .hero_about h6 {
     width: 100%!important;
   }
