@@ -35,12 +35,7 @@ hr {
   }
 
   .nav_list .icon {
-    float: right!important;
     display: block!important;
-  }
-
-  .hero_title h4 {
-    text-align: center!important;
   }
 
   .hero_about {
@@ -179,7 +174,6 @@ hr {
   }
 
   .nav_list .icon {
-    float: right!important;
     display: block!important;
   }
 
@@ -236,6 +230,10 @@ hr {
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+  .mobile_menu {
+    display: none!important;
+  }
+
   .projects_links_info {
     width: 300px!important;
   }
@@ -251,6 +249,10 @@ hr {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+  .mobile_menu {
+    display: none!important;
+  }
+
   .mpulse .projects_links_info {
     margin-top: -75px!important;
   }
