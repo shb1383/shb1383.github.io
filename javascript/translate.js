@@ -4,6 +4,11 @@ var aboutNav = document.getElementById("about_nav");
 var contactNav = document.getElementById("contact_nav");
 var translate = document.getElementById("translate");
 
+// Get the mobile nav elements
+var mobileProjectsNav = document.getElementById("mobile_projects_nav");
+var mobileAboutNav = document.getElementById("mobile_about_nav");
+var mobileContactNav = document.getElementById("mobile_contact_nav");
+
 // Get the section headers
 var projectsHeader = document.getElementById("projects_header");
 var aboutHeader = document.getElementById("about_header");
@@ -36,6 +41,11 @@ translate.addEventListener('click', () => {
     contactNav.innerHTML = "コンタクト";
     translate.innerHTML = "EN";
 
+    // Mobiel Navbar
+    mobileProjectsNav.innerHTML = "プロジェクト";
+    mobileAboutNav.innerHTML = "自己紹介";
+    mobileContactNav.innerHTML = "コンタクト";
+
     // Projects section
     projectsHeader.innerHTML = "プロジェクト";
     mpulseDescription.innerHTML = "周辺地域で開催されるライブイベントを発見し、<br>あなたにぴったりな体験と世界を見つけることができます。";
@@ -66,6 +76,11 @@ translate.addEventListener('click', () => {
     aboutNav.innerHTML = "ABOUT";
     contactNav.innerHTML = "CONTACT";
     translate.innerHTML = "JP";
+
+    // Mobiel Navbar
+    mobileProjectsNav.innerHTML = "PROJECTS";
+    mobileAboutNav.innerHTML = "ABOUT";
+     mobileContactNav.innerHTML = "CONTACT";
 
     // Projects section
     projectsHeader.innerHTML = "PROJECTS";
