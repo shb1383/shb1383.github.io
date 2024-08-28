@@ -47,7 +47,7 @@ button:focus {
 
 .tripl button:hover {
   background-color: #F26419;
-  color: white;
+  color: rgb(250, 250, 250);
   transition: all 0.1s ease;
 }
 
@@ -59,6 +59,30 @@ button:focus {
 
 #tripl_app_button, #tripl_github_button {
   margin: 5px;
+}
+
+.jurassic_safari button {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  border: solid;
+  border-width: thin;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 10px;
+  width: 150px;
+}
+
+.jurassic_safari button:hover {
+  background-color: #fbe121;
+  color: black;
+  transition: all 0.1s ease;
 }
 
 /* Contact section button styling */
