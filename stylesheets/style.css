@@ -80,6 +80,16 @@ hr {
     width: 290px!important;
   }
 
+  #blog_video {
+    height: 183px!important;
+    width: 325px!important;
+  }
+
+  .blog_info p {
+    margin-left: 0px!important;
+    text-align: center!important;
+  }
+
   #cv_button {
     width: 290px!important;
   }
@@ -154,6 +164,16 @@ hr {
 
   .about_info p {
     width: 290px!important;
+  }
+
+  #blog_video {
+    height: 183px!important;
+    width: 325px!important;
+  }
+
+  .blog_info p {
+    margin-left: 0px!important;
+    text-align: center!important;
   }
 
   #cv_button {
