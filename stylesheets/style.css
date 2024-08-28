@@ -30,7 +30,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:nth-child(2), :nth-child(6)) {
+  .nav_list li:not(:nth-child(2), :nth-child(7)) {
     display: none!important;
   }
 
@@ -115,7 +115,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:nth-child(2), :nth-child(6)) {
+  .nav_list li:not(:nth-child(2), :nth-child(7)) {
     display: none!important;
   }
 
@@ -197,7 +197,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:nth-child(2), :nth-child(6)) {
+  .nav_list li:not(:nth-child(2), :nth-child(7)) {
     display: none!important;
   }
 

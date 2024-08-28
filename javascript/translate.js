@@ -1,17 +1,20 @@
 // Get the nav elements
 var projectsNav = document.getElementById("projects_nav");
 var aboutNav = document.getElementById("about_nav");
+var blogNav = document.getElementById("blog_nav");
 var contactNav = document.getElementById("contact_nav");
 var translate = document.getElementById("translate");
 
 // Get the mobile nav elements
 var mobileProjectsNav = document.getElementById("mobile_projects_nav");
 var mobileAboutNav = document.getElementById("mobile_about_nav");
+var mobileBlogNav = document.getElementById("mobile_blog_nav");
 var mobileContactNav = document.getElementById("mobile_contact_nav");
 
 // Get the section headers
 var projectsHeader = document.getElementById("projects_header");
 var aboutHeader = document.getElementById("about_header");
+var blogHeader = document.getElementById("blog_header");
 var contactHeader = document.getElementById("contact_header");
 
 // Get the hero section content
@@ -31,6 +34,9 @@ var jurassicSafariButton = document.getElementById("jurassic_safari_button");
 // Get the about section description
 var aboutDescription = document.getElementById("about_description");
 
+// Get the blog section description
+var blogDescription = document.getElementById("blog_description");
+
 // Get the cv button
 var cvButton = document.getElementById("cv_button");
 
@@ -43,12 +49,14 @@ translate.addEventListener('click', () => {
     // Navbar
     projectsNav.innerHTML = "プロジェクト";
     aboutNav.innerHTML = "自己紹介";
+    blogNav.innerHTML = "ブログ";
     contactNav.innerHTML = "コンタクト";
     translate.innerHTML = "EN";
 
     // Mobile Navbar
     mobileProjectsNav.innerHTML = "プロジェクト";
     mobileAboutNav.innerHTML = "自己紹介";
+    mobileBlogNav.innerHTML = "ブログ";
     mobileContactNav.innerHTML = "コンタクト";
 
     // Hero section
@@ -75,6 +83,10 @@ translate.addEventListener('click', () => {
     `;
     cvButton.innerHTML = "履歴書をダウンロード";
 
+    // Blog section
+    blogHeader.innerHTML = "ブログ";
+    blogDescription.innerHTML = "2022年GW　大阪";
+
     // Contact section
     contactHeader.innerHTML = "コンタクト";
     contactComment.innerHTML = "共に素晴らしいものを作り上げるためにお気軽にご連絡ください。";
@@ -84,12 +96,14 @@ translate.addEventListener('click', () => {
     // Navbar
     projectsNav.innerHTML = "PROJECTS";
     aboutNav.innerHTML = "ABOUT";
+    blogNav.innerHTML = "BLOG";
     contactNav.innerHTML = "CONTACT";
     translate.innerHTML = "JP";
 
     // Mobile Navbar
     mobileProjectsNav.innerHTML = "PROJECTS";
     mobileAboutNav.innerHTML = "ABOUT";
+    mobileBlogNav.innerHTML = "BLOG";
     mobileContactNav.innerHTML = "CONTACT";
 
     // Hero section
@@ -115,6 +129,10 @@ translate.addEventListener('click', () => {
     When I’m not coding, I enjoy creating videos and capturing moments from my adventures around Japan.
     `;
     cvButton.innerHTML = "DOWNLOAD CV";
+
+    // Blog section
+    blogHeader.innerHTML = "BLOG";
+    blogDescription.innerHTML = "Golden Week in Osaka, Japan 2022";
 
     // Contact section
     contactHeader.innerHTML = "CONTACT";
