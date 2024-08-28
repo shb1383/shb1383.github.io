@@ -58,13 +58,22 @@
   font-weight: 500;
 }
 
-.mpulse, .tripl, .jurassic_safari {
+.mpulse, .tripl {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.jurassic_safari {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .mpulse .projects_links_info, .tripl .projects_links_info, .jurassic_safari .projects_links_info {
@@ -76,6 +85,33 @@
   font-style: normal;
 }
 
+.mpulse {
+  background-color: black;
+  margin-top: 15px;
+}
+
+.tripl {
+  background-color: rgb(250, 250, 250);
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.jurassic_safari {
+  margin-top: 15px;
+}
+
+.tripl h2 {
+  color: #F26419;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tripl p {
+  text-align: center;
+}
+
 .mpulse p, .jurassic_safari p {
   color: white;
   text-align: center;
@@ -85,9 +121,17 @@
   color: white;
 }
 
-.mpulse {
-  background-color: black;
-  margin-top: 15px;
+.projects_info_skills {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.projects_info_skills img {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  filter: saturate(0);
 }
 
 #mpulse_app_image {
@@ -108,24 +152,6 @@
   margin-left: -10px;
 }
 
-.tripl {
-  background-color: rgb(250, 250, 250);
-  margin-top: 15px;
-  overflow: hidden;
-}
-
-.tripl h2 {
-  color: #F26419;
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.tripl p {
-  text-align: center;
-}
-
 #tripl_app_image {
   width: 55vw;
   height: auto;
@@ -139,27 +165,10 @@
   margin-bottom: -58px;
 }
 
-.jurassic_safari {
-  margin-top: 15px;
-}
-
 #jurassic_safari_logo_image {
   width: 225px!important;
   height: auto!important;
   margin-bottom: 10px;
-}
-
-.projects_info_skills {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 10px;
-}
-
-.projects_info_skills img {
-  width: 25px;
-  height: 25px;
-  margin: 5px;
-  filter: saturate(0);
 }
 
 /* About section styling */
