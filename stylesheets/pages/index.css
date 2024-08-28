@@ -58,16 +58,7 @@
   font-weight: 500;
 }
 
-.mpulse p {
-  color: white;
-  text-align: center;
-}
-
-.mpulse a {
-  color: white;
-}
-
-.mpulse, .tripl {
+.mpulse, .tripl, .jurassic_safari {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -76,13 +67,27 @@
   padding-bottom: 50px;
 }
 
+.mpulse .projects_links_info, .tripl .projects_links_info, .jurassic_safari .projects_links_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.mpulse p, .jurassic_safari p {
+  color: white;
+  text-align: center;
+}
+
+.mpulse a, .jurassic_safari a {
+  color: white;
+}
+
 .mpulse {
   background-color: black;
   margin-top: 15px;
-}
-
-#mpulse_description, #tripl_description {
-  width: 325px;
 }
 
 #mpulse_app_image {
@@ -99,17 +104,8 @@
 #mpulse_logo_image {
   width: 225px!important;
   height: auto!important;
-  margin-bottom: -50px;
+  margin-bottom: -60px;
   margin-left: -10px;
-}
-
-.mpulse .projects_links_info, .tripl .projects_links_info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 350px;
-  font-weight: 500;
-  font-style: normal;
 }
 
 .tripl {
@@ -141,6 +137,16 @@
   border-top-right-radius: 15px;
   margin-right: -9rem;
   margin-bottom: -58px;
+}
+
+.jurassic_safari {
+  margin-top: 15px;
+}
+
+#jurassic_safari_logo_image {
+  width: 225px!important;
+  height: auto!important;
+  margin-bottom: 10px;
 }
 
 .projects_info_skills {

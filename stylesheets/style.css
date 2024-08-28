@@ -54,16 +54,12 @@ hr {
     width: 250px!important;
   }
 
-  .mpulse, .tripl {
+  .mpulse, .tripl, .jurassic_safari {
     flex-direction: column!important;
   }
 
   .mpulse .projects_links_info {
     margin-top: -30px!important;
-  }
-
-  #mpulse_logo_image {
-    margin-bottom: -55px;
   }
 
   #tripl_app_image {
@@ -134,16 +130,12 @@ hr {
     width: 300px!important;
   }
 
-  .mpulse, .tripl {
+  .mpulse, .tripl, .jurassic_safari {
     flex-direction: column!important;
   }
 
   .mpulse .projects_links_info {
     margin-top: -25px!important;
-  }
-
-  .mpulse button, .tripl button {
-    width: 25vw!important;
   }
 
   #tripl_app_image {
@@ -209,7 +201,7 @@ hr {
     width: 300px!important;
   }
 
-  .mpulse, .tripl {
+  .mpulse, .tripl, .jurassic_safari {
     flex-direction: column!important;
   }
 

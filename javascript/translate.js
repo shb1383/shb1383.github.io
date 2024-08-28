@@ -26,6 +26,7 @@ var triplDescription = document.getElementById("tripl_description");
 var mpulseButton = document.getElementById("mpulse_button");
 var triplAppButton = document.getElementById("tripl_app_button");
 var triplGithubButton = document.getElementById("tripl_github_button");
+var jurassicSafariButton = document.getElementById("jurassic_safari_button");
 
 // Get the about section description
 var aboutDescription = document.getElementById("about_description");
@@ -61,6 +62,7 @@ translate.addEventListener('click', () => {
     triplDescription.innerHTML = "革新的なトリップアプリで、<br>忘れられない日帰り旅行に出かけましょう。";
     triplAppButton.innerHTML = "アプリを試す";
     triplGithubButton.innerHTML = "コードを表示";
+    jurassicSafariButton.innerHTML = "アプリをプレビュー";
 
     // About section
     aboutHeader.innerHTML = "自己紹介";
@@ -101,6 +103,7 @@ translate.addEventListener('click', () => {
     triplDescription.innerHTML = "Embark on spontaneous adventures with our innovative trip app, connecting users for unforgettable day trips.";
     triplAppButton.innerHTML = "TRY THE APP";
     triplGithubButton.innerHTML = "VIEW CODE";
+    jurassicSafariButton.innerHTML = "PREVIEW THE APP";
 
     // About section
     aboutHeader.innerHTML = "ABOUT";
