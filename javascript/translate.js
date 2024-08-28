@@ -24,6 +24,7 @@ var heroCaption = document.getElementById("hero_caption");
 // Get the projects section descriptions
 var mpulseDescription = document.getElementById("mpulse_description");
 var triplDescription = document.getElementById("tripl_description");
+var jurassicSafariDescription = document.getElementById("jurassic_safari_description");
 
 // Get the projects section buttons
 var mpulseButton = document.getElementById("mpulse_button");
@@ -70,6 +71,7 @@ translate.addEventListener('click', () => {
     triplDescription.innerHTML = "革新的なトリップアプリで、<br>忘れられない日帰り旅行に出かけましょう。";
     triplAppButton.innerHTML = "アプリを試す";
     triplGithubButton.innerHTML = "コードを表示";
+    jurassicSafariDescription.innerHTML = "没入型VRアプリで、恐竜の世界に飛び込み、彼らを観察しながら勉強とアドベンチャーをお楽しみください";
     jurassicSafariButton.innerHTML = "アプリをプレビュー";
 
     // About section
@@ -117,6 +119,7 @@ translate.addEventListener('click', () => {
     triplDescription.innerHTML = "Embark on spontaneous adventures with our innovative trip app, connecting users for unforgettable day trips.";
     triplAppButton.innerHTML = "TRY THE APP";
     triplGithubButton.innerHTML = "VIEW CODE";
+    jurassicSafariDescription.innerHTML = "Explore dinosaurs up close in our immersive VR app, and enjoy an educational adventure where the past comes to life.";
     jurassicSafariButton.innerHTML = "PREVIEW THE APP";
 
     // About section
