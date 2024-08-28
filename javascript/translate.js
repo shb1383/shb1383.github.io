@@ -62,26 +62,26 @@ translate.addEventListener('click', () => {
 
     // Hero section
     heroSubheader.innerHTML = "フロントエンドエンジニア",
-    heroCaption.innerHTML = "東京を拠点として、創造性と正確性を持って、美しく高品質な仕事を作り上げます。";
+    heroCaption.innerHTML = "東京を拠点に、創造力と正確性を活かして、美しく高品質な仕事を提供します。";
 
     // Projects section
     projectsHeader.innerHTML = "プロジェクト";
-    mpulseDescription.innerHTML = "周辺地域で開催されるライブイベントを発見し、<br>あなたにぴったりな体験と世界を見つけることができます。";
+    mpulseDescription.innerHTML = "周辺地域で開催されるライブイベントを見つけ、<br>あなたにぴったりな体験や世界に出会うことができます。";
     mpulseButton.innerHTML = "コードを表示";
     triplDescription.innerHTML = "革新的なトリップアプリで、<br>忘れられない日帰り旅行に出かけましょう。";
     triplAppButton.innerHTML = "アプリを試す";
     triplGithubButton.innerHTML = "コードを表示";
-    jurassicSafariDescription.innerHTML = "没入型VRアプリで、恐竜の世界に飛び込み、彼らを観察しながら勉強とアドベンチャーをお楽しみください";
+    jurassicSafariDescription.innerHTML = "没入型VRアプリで、恐竜の世界に飛び込み、彼らを観察しながら勉強やアドベンチャーをお楽しみください。";
     jurassicSafariButton.innerHTML = "アプリをプレビュー";
 
     // About section
     aboutHeader.innerHTML = "自己紹介";
     aboutDescription.innerHTML = `
-    みなさんこんにちは、サイリーンです。私は、ウェブ開発からビデオ制作、写真撮影まで様々なバックグラウンドを持つ、サンディエゴ出身のフロントエンドエンジニアです。
+    みなさんこんにちは、サイリーンです。私はアメリカ・サンディエゴ出身のフロントエンドエンジニアで、ウェブ開発からビデオ制作、写真撮影まで幅広い経験を持っています。
     <br><br>
-    カリフォルニア州立大学ノースリッジ校でマルチメディア制作を学んでる際に、初めてコーディングを勉強しましたが、卒業後は映像制作と写真撮影のフリーランスに専念してきました。そんな中、2019年こ日本旅行をきっかけに、翌年には日本へ移住して来ました。日本での生活がテクノロジーへの情熱を呼び起こし、Le Wagon Tokyoのウェブ開発ブートキャンプへ参加しました。
+    カリフォルニア州立大学ノースリッジ校でマルチメディア制作を学んでいた際に、初めてコーディングに出会いました。最終学年のキャップストーン・プロジェクトでは、私のチームはVRアプリ制作で賞を受賞し、学部の年次マルチメディア・プロダクション・ショーケースで表彰されました。卒業後は映像制作と写真撮影のフリーランスとして活動してきましたが、2019年の日本旅行をきっかけに、翌年には日本へ移住しました。日本での生活を通じてテクノロジーへの興味が再熱し、Le Wagon Tokyoのウェブ開発ブートキャンプへ参加しました。
     <br><br>
-    コーディング以外の時間は、日本各地での旅行の瞬間を捉えたビデオ制作を楽しんでいます。
+    コーディングの合間には、日本各地へ旅行し、その土地での思い出をビデオに収めることを楽しんでいます。
     `;
     cvButton.innerHTML = "履歴書をダウンロード";
 
@@ -91,7 +91,7 @@ translate.addEventListener('click', () => {
 
     // Contact section
     contactHeader.innerHTML = "コンタクト";
-    contactComment.innerHTML = "共に素晴らしいものを作り上げるためにお気軽にご連絡ください。";
+    contactComment.innerHTML = "ぜひ一緒に素晴らしいものを作り上げましょう。お気軽にご連絡ください。";
   }
 
   else {
@@ -127,7 +127,7 @@ translate.addEventListener('click', () => {
     aboutDescription.innerHTML = `
     Hello, I’m Syrene. I’m a frontend developer from San Diego with a diverse background in web development, video production, and photography.
     <br><br>
-    I first delved into coding while studying Multimedia Production at California State University, Northridge. However, upon graduating, I focused on freelancing in video production and photography. A trip to Japan in 2019 inspired me to move here in 2020, where I reignited my passion for tech and completed Le Wagon Tokyo's web development bootcamp.
+    I first delved into coding while studying Multimedia Production at California State University, Northridge. For our capstone project during my final year, my team created an award-winning VR app that was recognized at our department's annual Multimedia Production showcase. However, upon graduating, I focused on freelancing in video production and photography. A trip to Japan in 2019 inspired me to move here in 2020, where I reignited my passion for tech and completed Le Wagon Tokyo's web development bootcamp.
     <br><br>
     When I’m not coding, I enjoy creating videos and capturing moments from my adventures around Japan.
     `;
