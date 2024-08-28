@@ -1,5 +1,5 @@
 /* Formats the sections */
-#hero, #projects, #about, #contact {
+#hero, #projects, #about, #blog, #contact {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -190,6 +190,24 @@
   font-size: 12px;
   font-weight: 400;
   width: 290px;
+}
+
+
+/* Blog section styling */
+.blog_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.blog_info p {
+  font-size: 12px;
+  font-weight: 400;
+  width: 290px;
+  padding-top: 25px;
+  margin-left: -270px;
 }
 
 /* Contact section styling */
