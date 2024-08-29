@@ -61,7 +61,7 @@ translate.addEventListener('click', () => {
     mobileContactNav.innerHTML = "コンタクト";
 
     // Hero section
-    heroSubheader.innerHTML = "フロントエンドエンジニア",
+    heroSubheader.innerHTML = "フロントエンドエンジニア";
     heroCaption.innerHTML = "東京を拠点に、創造力と正確性を活かして、美しく高品質な仕事を提供します。";
 
     // Projects section
@@ -109,7 +109,7 @@ translate.addEventListener('click', () => {
     mobileContactNav.innerHTML = "CONTACT";
 
     // Hero section
-    heroSubheader.innerHTML = "frontend developer",
+    heroSubheader.innerHTML = "frontend developer";
     heroCaption.innerHTML = "Building aesthetically pleasing & high-quality work through creativity & precision in <br>Tokyo, Japan.";
 
     // Projects section
