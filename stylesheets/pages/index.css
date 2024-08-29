@@ -210,6 +210,13 @@
   margin-left: -270px;
 }
 
+#blog_video {
+  border: none;
+  width: 560px;
+  height: 315px;
+  overflow: hidden;
+}
+
 /* Contact section styling */
 .contact_email {
   padding-top: 50px;
