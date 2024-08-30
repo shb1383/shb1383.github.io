@@ -60,13 +60,11 @@
     left: 0;
     padding-left: 25px;
     padding-right: 25px;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     background-color: white;
     list-style-type: none;
     overflow-y: auto; /* Enable vertical scrolling */
-    text-align: left;
-    scroll-behavior: smooth;
   }
 
   .mobile_menu a {
