@@ -124,6 +124,10 @@ hr {
     display: block!important;
   }
 
+  .mobile_menu {
+    max-height: 80vh!important;
+  }
+
   .hero_title h4 {
     text-align: center!important;
   }

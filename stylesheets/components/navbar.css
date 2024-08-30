@@ -53,15 +53,24 @@
 
 /* Styles the mobile menu dropdown */
   .mobile_menu {
+    display: none; /* Initially hidden, change as needed */
+    position: fixed; /* Fixed positioning to stay on the screen */
     flex-direction: column;
-    justify-content: space-around;
-    bottom: 0;
-    right: 0;
-    height: 20vh;
-    width: 100vw;
+    top: 1;
+    left: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 80vh;
+    width: 100%;
     background-color: white;
     list-style-type: none;
-    text-align: center;
+    overflow-y: auto; /* Enable vertical scrolling */
+    text-align: left;
+    scroll-behavior: smooth;
+  }
+
+  .mobile_menu a {
+    font-size: 56px;
   }
 
   .mobile_menu a:hover {
