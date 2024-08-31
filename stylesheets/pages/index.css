@@ -202,12 +202,20 @@
   padding-bottom: 25px;
 }
 
-.blog_info p {
+.blog_entry {
+  padding-top: 25px;
+}
+
+.blog_entry p {
   font-size: 12px;
   font-weight: 400;
-  width: 290px;
+  width: 560px;
   padding-top: 25px;
-  margin-left: -270px;
+}
+
+.blog_info hr {
+  width: 112px;
+  border-color: #191919;
 }
 
 #blog_video {
