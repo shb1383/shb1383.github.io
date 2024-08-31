@@ -141,7 +141,7 @@ translate.addEventListener('click', () => {
     blogHeader.innerText = "BLOG";
     blogDescriptionTop.innerHTML = `Welcome to my portfolio. I built this from the ground up using javascript, html, and css. I hope you enjoy it as much as I did creating it. Thank you for visiting.
     <br><br>
-    Here, you can follow along with my tech journey as I keep learning and growing as a developer. I’ll also share some of my videos and photos from time to time. To kick things off, below is a video from my trip to Osaka 2 years ago.`;
+    Here, you can follow along with my tech journey as I keep learning and growing as a developer. I’ll also share some of my videos and photos from time to time. To kick things off, below is a video from my trip in Osaka 2 years ago.`;
     blogDescriptionBottom.innerText = "Golden Week in Osaka, Japan 2022";
 
     // Contact section
