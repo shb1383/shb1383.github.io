@@ -38,16 +38,9 @@ hr {
     display: block!important;
   }
 
-  .hero_about {
-    padding-left: 0px!important;
-  }
-
-  .hero_title h4 {
-    text-align: center!important;
-  }
-
-  .hero_about h6 {
-    width: 100%!important;
+  .hero_header h1 {
+    font-size: 32px!important;
+    letter-spacing: -4px!important;
   }
 
   .projects_links_info, .about_info p {
@@ -123,21 +116,15 @@ hr {
     display: block!important;
   }
 
+  .hero_header h1 {
+    font-size: 32px!important;
+    letter-spacing: -4px!important;
+  }
+
   .mobile_menu {
     max-height: 100vh!important;
   }
 
-  .hero_title h4 {
-    text-align: center!important;
-  }
-
-  .hero_about {
-    padding-left: 0px!important;
-  }
-
-  .hero_about h6 {
-    width: 100%!important;
-  }
 
   .projects_links_info {
     width: 300px!important;
@@ -205,18 +192,6 @@ hr {
 
   .nav_list .icon {
     display: block!important;
-  }
-
-  .hero_title h4 {
-    text-align: center!important;
-  }
-
-  .hero_about {
-    padding-left: 0px!important;
-  }
-
-  .hero_about h6 {
-    width: 100%!important;
   }
 
   .projects_links_info {
