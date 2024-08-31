@@ -86,8 +86,11 @@ hr {
   }
 
   .blog_info p {
-    margin-left: 0px!important;
-    text-align: center!important;
+    width: 325px!important;
+  }
+
+  .blog_info hr {
+    width: 65px!important;
   }
 
   #cv_button {
@@ -176,8 +179,11 @@ hr {
   }
 
   .blog_info p {
-    margin-left: 0px!important;
-    text-align: center!important;
+    width: 325px!important;
+  }
+
+  .blog_info hr {
+    width: 65px!important;
   }
 
   #cv_button {
