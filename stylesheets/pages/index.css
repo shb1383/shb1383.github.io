@@ -6,37 +6,39 @@
 
 /* Hero section styling */
 .hero_header {
-  margin-top: 100px;
-  margin-bottom: 10px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   overflow: hidden;
 }
 
 .hero_header h1 {
-  font-size: 174px;
-  line-height: 69.5%;
-  color: #272829;
-  text-align: left;
+  font-size: 48px;
+  color: #191919;
+  text-align: center;
+  letter-spacing: -6px;
 }
 
-.hero_title h4 {
-  font-size: 40px;
-  color: #272829;
-  text-align: right;
+.hero_subheader {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hero_about {
-  padding-top: 50px;
-  padding-left: 25px;
-}
-
-.hero_about h6 {
-  font-size: 24px;
-  font-weight: 450;
-  font-style: normal;
-  line-height: 103%;
+.hero_subheader h6 {
+  font-size: 14px;
+  font-weight: 525;
   color: #272829;
   text-align: center;
-  width: 550px;
+}
+
+.hero_subheader p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #272829;
+  text-align: center;
+  width: 200px;
+  line-height: 105%;
 }
 
 /* Projects section styling */
