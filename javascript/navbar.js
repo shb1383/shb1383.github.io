@@ -28,7 +28,7 @@ var mobileMenu = document.querySelector('.mobile_menu');
 // Get the body
 var body = document.querySelector('body');
 
-// Toggle the styling for the mobile menu to be displayed + disable body scrolling and mobile menu to not be displayed + enable body scrolling when the mobile icon is clicked
+// Toggle the styling for the mobile menu to slide down and be displayed and disable body scrolling when the mobile menu icon is clicked
 mobileMenuIcon.addEventListener('click', () => {
   var mobileMenuHeight = mobileMenu.getBoundingClientRect().height;
   var mobileMenuContainerHeight = mobileMenuContainer.getBoundingClientRect().height;
