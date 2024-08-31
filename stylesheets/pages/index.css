@@ -135,8 +135,8 @@
 }
 
 #mpulse_app_image {
-  width: auto;
-  height: 50vh;
+  width: 150px;
+  height: auto;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-style: solid;
   border-color: #343d46;
@@ -212,6 +212,7 @@
 .blog_entry_divider {
   font-size: 12px;
   text-align: center;
+  color: #191919;
 }
 
 #blog_video {

@@ -88,7 +88,9 @@ translate.addEventListener('click', () => {
 
     // Blog section
     blogHeader.innerText = "ブログ";
-    blogDescriptionTop.innerText = "私のポートフォリオをご覧いただきありがとうございます。こちらはjavascript、html、cssを使って一から作り上げました。私が制作を楽しんだように、皆様にも楽しんでいただければ幸いです。";
+    blogDescriptionTop.innerHTML = `私のポートフォリオをご覧いただきありがとうございます。こちらのサイトはjavascript、html、cssを使って一から作成しました。私が制作を楽しんだように、皆様にも楽しんでいただければ幸いです。
+    <br></br>
+    ここでは、エンジニアとしての学びと成長を続ける過程を紹介しています。また、撮影した写真や作成したビデオも時々投稿して参ります。まず初めに、2年前の大阪旅行のビデオをアップしましたので、ぜひご覧ください。`;
     blogDescriptionBottom.innerText = "2022年GW　大阪";
 
     // Contact section
@@ -137,7 +139,9 @@ translate.addEventListener('click', () => {
 
     // Blog section
     blogHeader.innerText = "BLOG";
-    blogDescriptionTop.innerText = "Welcome to my portfolio. I built this from the ground up using javascript, html, and css. I hope you enjoy it as much as I did creating it. Thank you for visiting.";
+    blogDescriptionTop.innerHTML = `Welcome to my portfolio. I built this from the ground up using javascript, html, and css. I hope you enjoy it as much as I did creating it. Thank you for visiting.
+    <br><br>
+    Here, you can follow along with my tech journey as I keep learning and growing as a developer. I’ll also share some of my videos and photos from time to time. To kick things off, below is a video from my trip to Osaka 2 years ago.`;
     blogDescriptionBottom.innerText = "Golden Week in Osaka, Japan 2022";
 
     // Contact section
