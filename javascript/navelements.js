@@ -33,7 +33,7 @@ var body = document.querySelector('body');
 // Get the mobile menu container
 var mobileMenuContainer = document.querySelector('.mobile_menu_container');
 
-// Changes mobile menu display to none, icon to "bars", and enables body scrolling after selecting navbar link
+// Changes mobile menu container height to 0, icon to "bars", and enables body scrolling after selecting navbar link
 navElements.forEach(navElement => {
   navElement.addEventListener('click', () => {
     document.querySelector('.icon').innerHTML = '<i class="fa-solid fa-bars"></i>';
@@ -43,7 +43,7 @@ navElements.forEach(navElement => {
   });
 });
 
-// Changes mobile menu display to none, icon to "bars", and enables body scrolling after clicking outside of mobile menu
+// Changes mobile menu container height to 0, icon to "bars", and enables body scrolling after clicking outside of mobile menu
 sections.forEach(section => {
   section.addEventListener('click', () => {
     document.querySelector('.icon').innerHTML = '<i class="fa-solid fa-bars"></i>';
