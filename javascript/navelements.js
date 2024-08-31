@@ -30,22 +30,25 @@ window.addEventListener('scroll', () => {
 // Get the body
 var body = document.querySelector('body');
 
+// Get the mobile menu container
+var mobileMenuContainer = document.querySelector('.mobile_menu_container');
+
 // Changes mobile menu display to none, icon to "bars", and enables body scrolling after selecting navbar link
 navElements.forEach(navElement => {
   navElement.addEventListener('click', () => {
-    document.querySelector('.mobile_menu').style.display= "none";
     document.querySelector('.icon').innerHTML = '<i class="fa-solid fa-bars"></i>';
     body.style.height = 'auto';
     body.style.overflow = 'auto';
+    mobileMenuContainer.style.height = 0;
   });
 });
 
 // Changes mobile menu display to none, icon to "bars", and enables body scrolling after clicking outside of mobile menu
 sections.forEach(section => {
   section.addEventListener('click', () => {
-    document.querySelector('.mobile_menu').style.display= "none";
     document.querySelector('.icon').innerHTML = '<i class="fa-solid fa-bars"></i>';
     body.style.height = 'auto';
     body.style.overflow = 'auto';
+    mobileMenuContainer.style.height = 0;
   });
 });

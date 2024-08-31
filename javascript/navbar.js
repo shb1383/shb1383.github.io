@@ -16,6 +16,9 @@ function stickyFunction() {
   }
 }
 
+// Get the mobile menu container
+var mobileMenuContainer = document.querySelector('.mobile_menu_container');
+
 // Get the mobile menu icon
 var mobileMenuIcon = document.querySelector('.icon');
 
@@ -27,15 +30,18 @@ var body = document.querySelector('body');
 
 // Toggle the styling for the mobile menu to be displayed + disable body scrolling and mobile menu to not be displayed + enable body scrolling when the mobile icon is clicked
 mobileMenuIcon.addEventListener('click', () => {
-  if (mobileMenu.style.display === "none") {
-    mobileMenu.style.display = "flex";
+  var mobileMenuHeight = mobileMenu.getBoundingClientRect().height;
+  var mobileMenuContainerHeight = mobileMenuContainer.getBoundingClientRect().height;
+
+  if (mobileMenuContainerHeight === 0) {
     mobileMenuIcon.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+    mobileMenuContainer.style.height = `${mobileMenuHeight}vh`;
     body.style.height = '100%';
     body.style.overflow = 'hidden';
   }
   else {
-    mobileMenu.style.display = "none";
     mobileMenuIcon.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    mobileMenuContainer.style.height = 0;
     body.style.height = 'auto';
     body.style.overflow = 'auto';
   }

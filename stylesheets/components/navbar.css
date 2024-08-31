@@ -52,15 +52,17 @@
 }
 
 /* Styles the mobile menu dropdown */
+  .mobile_menu_container {
+    height: 0;
+	  overflow: hidden;
+	  transition: all 0.7s ease;
+  }
   .mobile_menu {
-    display: none; /* Initially hidden, change as needed */
-    position: fixed; /* Fixed positioning to stay on the screen */
     flex-direction: column;
     top: 1;
     left: 0;
     padding-left: 25px;
     padding-right: 25px;
-    height: 100vh;
     width: 100%;
     background-color: white;
     list-style-type: none;
