@@ -36,7 +36,8 @@ var jurassicSafariButton = document.getElementById("jurassic_safari_button");
 var aboutDescription = document.getElementById("about_description");
 
 // Get the blog section description
-var blogDescription = document.getElementById("blog_description");
+var blogDescriptionTop = document.getElementById("blog_description_top");
+var blogDescriptionBottom = document.getElementById("blog_description_bottom");
 
 // Get the cv button
 var cvButton = document.getElementById("cv_button");
@@ -46,36 +47,36 @@ var contactComment = document.getElementById("contact_comment");
 
 // Toggle the styling between japanese and english when the translate nav element is selected
 translate.addEventListener('click', () => {
-  if (translate.innerHTML === "JP") {
+  if (translate.innerText === "JP") {
     // Navbar
-    projectsNav.innerHTML = "プロジェクト";
-    aboutNav.innerHTML = "自己紹介";
-    blogNav.innerHTML = "ブログ";
-    contactNav.innerHTML = "コンタクト";
-    translate.innerHTML = "EN";
+    projectsNav.innerText = "プロジェクト";
+    aboutNav.innerText = "自己紹介";
+    blogNav.innerText = "ブログ";
+    contactNav.innerText = "コンタクト";
+    translate.innerText = "EN";
 
     // Mobile Navbar
-    mobileProjectsNav.innerHTML = "プロジェクト";
-    mobileAboutNav.innerHTML = "自己紹介";
-    mobileBlogNav.innerHTML = "ブログ";
-    mobileContactNav.innerHTML = "コンタクト";
+    mobileProjectsNav.innerText = "プロジェクト";
+    mobileAboutNav.innerText = "自己紹介";
+    mobileBlogNav.innerText = "ブログ";
+    mobileContactNav.innerText = "コンタクト";
 
     // Hero section
-    heroSubheader.innerHTML = "フロントエンドエンジニア";
-    heroCaption.innerHTML = "東京を拠点に、創造力と正確性を活かして、美しく高品質な仕事を提供します。";
+    heroSubheader.innerText = "フロントエンドエンジニア";
+    heroCaption.innerText = "東京を拠点に、創造力と正確性を活かして、美しく高品質な仕事を提供します。";
 
     // Projects section
-    projectsHeader.innerHTML = "プロジェクト";
+    projectsHeader.innerText = "プロジェクト";
     mpulseDescription.innerHTML = "周辺地域で開催されるライブイベントを見つけ、<br>あなたにぴったりな体験や世界に出会うことができます。";
-    mpulseButton.innerHTML = "コードを表示";
+    mpulseButton.innerText = "コードを表示";
     triplDescription.innerHTML = "革新的なトリップアプリで、<br>忘れられない日帰り旅行に出かけましょう。";
-    triplAppButton.innerHTML = "アプリを試す";
-    triplGithubButton.innerHTML = "コードを表示";
-    jurassicSafariDescription.innerHTML = "没入型VRアプリで、恐竜の世界に飛び込み、彼らを観察しながら勉強やアドベンチャーをお楽しみください。";
-    jurassicSafariButton.innerHTML = "アプリをプレビュー";
+    triplAppButton.innerText = "アプリを試す";
+    triplGithubButton.innerText = "コードを表示";
+    jurassicSafariDescription.innerText = "没入型VRアプリで、恐竜の世界に飛び込み、彼らを観察しながら勉強やアドベンチャーをお楽しみください。";
+    jurassicSafariButton.innerText = "アプリをプレビュー";
 
     // About section
-    aboutHeader.innerHTML = "自己紹介";
+    aboutHeader.innerText = "自己紹介";
     aboutDescription.innerHTML = `
     みなさんこんにちは、サイリーンです。私はアメリカ・サンディエゴ出身のフロントエンドエンジニアで、ウェブ開発からビデオ制作、写真撮影まで幅広い経験を持っています。
     <br><br>
@@ -83,47 +84,48 @@ translate.addEventListener('click', () => {
     <br><br>
     コーディングの合間には、日本各地へ旅行し、その土地での思い出をビデオに収めることを楽しんでいます。
     `;
-    cvButton.innerHTML = "履歴書をダウンロード";
+    cvButton.innerText = "履歴書をダウンロード";
 
     // Blog section
-    blogHeader.innerHTML = "ブログ";
-    blogDescription.innerHTML = "2022年GW　大阪";
+    blogHeader.innerText = "ブログ";
+    blogDescriptionTop.innerText = "私のポートフォリオをご覧いただきありがとうございます。こちらはjavascript、html、cssを使って一から作り上げました。私が制作を楽しんだように、皆様にも楽しんでいただければ幸いです。";
+    blogDescriptionBottom.innerText = "2022年GW　大阪";
 
     // Contact section
-    contactHeader.innerHTML = "コンタクト";
-    contactComment.innerHTML = "ぜひ一緒に素晴らしいものを作り上げましょう。お気軽にご連絡ください。";
+    contactHeader.innerText = "コンタクト";
+    contactComment.innerText = "ぜひ一緒に素晴らしいものを作り上げましょう。お気軽にご連絡ください。";
   }
 
   else {
     // Navbar
-    projectsNav.innerHTML = "PROJECTS";
-    aboutNav.innerHTML = "ABOUT";
-    blogNav.innerHTML = "BLOG";
-    contactNav.innerHTML = "CONTACT";
-    translate.innerHTML = "JP";
+    projectsNav.innerText = "PROJECTS";
+    aboutNav.innerText = "ABOUT";
+    blogNav.innerText = "BLOG";
+    contactNav.innerText = "CONTACT";
+    translate.innerText = "JP";
 
     // Mobile Navbar
-    mobileProjectsNav.innerHTML = "PROJECTS";
-    mobileAboutNav.innerHTML = "ABOUT";
-    mobileBlogNav.innerHTML = "BLOG";
-    mobileContactNav.innerHTML = "CONTACT";
+    mobileProjectsNav.innerText = "PROJECTS";
+    mobileAboutNav.innerText = "ABOUT";
+    mobileBlogNav.innerText = "BLOG";
+    mobileContactNav.innerText = "CONTACT";
 
     // Hero section
-    heroSubheader.innerHTML = "frontend developer";
+    heroSubheader.innerText = "frontend developer";
     heroCaption.innerHTML = "Building aesthetically pleasing & high-quality work through creativity & precision in <br>Tokyo, Japan.";
 
     // Projects section
-    projectsHeader.innerHTML = "PROJECTS";
+    projectsHeader.innerText = "PROJECTS";
     mpulseDescription.innerHTML = "Discover a vibrant world of live events in your local and surrounding areas with our mobile app, designed to help you find the perfect <br>experiences to attend.";
-    mpulseButton.innerHTML = "VIEW CODE";
-    triplDescription.innerHTML = "Embark on spontaneous adventures with our innovative trip app, connecting users for unforgettable day trips.";
-    triplAppButton.innerHTML = "TRY THE APP";
-    triplGithubButton.innerHTML = "VIEW CODE";
-    jurassicSafariDescription.innerHTML = "Explore dinosaurs up close in our immersive VR app, and enjoy an educational adventure where the past comes to life.";
-    jurassicSafariButton.innerHTML = "PREVIEW THE APP";
+    mpulseButton.innerText = "VIEW CODE";
+    triplDescription.innerText = "Embark on spontaneous adventures with our innovative trip app, connecting users for unforgettable day trips.";
+    triplAppButton.innerText = "TRY THE APP";
+    triplGithubButton.innerText = "VIEW CODE";
+    jurassicSafariDescription.innerText = "Explore dinosaurs up close in our immersive VR app, and enjoy an educational adventure where the past comes to life.";
+    jurassicSafariButton.innerText = "PREVIEW THE APP";
 
     // About section
-    aboutHeader.innerHTML = "ABOUT";
+    aboutHeader.innerText = "ABOUT";
     aboutDescription.innerHTML = `
     Hello, I’m Syrene. I’m a frontend developer from San Diego with a diverse background in web development, video production, and photography.
     <br><br>
@@ -131,14 +133,15 @@ translate.addEventListener('click', () => {
     <br><br>
     When I’m not coding, I enjoy creating videos and capturing moments from my adventures around Japan.
     `;
-    cvButton.innerHTML = "DOWNLOAD CV";
+    cvButton.innerText = "DOWNLOAD CV";
 
     // Blog section
-    blogHeader.innerHTML = "BLOG";
-    blogDescription.innerHTML = "Golden Week in Osaka, Japan 2022";
+    blogHeader.innerText = "BLOG";
+    blogDescriptionTop.innerText = "Welcome to my portfolio. I built this from the ground up using javascript, html, and css. I hope you enjoy it as much as I did creating it. Thank you for visiting.";
+    blogDescriptionBottom.innerText = "Golden Week in Osaka, Japan 2022";
 
     // Contact section
-    contactHeader.innerHTML = "CONTACT";
-    contactComment.innerHTML = "Send a message and let’s create something great together.";
+    contactHeader.innerText = "CONTACT";
+    contactComment.innerText = "Send a message and let’s create something great together.";
   }
 });
