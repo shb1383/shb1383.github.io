@@ -34,7 +34,7 @@ var mobileMenu = document.querySelector('.mobile_menu');
 // Get the body
 var body = document.querySelector('body');
 
-// Toggle the styling for the mobile menu to slide down and be displayed, hide hero and translate links, and disable body scrolling when the mobile menu icon is clicked
+// Toggle the styling for the mobile menu to slide down and be displayed and hides the hero and translate links when the menu icon is clicked
 mobileMenuIcon.addEventListener('click', () => {
   var mobileMenuHeight = mobileMenu.getBoundingClientRect().height;
   var mobileMenuContainerHeight = mobileMenuContainer.getBoundingClientRect().height;
@@ -44,15 +44,11 @@ mobileMenuIcon.addEventListener('click', () => {
     mobileMenuContainer.style.height = `${mobileMenuHeight}vh`;
     heroLink.style.display = "none";
     translateLink.style.display = "none";
-    body.style.height = '100%';
-    body.style.overflow = 'hidden';
   }
   else {
     mobileMenuIcon.innerHTML = '<i class="fa-solid fa-bars"></i>';
     mobileMenuContainer.style.height = 0;
     heroLink.style.display = "inline";
     translateLink.style.display = "inline";
-    body.style.height = 'auto';
-    body.style.overflow = 'auto';
   }
 });

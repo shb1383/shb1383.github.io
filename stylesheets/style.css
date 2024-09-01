@@ -257,6 +257,18 @@ hr {
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+  #hero_nav {
+    display: inline!important;
+  }
+
+  #translate {
+    display: inline!important;
+  }
+
+  .mobile_menu_container {
+    display: none!important;
+  }
+
   .mobile_menu {
     display: none!important;
   }
@@ -276,6 +288,18 @@ hr {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+  #hero_nav {
+    display: inline!important;
+  }
+
+  #translate {
+    display: inline!important;
+  }
+
+  .mobile_menu_container {
+    display: none!important;
+  }
+
   .mobile_menu {
     display: none!important;
   }
