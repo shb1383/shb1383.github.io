@@ -43,6 +43,15 @@ hr {
     letter-spacing: -4px!important;
   }
 
+  .hero_header h6 {
+    font-size: 14px!important;
+  }
+
+  .hero_about p {
+    font-size: 12px!important;
+    width: 300px!important;
+  }
+
   .projects_links_info, .about_info p {
     width: 250px!important;
   }
@@ -121,6 +130,15 @@ hr {
     letter-spacing: -4px!important;
   }
 
+  .hero_header h6 {
+    font-size: 14px!important;
+  }
+
+  .hero_about p {
+    font-size: 12px!important;
+    width: 500px!important;
+  }
+
   .mobile_menu {
     max-height: 100vh!important;
   }
@@ -192,6 +210,10 @@ hr {
 
   .nav_list .icon {
     display: block!important;
+  }
+
+  .hero_about p {
+    width: 575px!important;
   }
 
   .projects_links_info {
