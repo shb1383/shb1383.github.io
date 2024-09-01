@@ -6,42 +6,40 @@
 
 /* Hero section styling */
 .hero_background_image {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 225px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 550px;
 }
 
 .hero_header h1 {
-  font-size: 48px;
+  font-size: 50px;
   color: whitesmoke;
   text-align: center;
   letter-spacing: -6px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  margin-bottom: -5px;
 }
 
-.hero_subheader {
-  padding-top: 75px;
-  padding-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.hero_subheader h6 {
-  font-size: 14px;
+.hero_header h6 {
+  font-size: 16px;
   font-weight: 525;
   color: whitesmoke;
   text-align: center;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
-.hero_subheader p {
-  font-size: 12px;
+.hero_about {
+  margin-top: 175px;
+}
+
+.hero_about p {
+  font-size: 14px;
   font-weight: 500;
   color: whitesmoke;
   text-align: center;
-  width: 200px;
   line-height: 105%;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 /* Projects section styling */
@@ -49,7 +47,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 
 .projects_links p {
@@ -182,8 +180,8 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 .about_info img {
