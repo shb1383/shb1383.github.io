@@ -114,7 +114,7 @@ translate.addEventListener('click', () => {
 
     // Hero section
     heroSubheader.innerText = "FRONTEND DEVELOPER";
-    heroCaption.innerHTML = "Building aesthetically pleasing & high-quality work through creativity & precision in <br>Tokyo, Japan.";
+    heroCaption.innerText = "Building aesthetically pleasing & high-quality work through creativity & precision in Tokyo, Japan.";
 
     // Projects section
     projectsHeader.innerText = "PROJECTS";
