@@ -22,19 +22,13 @@ var mobileMenuContainer = document.querySelector('.mobile_menu_container');
 // Get the mobile menu icon
 var mobileMenuIcon = document.querySelector('.icon');
 
-// Get the hero link
-var heroLink = document.getElementById('hero_nav');
-
-// Get the translate link
-var translateLink = document.getElementById('translate');
-
 // Get the mobile menu
 var mobileMenu = document.querySelector('.mobile_menu');
 
 // Get the body
 var body = document.querySelector('body');
 
-// Toggle the styling for the mobile menu to slide down and be displayed, hide hero and translate links, and disable body scrolling when the mobile menu icon is clicked
+// Toggle the styling for the mobile menu to slide down and be displayed, and disable body scrolling when the mobile menu icon is clicked
 mobileMenuIcon.addEventListener('click', () => {
   var mobileMenuHeight = mobileMenu.getBoundingClientRect().height;
   var mobileMenuContainerHeight = mobileMenuContainer.getBoundingClientRect().height;
@@ -42,16 +36,12 @@ mobileMenuIcon.addEventListener('click', () => {
   if (mobileMenuContainerHeight === 0) {
     mobileMenuIcon.innerHTML = '<i class="fa-solid fa-xmark"></i>';
     mobileMenuContainer.style.height = `${mobileMenuHeight}vh`;
-    heroLink.style.display = "none";
-    translateLink.style.display = "none";
     body.style.height = '100%';
     body.style.overflow = 'hidden';
   }
   else {
     mobileMenuIcon.innerHTML = '<i class="fa-solid fa-bars"></i>';
     mobileMenuContainer.style.height = 0;
-    heroLink.style.display = "inline";
-    translateLink.style.display = "inline";
     body.style.height = 'auto';
     body.style.overflow = 'auto';
   }

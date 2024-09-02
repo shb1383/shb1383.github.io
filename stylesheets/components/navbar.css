@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   text-align: center;
   padding: 0;
   list-style-type: none;
@@ -48,6 +49,7 @@
 /* Hides the link that should open and close the navbar on small screens */
 .nav_list .icon {
   color: #191919;
+  padding-top: 2px;
   display: none;
 }
 
@@ -61,22 +63,21 @@
     flex-direction: column;
     top: 1;
     left: 0;
-    padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
     width: 100%;
     background-color: white;
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     overflow-y: auto; /* Enable vertical scrolling */
   }
 
   .mobile_menu li {
-    margin-bottom: 15px;
+    margin-bottom: 17px;
   }
 
   .mobile_menu a {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
   }
 
