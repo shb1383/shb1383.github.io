@@ -59,6 +59,7 @@
 	  overflow: hidden;
 	  transition: all 0.3s ease;
   }
+
   .mobile_menu {
     flex-direction: column;
     top: 1;
