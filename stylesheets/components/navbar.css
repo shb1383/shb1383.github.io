@@ -66,7 +66,6 @@
     padding-left: 25px;
     padding-right: 25px;
     width: 100%;
-    background-color: white;
     list-style-type: none;
     text-align: left;
     overflow-y: auto; /* Enable vertical scrolling */
@@ -79,9 +78,9 @@
   .mobile_menu a {
     font-size: 12px;
     font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   }
 
   .mobile_menu a:hover {
-    color: #272829;
     text-decoration: none;
   }
