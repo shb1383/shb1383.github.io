@@ -30,7 +30,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:nth-child(2), :nth-child(7)) {
+  .nav_list li:not(:first-child) {
     display: none!important;
   }
 
@@ -53,7 +53,7 @@ hr {
   }
 
   .projects_links_info, .about_info p {
-    width: 250px!important;
+    width: 300px!important;
   }
 
   .mpulse, .tripl, .jurassic_safari {
@@ -76,10 +76,11 @@ hr {
 
   .about_info img {
     margin-bottom: 50px;
+    width: 325px!important;
   }
 
   .about_info p {
-    width: 290px!important;
+    width: 325px!important;
   }
 
   #blog_video {
@@ -92,7 +93,7 @@ hr {
   }
 
   #cv_button {
-    width: 290px!important;
+    width: 325px!important;
   }
 
   .contact_email {
@@ -116,7 +117,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:nth-child(2), :nth-child(7)) {
+  .nav_list li:not(:first-child) {
     display: none!important;
   }
 
@@ -168,10 +169,11 @@ hr {
 
   .about_info img {
     margin-bottom: 50px;
+    width: 325px!important;
   }
 
   .about_info p {
-    width: 290px!important;
+    width: 325px!important;
   }
 
   #blog_video {
@@ -184,7 +186,7 @@ hr {
   }
 
   #cv_button {
-    width: 290px!important;
+    width: 325px!important;
   }
 
   .contact_email {
@@ -204,7 +206,7 @@ hr {
     padding-right: 25px!important;
   }
 
-  .nav_list li:not(:nth-child(2), :nth-child(7)) {
+  .nav_list li:not(:first-child) {
     display: none!important;
   }
 
@@ -213,7 +215,7 @@ hr {
   }
 
   .hero_about p {
-    width: 575px!important;
+    width: 525px!important;
   }
 
   .projects_links_info {
@@ -243,7 +245,7 @@ hr {
   }
 
   #cv_button {
-    width: 290px!important;
+    width: 325px!important;
   }
 
   .contact_email {
