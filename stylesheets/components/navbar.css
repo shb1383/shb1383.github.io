@@ -31,7 +31,7 @@
 
 /* Styles the navigation bar links */
 .nav_link {
-  color: #191919;
+  color: #272829;
   text-decoration: none;
   font-size: 12px;
   font-weight: 500;
@@ -39,18 +39,19 @@
 
 /* Add a dark color on navbar links and the dropdown button on hover */
 .nav_list a:hover {
-  color: #272829;
+  color: #191919;
+  font-weight: 501;
   text-decoration: none;
 }
 
 /* Styles the active navigation bar links */
 .active {
-  color: #272829;
+  color: #191919;
 }
 
 /* Hides the link that should open and close the navbar on small screens */
 .nav_list .icon {
-  color: #191919;
+  color: #272829;
   padding-top: 2px;
   display: none;
 }
@@ -79,11 +80,12 @@
   }
 
   .mobile_menu a {
+    color: #272829;
     font-size: 12px;
     font-weight: 500;
   }
 
   .mobile_menu a:hover {
-    color: #272829;
+    color: #191919;
     text-decoration: none;
   }
