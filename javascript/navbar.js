@@ -47,12 +47,7 @@ mobileMenuIcon.addEventListener('click', () => {
   }
 });
 
-// Sets the hero padding top upon page load
-window.addEventListener('load', function() {
-  document.getElementById('hero').style.paddingTop = '0px';
-});
-
 // Sets the hero padding top upon scrolling
 window.addEventListener('scroll', function() {
-  document.getElementById('hero').style.paddingTop = '50px';
+  document.getElementById('hero').style.paddingTop = '60px';
 });
