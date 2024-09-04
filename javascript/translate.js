@@ -121,7 +121,7 @@ translate.addEventListener('click', () => {
 
     // Projects section
     projectsHeader.innerText = "PROJECTS";
-    mpulseDescription.innerHTML = "Discover a vibrant world of live events in your local and surrounding areas with our mobile app, designed to help you find the perfect <br>experiences to attend.";
+    mpulseDescription.innerHTML = "Discover a vibrant world of live events in your <br>local and surrounding areas with our mobile app, <br>designed to help you find the perfect <br>experiences to attend.";
     mpulseButton.innerText = "VIEW CODE";
     triplDescription.innerText = "Embark on spontaneous adventures with our innovative trip app, connecting users for unforgettable day trips.";
     triplAppButton.innerText = "TRY THE APP";
