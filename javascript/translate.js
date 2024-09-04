@@ -123,10 +123,10 @@ translate.addEventListener('click', () => {
     projectsHeader.innerText = "PROJECTS";
     mpulseDescription.innerHTML = "Discover a vibrant world of live events in your <br>local and surrounding areas with our mobile app, <br>designed to help you find the perfect <br>experiences to attend.";
     mpulseButton.innerText = "VIEW CODE";
-    triplDescription.innerText = "Embark on spontaneous adventures with our innovative trip app, connecting users for unforgettable day trips.";
+    triplDescription.innerHTML = "Embark on spontaneous adventures with our <br>innovative trip app, connecting users for <br>unforgettable day trips.";
     triplAppButton.innerText = "TRY THE APP";
     triplGithubButton.innerText = "VIEW CODE";
-    jurassicSafariDescription.innerText = "Explore dinosaurs up close in our immersive VR app, and enjoy an educational adventure where the past comes to life.";
+    jurassicSafariDescription.innerHTML = "Explore dinosaurs up close in our immersive VR <br>app, and enjoy an educational adventure where <br>the past comes to life.";
     jurassicSafariButton.innerText = "PREVIEW THE APP";
 
     // About section
@@ -228,12 +228,12 @@ mobileTranslate.addEventListener('click', () => {
 
     // Projects section
     projectsHeader.innerText = "PROJECTS";
-    mpulseDescription.innerHTML = "Discover a vibrant world of live events in your local and surrounding areas with our mobile app, designed to help you find the perfect <br>experiences to attend.";
+    mpulseDescription.innerHTML = "Discover a vibrant world of live events in your <br>local and surrounding areas with our mobile app, <br>designed to help you find the perfect <br>experiences to attend.";
     mpulseButton.innerText = "VIEW CODE";
-    triplDescription.innerText = "Embark on spontaneous adventures with our innovative trip app, connecting users for unforgettable day trips.";
+    triplDescription.innerHTML = "Embark on spontaneous adventures with our <br>innovative trip app, connecting users for <br>unforgettable day trips.";
     triplAppButton.innerText = "TRY THE APP";
     triplGithubButton.innerText = "VIEW CODE";
-    jurassicSafariDescription.innerText = "Explore dinosaurs up close in our immersive VR app, and enjoy an educational adventure where the past comes to life.";
+    jurassicSafariDescription.innerHTML = "Explore dinosaurs up close in our immersive VR <br>app, and enjoy an educational adventure where <br>the past comes to life.";
     jurassicSafariButton.innerText = "PREVIEW THE APP";
 
     // About section
