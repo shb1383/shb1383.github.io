@@ -52,7 +52,7 @@
 /* Hides the link that should open and close the navbar on small screens */
 .nav_list .icon {
   color: #272829;
-  font-size: 14px;
+  font-size: 16px;
   padding-top: 2px;
   display: none;
 }
