@@ -69,9 +69,9 @@ translate.addEventListener('click', () => {
 
     // Projects section
     projectsHeader.innerText = "プロジェクト";
-    mpulseDescription.innerText = "周辺地域で開催されるライブイベントを見つけ、あなたにぴったりな体験や世界に出会うことができます。";
+    mpulseDescription.innerHTML = "周辺地域で開催されるライブイベントを見つけ、あなた<br>にぴったりな体験や世界に出会うことができます。";
     mpulseButton.innerText = "コードを表示";
-    triplDescription.innerText = "革新的なトリップアプリで、忘れられない日帰り旅行に出かけましょう。";
+    triplDescription.innerHTML = "革新的なトリップアプリで、<br>忘れられない日帰り旅行に出かけましょう。";
     triplAppButton.innerText = "アプリを試す";
     triplGithubButton.innerText = "コードを表示";
     jurassicSafariDescription.innerText = "没入型VRアプリで、恐竜の世界に飛び込み、彼らを観察しながら勉強やアドベンチャーをお楽しみください。";
@@ -176,9 +176,9 @@ mobileTranslate.addEventListener('click', () => {
 
     // Projects section
     projectsHeader.innerText = "プロジェクト";
-    mpulseDescription.innerText = "周辺地域で開催されるライブイベントを見つけ、あなたにぴったりな体験や世界に出会うことができます。";
+    mpulseDescription.innerHTML = "周辺地域で開催されるライブイベントを見つけ、あなた<br>にぴったりな体験や世界に出会うことができます。";
     mpulseButton.innerText = "コードを表示";
-    triplDescription.innerText = "革新的なトリップアプリで、忘れられない日帰り旅行に出かけましょう。";
+    triplDescription.innerHTML = "革新的なトリップアプリで、<br>忘れられない日帰り旅行に出かけましょう。";
     triplAppButton.innerText = "アプリを試す";
     triplGithubButton.innerText = "コードを表示";
     jurassicSafariDescription.innerText = "没入型VRアプリで、恐竜の世界に飛び込み、彼らを観察しながら勉強やアドベンチャーをお楽しみください。";
