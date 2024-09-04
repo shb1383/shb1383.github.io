@@ -17,10 +17,12 @@
 }
 
 .hero_header h1 {
+  font-family: "Bodina Moda";
   font-size: 50px;
+  font-weight: 600;
   color: whitesmoke;
   text-align: center;
-  letter-spacing: -6px;
+  letter-spacing: -2px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   margin-bottom: -5px;
 }
