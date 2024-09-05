@@ -81,11 +81,10 @@
 
 .jurassic_safari {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  padding-top: 95px;
-  padding-bottom: 95px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .mpulse .projects_links_info, .tripl .projects_links_info, .jurassic_safari .projects_links_info {
@@ -97,7 +96,7 @@
   font-style: normal;
 }
 
-.mpulse {
+.mpulse, .jurassic_safari {
   background-color: black;
   margin-top: 15px;
 }
@@ -106,10 +105,6 @@
   background-color: rgb(250, 250, 250);
   margin-top: 15px;
   overflow: hidden;
-}
-
-.jurassic_safari {
-  margin-top: 15px;
 }
 
 .tripl h2 {
@@ -181,6 +176,14 @@
   width: 225px!important;
   height: auto!important;
   margin-bottom: 10px;
+}
+
+#jurassic_safari_app_image {
+  width: 800px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 50px;
 }
 
 /* About section styling */

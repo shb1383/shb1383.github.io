@@ -56,7 +56,7 @@ hr {
     width: 300px!important;
   }
 
-  .mpulse, .tripl, .jurassic_safari {
+  .mpulse, .tripl {
     flex-direction: column!important;
   }
 
@@ -68,6 +68,10 @@ hr {
     width: 80vw!important;
     margin-top: 50px;
     margin-right: 0px!important;
+  }
+
+  #jurassic_safari_app_image {
+    width: 80vw!important;
   }
 
   .about_info {
@@ -144,12 +148,11 @@ hr {
     max-height: 100vh!important;
   }
 
-
   .projects_links_info {
     width: 300px!important;
   }
 
-  .mpulse, .tripl, .jurassic_safari {
+  .mpulse, .tripl {
     flex-direction: column!important;
   }
 
@@ -161,6 +164,10 @@ hr {
     width: 80vw!important;
     margin-top: 50px;
     margin-right: 0px!important;
+  }
+
+  #jurassic_safari_app_image {
+    width: 80vw!important;
   }
 
   .about_info {
@@ -222,7 +229,7 @@ hr {
     width: 300px!important;
   }
 
-  .mpulse, .tripl, .jurassic_safari {
+  .mpulse, .tripl {
     flex-direction: column!important;
   }
 
@@ -234,6 +241,10 @@ hr {
     width: 80vw!important;
     margin-top: 50px;
     margin-right: 0px!important;
+  }
+
+  #jurassic_safari_app_image {
+    width: 80vw!important;
   }
 
   .about_info {
