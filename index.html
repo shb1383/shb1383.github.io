@@ -23,47 +23,53 @@
     <link rel="stylesheet" href="./stylesheets/components/buttons.css">
     <link rel="stylesheet" href="./stylesheets/pages/index.css">
   </head>
-  <body>
+  <body class="body_light">
     <!-- Navbar -->
-    <nav id="navbar">
+    <nav id="navbar" class="navbar_light">
       <ul class="nav_list">
         <li class="nav_item">
-          <a href="#hero" id="hero_nav" class="nav_link active" style="color: black!important; font-family: Bodoni Moda; font-size: 20px; font-weight: 600; letter-spacing: -2px;">SB</a>
+          <a href="#hero" id="hero_nav" class="nav_link nav_link_light" style="font-family: Bodoni Moda; font-size: 20px; font-weight: 600; letter-spacing: -2px;">SB</a>
         </li>
         <li class="nav_item">
-          <a href="#projects" id="projects_nav" class="nav_link">PROJECTS</a>
+          <a href="#projects" id="projects_nav" class="nav_link nav_link_light">PROJECTS</a>
         </li>
         <li class="nav_item">
-          <a href="#about" id="about_nav" class="nav_link">ABOUT</a>
+          <a href="#about" id="about_nav" class="nav_link nav_link_light">ABOUT</a>
         </li>
         <li class="nav_item">
-          <a href="#blog" id="blog_nav" class="nav_link">BLOG</a>
+          <a href="#blog" id="blog_nav" class="nav_link nav_link_light">BLOG</a>
         </li>
         <li class="nav_item">
-          <a href="#contact" id="contact_nav" class="nav_link">CONTACT</a>
+          <a href="#contact" id="contact_nav" class="nav_link nav_link_light">CONTACT</a>
         </li>
         <li class="nav_item">
-          <a href="javascript:void(0);" id="translate" class="nav_link">JP</a>
+          <a href="javascript:void(0);" id="translate" class="nav_link nav_link_light">JP</a>
         </li>
-        <a href="javascript:void(0);" class="icon"><i class="fa-solid fa-bars"></i></a>
+        <li class="nav_item">
+          <a href="javascript:void(0);" id="mode" class="nav_link nav_link_light"><i class="fa-solid fa-circle-half-stroke"></i></a>
+        </li>
+        <a href="javascript:void(0);" class="icon nav_link_light"><i class="fa-solid fa-bars"></i></a>
       </ul>
           <!-- Small Screen Navigation Bar -->
-  <div class="mobile_menu_container">
-    <ul class="mobile_menu">
+  <div class="mobile_menu_container mobile_menu_light">
+    <ul class="mobile_menu mobile_menu_light">
       <li class="nav_item">
-        <a href="#projects" id="mobile_projects_nav" class="nav_link">PROJECTS</a>
+        <a href="#projects" id="mobile_projects_nav" class="nav_link nav_link_light">PROJECTS</a>
       </li>
       <li class="nav_item">
-        <a href="#about" id="mobile_about_nav" class="nav_link">ABOUT</a>
+        <a href="#about" id="mobile_about_nav" class="nav_link nav_link_light">ABOUT</a>
       </li>
       <li class="nav_item">
-        <a href="#blog" id="mobile_blog_nav" class="nav_link">BLOG</a>
+        <a href="#blog" id="mobile_blog_nav" class="nav_link nav_link_light">BLOG</a>
       </li>
       <li class="nav_item">
-        <a href="#contact" id="mobile_contact_nav" class="nav_link">CONTACT</a>
+        <a href="#contact" id="mobile_contact_nav" class="nav_link nav_link_light">CONTACT</a>
       </li>
       <li class="nav_item">
-        <a href="javascript:void(0);" id="mobile_translate" class="nav_link">JP</a>
+        <a href="javascript:void(0);" id="mobile_translate" class="nav_link nav_link_light">JP</a>
+      </li>
+      <li class="nav_item">
+        <a href="javascript:void(0);" id="mobile_mode" class="nav_link nav_link_light"><i class="fa-solid fa-circle-half-stroke"></i></a>
       </li>
     </ul>
   </div>
@@ -81,10 +87,10 @@
         </div>
       </div>
     </section>
-<hr>
+<hr class="hr_light">
     <!-- Projects section -->
     <section id="projects">
-      <h5 id="projects_header">PROJECTS</h5>
+      <h5 id="projects_header" class="header_light">PROJECTS</h5>
       <div class="projects_links">
         <div class="mpulse">
           <img src="./images/mpulse_map.png" alt="headshot" id="mpulse_app_image">
@@ -139,65 +145,65 @@
         </div>
       </div>
     </section>
-<hr>
+<hr class="hr_light">
     <!-- About section -->
     <section id="about">
-      <h5 id="about_header">ABOUT</h5>
+      <h5 id="about_header" class="header_light">ABOUT</h5>
       <div class="about_info">
         <img src="./images/headshot.jpg" alt="headshot">
           <div class="about_info_right">
-            <p id="about_description">Hello, I’m Syrene. I’m a frontend developer from San Diego with a diverse background in web development, video production, and photography.
+            <p id="about_description" class="about_description_light">Hello, I’m Syrene. I’m a frontend developer from San Diego with a diverse background in web development, video production, and photography.
               <br><br>
               I first delved into coding while studying Multimedia Production at California State University, Northridge. For our capstone project during my final year, my team created an award-winning VR app that was recognized at our department's annual Multimedia Production showcase. However, upon graduating, I focused on freelancing in video production and photography. A trip to Japan in 2019 inspired me to move here in 2020, where I reignited my passion for tech and completed Le Wagon Tokyo's web development bootcamp.
               <br><br>
               When I’m not coding, I enjoy creating videos and capturing moments from my adventures around Japan.
             </p>
             <a href="/files/bartolome_syrene_cv.pdf" download>
-              <button type="button" id="cv_button">DOWNLOAD CV</button>
+              <button type="button" id="cv_button" class="button_light">DOWNLOAD CV</button>
             </a>
           </div>
       </div>
     </section>
-<hr>
+<hr class="hr_light">
     <!-- Blog section -->
     <section id="blog">
-      <h5 id="blog_header">BLOG</h5>
+      <h5 id="blog_header" class="header_light">BLOG</h5>
       <div class="blog_info">
         <div class="blog_entry">
-          <p style="font-weight: 500; margin-bottom: -10px;">2024.08.31</p>
-          <p id="blog_description_top" style="padding-bottom: 20px;">Welcome to my portfolio. I built this from the ground up using javascript, html, and css. I hope you enjoy it as much as I did creating it. Thank you for visiting.
+          <p style="font-weight: 500; margin-bottom: -10px;" class="blog_entry_light">2024.08.31</p>
+          <p id="blog_description_top" style="padding-bottom: 20px;" class="blog_entry_light">Welcome to my portfolio. I built this from the ground up using javascript, html, and css. I hope you enjoy it as much as I did creating it. Thank you for visiting.
             <br><br>
             Here, you can follow along with my tech journey as I keep learning and growing as a developer. I’ll also share some of my videos and photos from time to time. To kick things off, below is a video from my trip in Osaka 2 years ago.</p>
         </div>
         <div class="blog_entry_divider">
-          <p><i class="fa-solid fa-chevron-down"></i></p>
+          <p class="blog_entry_light"><i class="fa-solid fa-chevron-down"></i></p>
         </div>
         <div class="blog_entry" style="padding-top: 25px;">
           <div style="padding:56.25% 0 0 0;position:relative;"><iframe id="blog_video" src="https://player.vimeo.com/video/1005750583?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Osaka"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-          <p id="blog_description_bottom">Golden Week in Osaka, Japan 2022</p>
+          <p id="blog_description_bottom" class="blog_entry_light">Golden Week in Osaka, Japan 2022</p>
         </div>
       </div>
     </section>
-<hr>
+<hr class="hr_light">
     <!-- Contact section -->
     <section id="contact">
-      <h5 id="contact_header">CONTACT</h5>
+      <h5 id="contact_header" class="header_light">CONTACT</h5>
       <div class="contact_email">
-          <p id="contact_comment">Send a message and let’s create something great together.</p>
-          <a href ="mailto:bartolome.syrenehaber@gmail.com">bartolome.syrenehaber@gmail.com</a>
+          <p id="contact_comment" class="contact_light">Send a message and let’s create something great together.</p>
+          <a href ="mailto:bartolome.syrenehaber@gmail.com" id="contact_email" class="contact_light">bartolome.syrenehaber@gmail.com</a>
       </div>
     </section>
     </main>
     <!-- Footer -->
-    <footer id="footer">
+    <footer id="footer" class="footer_light">
       <ul class="footer_list">
         <li class="footer_item">
-          <a href = "https://linkedin.com/in/syrene-h-bartolome">LINKEDIN</a>
+          <a href = "https://linkedin.com/in/syrene-h-bartolome" class="footer_item_light">LINKEDIN</a>
         </li>
         <li class="footer_item">
-          <a href = "https://github.com/shb1383">GITHUB</a>
+          <a href = "https://github.com/shb1383" class="footer_item_light">GITHUB</a>
         </li>
-          <p class="copyright"><i class="fa-regular fa-copyright"></i> 2024 SB</p>
+          <p id="copyright" class="copyright_light"><i class="fa-regular fa-copyright"></i> 2024 SB</p>
       </ul>
     </footer>
 
@@ -205,7 +211,7 @@
     <script src="./javascript/navbar.js"></script>
     <script src="./javascript/navelements.js"></script>
     <script src="./javascript/translate.js"></script>
-
+    <script src="./javascript/mode.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

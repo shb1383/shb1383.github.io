@@ -8,14 +8,22 @@
 /* Styles the navigation bar*/
 #navbar {
   overflow: hidden;
-  background-color: white;
   border-bottom-style: solid;
-  border-bottom-color: whitesmoke;
   border-bottom-width: thin;
   padding-top: 15px;
   z-index: 1;
   top: 0;
   left: 0;
+}
+
+.navbar_light {
+  background-color: #FFFFFF;
+  border-bottom-color: whitesmoke;
+}
+
+.navbar_dark {
+  background-color: #000000;
+  border-bottom-color: #191919;
 }
 
 /* Formats the navigation bar */
@@ -31,27 +39,33 @@
 
 /* Styles the navigation bar links */
 .nav_link {
-  color: #272829;
   text-decoration: none;
   font-size: 12px;
   font-weight: 500;
 }
 
+.nav_link_light {
+  color: #000000;
+}
+
+.nav_link_dark {
+  color: #FFFFFF;
+}
+
 /* Add a dark color on navbar links and the dropdown button on hover */
 .nav_list a:hover {
-  color: #191919;
+  color: #000000;
   font-weight: 501;
   text-decoration: none;
 }
 
 /* Styles the active navigation bar links */
 .active {
-  color: #191919;
+  font-weight: 501;
 }
 
 /* Hides the link that should open and close the navbar on small screens */
 .nav_list .icon {
-  color: #272829;
   font-size: 18px;
   padding-top: 2px;
   display: none;
@@ -76,17 +90,24 @@
     overflow-y: auto; /* Enable vertical scrolling */
   }
 
+  .mobile_menu_light {
+    background-color: #FFFFFF;
+  }
+
+  .mobile_menu_dark {
+    background-color: #000000;
+  }
+
   .mobile_menu li {
     margin-bottom: 17px;
   }
 
   .mobile_menu a {
-    color: #272829;
     font-size: 12px;
     font-weight: 500;
   }
 
   .mobile_menu a:hover {
-    color: #191919;
+    color: #000000;
     text-decoration: none;
   }
