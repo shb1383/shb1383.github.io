@@ -4,8 +4,8 @@ button:focus {
 
 /* Projects section button styling */
 .mpulse button {
-  background-color: black;
-  color: white;
+  background-color: #0a0913;
+  color: #FFFFFF;
   text-align: center;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -23,13 +23,13 @@ button:focus {
 
 .mpulse button:hover {
   background-color: #5CE1E6;
-  color: black;
+  color: #0a0913;
   transition: all 0.1s ease;
 }
 
 .tripl button {
   background-color: rgb(250, 250, 250);
-  color: #191919;
+  color: #000000;
   text-align: center;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -62,8 +62,8 @@ button:focus {
 }
 
 .jurassic_safari button {
-  background-color: transparent;
-  color: white;
+  background-color: #0a0913;
+  color: #FFFFFF;
   text-align: center;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -81,14 +81,12 @@ button:focus {
 
 .jurassic_safari button:hover {
   background-color: #fbe121;
-  color: black;
+  color: #0a0913;
   transition: all 0.1s ease;
 }
 
 /* Contact section button styling */
 #cv_button {
-  background-color: white;
-  color: #191919;
   text-align: center;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -104,7 +102,17 @@ button:focus {
 }
 
 #cv_button:hover {
-  background-color: #191919;
-  color: white;
+  background-color: #000000;
+  color: #FFFFFF;
   transition: all 0.1s ease;
+}
+
+.button_light {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.button_dark {
+  background-color: #000000;
+  color: #FFFFFF;
 }

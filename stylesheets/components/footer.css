@@ -5,8 +5,15 @@
   padding-left: 25px;
   padding-right: 25px;
   border-top-style: solid;
-  border-top-color: whitesmoke;
   border-top-width: thin;
+}
+
+.footer_light {
+  border-top-color: whitesmoke;
+}
+
+.footer_dark {
+  border-top-color: #191919;
 }
 
 /* Formats the footer */
@@ -20,7 +27,7 @@
 }
 
 /* Styles the the text inside the footer */
-.copyright {
+#copyright {
   font-size: 12px;
   font-weight: 400;
   font-style: normal;
@@ -33,11 +40,27 @@
   font-size: 12px;
   font-weight: 400;
   font-style: normal;
-  color: #191919;
   text-decoration: underline;
   margin-right: 15px; /* Optional: add space between list items */
 }
 
 .footer_item a:hover {
+  color: #000000;
   text-decoration: line-through;
+}
+
+.footer_item_light {
+  color: #000000;
+}
+
+.footer_item_dark {
+  color: whitesmoke;
+}
+
+.copyright_light {
+  color: #757575;
+}
+
+.copyright_dark {
+  color: #636363;
 }

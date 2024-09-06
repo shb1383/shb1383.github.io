@@ -19,7 +19,7 @@
 .hero_header h1 {
   font-size: 48px;
   font-weight: 600;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   letter-spacing: -2px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
@@ -50,6 +50,14 @@
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+.header_light {
+  color: #000000;
+}
+
+.header_dark {
+  color: #FFFFFF;
+}
+
 /* Projects section styling */
 .projects_links {
   display: flex;
@@ -59,7 +67,7 @@
 }
 
 .projects_links p {
-  color: #191919;
+  color: #000000;
   font-size: 12px;
   margin-top: 0;
 }
@@ -96,7 +104,7 @@
 }
 
 .mpulse, .jurassic_safari {
-  background-color: black;
+  background-color: #0a0913;
   margin-top: 15px;
 }
 
@@ -119,12 +127,12 @@
 }
 
 .mpulse p, .jurassic_safari p {
-  color: white;
+  color: #FFFFFF;
   text-align: center;
 }
 
 .mpulse a, .jurassic_safari a {
-  color: white;
+  color: #FFFFFF;
 }
 
 .projects_info_skills {
@@ -206,6 +214,14 @@
   width: 325px;
 }
 
+.about_description_light {
+  color: #000000;
+}
+
+.about_description_dark {
+  color: #FFFFFF;
+}
+
 
 /* Blog section styling */
 .blog_info {
@@ -223,10 +239,17 @@
   padding-top: 25px;
 }
 
+.blog_entry_light {
+  color: #000000;
+}
+
+.blog_entry_dark {
+  color: #FFFFFF;
+}
+
 .blog_entry_divider {
   font-size: 12px;
   text-align: center;
-  color: #191919;
 }
 
 #blog_video {
@@ -245,15 +268,22 @@
 
 .contact_email p {
   font-size: 12px;
-  color: #191919;
 }
 
 .contact_email a {
   font-size: 12px;
-  color: #191919;
   text-decoration: underline;
 }
 
 .contact_email a:hover {
+  color: #000000;
   text-decoration: line-through;
+}
+
+.contact_light {
+  color: #000000;
+}
+
+.contact_dark {
+  color: #FFFFFF;
 }

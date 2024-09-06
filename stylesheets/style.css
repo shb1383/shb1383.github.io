@@ -5,10 +5,17 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
   font-family: "Poppins", sans-serif;
   height: auto;
   width: 100%;
+}
+
+.body_light {
+  background-color: white;
+}
+
+.body_dark {
+  background-color: black;
 }
 
 main {
@@ -19,7 +26,14 @@ main {
 
 hr {
   width: 100%;
+}
+
+.hr_light {
   border-color: whitesmoke;
+}
+
+.hr_dark {
+  border-color: #191919;
 }
 
 /* Smallest device */
