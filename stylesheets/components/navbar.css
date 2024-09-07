@@ -48,13 +48,18 @@
   color: #000000;
 }
 
+.nav_link_light:hover {
+  color: #000000;
+  font-weight: 501;
+  text-decoration: none;
+}
+
 .nav_link_dark {
   color: #FFFFFF;
 }
 
-/* Add a dark color on navbar links and the dropdown button on hover */
-.nav_list a:hover {
-  color: #000000;
+.nav_link_dark:hover {
+  color: #FFFFFF;
   font-weight: 501;
   text-decoration: none;
 }
