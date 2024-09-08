@@ -101,18 +101,24 @@ button:focus {
   width: 200px;
 }
 
-#cv_button:hover {
-  background-color: #000000;
-  color: #FFFFFF;
-  transition: all 0.1s ease;
-}
-
 .button_light {
   background-color: #FFFFFF;
   color: #000000;
 }
 
+.button_light:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+  transition: all 0.1s ease;
+}
+
 .button_dark {
   background-color: #000000;
   color: #FFFFFF;
+}
+
+.button_dark:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  transition: all 0.1s ease;
 }
