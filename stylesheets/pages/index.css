@@ -275,15 +275,28 @@
   text-decoration: underline;
 }
 
-.contact_email a:hover {
-  color: #000000;
-  text-decoration: line-through;
-}
-
 .contact_light {
   color: #000000;
 }
 
 .contact_dark {
   color: #FFFFFF;
+}
+
+.contact_email_light {
+  color: #000000;
+}
+
+.contact_email_light:hover {
+  color: #000000;
+  text-decoration: line-through;
+}
+
+.contact_email_dark {
+  color: #FFFFFF;
+}
+
+.contact_email_dark:hover {
+  color: #FFFFFF;
+  text-decoration: line-through;
 }
