@@ -285,12 +285,12 @@ mobileMode.addEventListener('click', () => {
 var contactEmail = document.getElementById('contact_email');
 
 mode.addEventListener('click', () => {
-  if (contactEmail.classList.contains('contact_light')) {
-    contactEmail.classList.remove('contact_light');
-    contactEmail.classList.add('contact_dark');
+  if (contactEmail.classList.contains('contact_email_light')) {
+    contactEmail.classList.remove('contact_email_light');
+    contactEmail.classList.add('contact_email_dark');
   } else {
-    contactEmail.classList.remove('contact_dark');
-    contactEmail.classList.add('contact_light');
+    contactEmail.classList.remove('contact_email_dark');
+    contactEmail.classList.add('contact_email_light');
   }
 });
 
