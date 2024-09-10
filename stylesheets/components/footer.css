@@ -44,17 +44,22 @@
   margin-right: 15px; /* Optional: add space between list items */
 }
 
-.footer_item a:hover {
-  color: #000000;
-  text-decoration: line-through;
+.footer_item_light {
+  color: #191919;
 }
 
-.footer_item_light {
-  color: #000000;
+.footer_item_light:hover {
+  color: #191919;
+  text-decoration: line-through;
 }
 
 .footer_item_dark {
   color: whitesmoke;
+}
+
+.footer_item_dark:hover {
+  color: whitesmoke;
+  text-decoration: line-through;
 }
 
 .copyright_light {
