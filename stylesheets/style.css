@@ -38,13 +38,7 @@ hr {
 
 /* Smallest device */
 @media screen and (min-width: 320px) and (max-width: 575px) {
-  .nav_list {
-    justify-content: space-between!important;
-    padding-left: 25px!important;
-    padding-right: 25px!important;
-  }
-
-  .nav_list li:not(:first-child) {
+  .nav_left li:not(:first-child) {
     display: none!important;
   }
 
@@ -137,13 +131,7 @@ hr {
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .nav_list {
-    justify-content: space-between!important;
-    padding-left: 25px!important;
-    padding-right: 25px!important;
-  }
-
-  .nav_list li:not(:first-child) {
+  .nav_left li:not(:first-child) {
     display: none!important;
   }
 
@@ -237,13 +225,7 @@ hr {
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .nav_list {
-    justify-content: space-between!important;
-    padding-left: 25px!important;
-    padding-right: 25px!important;
-  }
-
-  .nav_list li:not(:first-child) {
+  .nav_left li:not(:first-child) {
     display: none!important;
   }
 

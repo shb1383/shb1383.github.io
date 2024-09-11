@@ -46,7 +46,7 @@
 }
 
 .nav_left a {
-  margin-right: 25px;
+  margin-right: 40px;
 }
 
 .nav_right {
@@ -93,8 +93,8 @@
 
 /* Hides the link that should open and close the navbar on small screens */
 .nav_list .icon {
-  font-size: 16px;
-  padding-top: 2px;
+  font-size: 14px;
+  padding-top: 3.5px;
   display: none;
 }
 
@@ -107,10 +107,7 @@
 
   .mobile_menu {
     flex-direction: column;
-    top: 1;
-    left: 0;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 0px;
     width: 100%;
     list-style-type: none;
     text-align: left;
