@@ -9,6 +9,12 @@
 }
 
 /* Hero section styling */
+.hero_dark {
+  border-style: none;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 1); /* Adjust values for blur effect */
+}
+
 .hero_background_image_light{
   background-image: url('/images/tokyo_hero.jpg');
   background-size: cover;

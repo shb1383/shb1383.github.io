@@ -214,3 +214,10 @@ mode.addEventListener('click', () => {
     heroBackgroundImage.classList.add('hero_background_image_light');
   }
 });
+
+mode.addEventListener('click', () => {
+  var heroHeader = document.querySelector('.hero_header');
+  var heroAbout = document.querySelector('.hero_about');
+  heroHeader.classList.toggle('hero_dark');
+  heroAbout.classList.toggle('hero_dark');
+});
