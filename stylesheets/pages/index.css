@@ -9,7 +9,20 @@
 }
 
 /* Hero section styling */
-.hero_background_image {
+.hero_background_image_light{
+  background-image: url('/images/tokyo_hero.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 225px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 550px;
+}
+
+.hero_background_image_dark{
+  background-image: url('/images/shinjuku_hero.jpg');
+  background-size: cover;
+  background-position: center;
   padding-top: 225px;
   margin-bottom: 50px;
   width: 100%;
