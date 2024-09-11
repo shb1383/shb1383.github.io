@@ -202,3 +202,15 @@ mode.addEventListener('click', () => {
     copyright.classList.add('copyright_light');
   }
 });
+
+var heroBackgroundImage = document.querySelector('.hero_background_image');
+
+mode.addEventListener('click', () => {
+  if (heroBackgroundImage.classList.contains('hero_background_image_light')) {
+    heroBackgroundImage.classList.remove('hero_background_image_light');
+    heroBackgroundImage.classList.add('hero_background_image_dark');
+  } else {
+    heroBackgroundImage.classList.remove('hero_background_image_dark');
+    heroBackgroundImage.classList.add('hero_background_image_light');
+  }
+});
