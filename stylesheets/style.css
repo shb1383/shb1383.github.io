@@ -124,6 +124,15 @@ hr {
   .contact_email p {
     width: 300px;
   }
+
+  .footer_list {
+    flex-direction: column!important;
+    align-items: start!important;
+  }
+
+  .footer_right {
+    padding-top: 10px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -215,6 +224,15 @@ hr {
     align-items: center!important;
     text-align: center!important;
   }
+
+  .footer_list {
+    flex-direction: column!important;
+    align-items: start!important;
+  }
+
+  .footer_right {
+    padding-top: 10px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -286,6 +304,15 @@ hr {
     flex-direction: column!important;
     align-items: center!important;
     text-align: center!important;
+  }
+
+  .footer_list {
+    flex-direction: column!important;
+    align-items: start!important;
+  }
+
+  .footer_right {
+    padding-top: 10px;
   }
 }
 

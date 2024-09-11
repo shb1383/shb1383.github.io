@@ -19,11 +19,17 @@
 /* Formats the footer */
 .footer_list {
   display: flex;
+  flex-direction: row;
   justify-content: space-between; /* Space between the left-aligned items and the right-aligned p tag */
   align-items: center; /* Vertically center items */
   list-style-type: none; /* Remove bullet points from list items */
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: row;
 }
 
 /* Styles the the text inside the footer */
