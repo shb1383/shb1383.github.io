@@ -49,5 +49,5 @@ mobileMenuIcon.addEventListener('click', () => {
 
 // Sets the hero padding top upon scrolling
 window.addEventListener('scroll', function() {
-  document.getElementById('hero').style.paddingTop = '57px';
+  document.getElementById('hero').style.paddingTop = '68px';
 });
