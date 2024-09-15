@@ -41,6 +41,14 @@
   margin-left: auto; /* Push the copyright text to the far right */
 }
 
+.copyright_light {
+  color: #757575;
+}
+
+.copyright_dark {
+  color: #636363;
+}
+
 /* Styles the links inside the footer */
 .footer_item a {
   font-size: 12px;
@@ -66,12 +74,4 @@
 .footer_item_dark:hover {
   color: whitesmoke;
   text-decoration: line-through;
-}
-
-.copyright_light {
-  color: #757575;
-}
-
-.copyright_dark {
-  color: #636363;
 }

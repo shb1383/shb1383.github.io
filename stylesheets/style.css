@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Formats and styles the body */
 body {
   margin: 0;
   padding: 0;
@@ -18,12 +19,14 @@ body {
   background-color: black;
 }
 
+/* Formats the main section*/
 main {
   display: flex;
   flex-direction: column;
   padding: 25px;
 }
 
+/* Formats and styles the hrs */
 hr {
   width: 100%;
 }
