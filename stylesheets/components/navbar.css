@@ -76,6 +76,10 @@
   text-decoration: none;
 }
 
+.nav_right .nav_link_light:hover {
+  font-weight: 500!important;
+}
+
 .nav_link_dark {
   color: #FFFFFF;
 }
@@ -84,6 +88,10 @@
   color: #FFFFFF;
   font-weight: 501;
   text-decoration: none;
+}
+
+.nav_right .nav_link_dark:hover {
+  font-weight: 500!important;
 }
 
 /* Styles the active navigation bar links */
