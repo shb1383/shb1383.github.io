@@ -1,5 +1,5 @@
 // Get the nav elements
-const navElements = document.querySelectorAll(".nav_link");
+const navElements = document.querySelectorAll(".nav_link_left");
 
 // Add the "active" class to the navbar elements when selected. Remove "active" when not selected
 navElements.forEach(navElement => {
