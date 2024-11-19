@@ -1,11 +1,11 @@
-// Get the nav elements
-const navElements = document.querySelectorAll(".nav_link_left");
+// Get the nav section elements
+const navSectionElements = document.querySelectorAll(".nav_section_link");
 
 // Add the "active" class to the navbar elements when selected. Remove "active" when not selected
-navElements.forEach(navElement => {
-  navElement.addEventListener('click', () => {
+navSectionElements.forEach(navSectionElement => {
+  navSectionElement.addEventListener('click', () => {
     document.querySelector('.active')?.classList.remove('active');
-    navElement.classList.add('active');
+    navSectionElement.classList.add('active');
   });
 });
 
@@ -21,8 +21,8 @@ window.addEventListener('scroll', () => {
         current = section.getAttribute('id');
     }
   });
-  navElements.forEach(navElement => {
-    navElement.classList.remove('active');
+  navSectionElements.forEach(navSectionElement => {
+    navSectionElement.classList.remove('active');
     document.querySelector('.nav_link[href*= '+ current +']').classList.add('active');
   });
 });
@@ -34,8 +34,8 @@ var body = document.querySelector('body');
 var mobileMenuContainer = document.querySelector('.mobile_menu_container');
 
 // Changes mobile menu container height to 0, icon to "bars", and enables body scrolling after selecting navbar link
-navElements.forEach(navElement => {
-  navElement.addEventListener('click', () => {
+navSectionElements.forEach(navSectionElement => {
+  navSectionElement.addEventListener('click', () => {
     document.querySelector('.icon').innerHTML = '<i class="fa-solid fa-bars"></i>';
     body.style.height = 'auto';
     body.style.overflow = 'auto';
