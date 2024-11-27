@@ -94,7 +94,7 @@ translate.addEventListener('click', () => {
     下のswiftのロゴをクリックすると、私のgithubリポジトリで、コードや今後のプロジェクトを確認することができますので、ぜひご覧ください。`;
     blogDescriptionTop.innerHTML = `私のポートフォリオをご覧いただきありがとうございます。こちらのサイトはjavascript、html、cssを使って一から作成しました。私が制作を楽しんだように、皆様にも楽しんでいただければ幸いです。
     <br></br>
-    ここでは、エンジニアとしての学びと成長を続ける過程を紹介しています。また、撮影した写真や作成したビデオも時々投稿して参ります。まず初めに、2年前の大阪旅行のビデオをアップしましたので、ぜひご覧ください。`;
+    ここでは、エンジニアとしての学びと成長を続ける過程を紹介しています。また、撮影した写真や作成したビデオも時々投稿して参ります。`;
     blogDescriptionBottom.innerText = "2022年GW　大阪";
 
     // Contact section
@@ -148,7 +148,7 @@ translate.addEventListener('click', () => {
     You can check out the code and future projects as I progress through the course on my github repository by clicking the swift logo below.`;
     blogDescriptionTop.innerHTML = `Welcome to my portfolio. I built this from the ground up using javascript, html, and css. I hope you enjoy it as much as I did creating it. Thank you for visiting.
     <br><br>
-    Here, you can follow along with my tech journey as I keep learning and growing as a developer. I’ll also share some of my videos and photos from time to time. To kick things off, below is a video from my trip in Osaka 2 years ago.`;
+    Here, you can follow along with my tech journey as I keep learning and growing as a developer. I’ll also share some of my videos and photos from time to time.`;
     blogDescriptionBottom.innerText = "Golden Week in Osaka, Japan 2022";
 
     // Contact section
