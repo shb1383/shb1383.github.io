@@ -36,6 +36,7 @@ var jurassicSafariButton = document.getElementById("jurassic_safari_button");
 var aboutDescription = document.getElementById("about_description");
 
 // Get the blog section description
+var blogDescriptionTop3 = document.getElementById("blog_description_top_3");
 var blogDescriptionTop2 = document.getElementById("blog_description_top_2");
 var blogDescriptionTop = document.getElementById("blog_description_top");
 var blogDescriptionBottom = document.getElementById("blog_description_bottom");
@@ -89,13 +90,14 @@ translate.addEventListener('click', () => {
 
     // Blog section
     blogHeader.innerText = "ブログ";
+    blogDescriptionTop3.innerHTML = `Learning has been a bit slow lately with the nice autumn weather and some travel opportunities. I recently got to visit Fukuoka for the first time and took part in the Fukuoka Marathon Fun Run (5.2km). I had a great time exploring the city, trying local foods, and, of course, running. Below is a video with some of the highlights from my trip. Enjoy.`;
     blogDescriptionTop2.innerHTML = `Apple製品の熱烈なファンなので、最近swiftとswiftUIの勉強を始めました。現在、swiftUIの100日チャレンジに挑戦しており、この1ヶ月で基礎練習として、割り勘用の計算機や、国旗当てゲームなど いくつかのiOSアプリを作りました。
     <br></br>
     下のswiftのロゴをクリックすると、私のgithubリポジトリで、コードや今後のプロジェクトを確認することができますので、ぜひご覧ください。`;
     blogDescriptionTop.innerHTML = `私のポートフォリオをご覧いただきありがとうございます。こちらのサイトはjavascript、html、cssを使って一から作成しました。私が制作を楽しんだように、皆様にも楽しんでいただければ幸いです。
     <br></br>
     ここでは、エンジニアとしての学びと成長を続ける過程を紹介しています。また、撮影した写真や作成したビデオも時々投稿して参ります。`;
-    blogDescriptionBottom.innerText = "2022年GW　大阪";
+    blogDescriptionBottom.innerText = "Fukuoka, Japan 2024";
 
     // Contact section
     contactHeader.innerText = "コンタクト";
@@ -143,13 +145,14 @@ translate.addEventListener('click', () => {
 
     // Blog section
     blogHeader.innerText = "BLOG";
+    blogDescriptionTop3.innerHTML = `Learning has been a bit slow lately with the nice autumn weather and some travel opportunities. I recently got to visit Fukuoka for the first time and took part in the Fukuoka Marathon Fun Run (5.2km). I had a great time exploring the city, trying local foods, and, of course, running. Below is a video with some of the highlights from my trip. Enjoy.`;
     blogDescriptionTop2.innerHTML = `As an avid fan of Apple products, I recently decided to learn swift and swiftUI. Over the past month, I've been taking on a 100 days of swiftUI challenge, and I've already built a few small iOS apps to practice the basics. So far, I’ve created a calculator for splitting bills and a game where you guess country flags, among other projects.
     <br></br>
     You can check out the code and future projects as I progress through the course on my github repository by clicking the swift logo below.`;
     blogDescriptionTop.innerHTML = `Welcome to my portfolio. I built this from the ground up using javascript, html, and css. I hope you enjoy it as much as I did creating it. Thank you for visiting.
     <br><br>
     Here, you can follow along with my tech journey as I keep learning and growing as a developer. I’ll also share some of my videos and photos from time to time.`;
-    blogDescriptionBottom.innerText = "Golden Week in Osaka, Japan 2022";
+    blogDescriptionBottom.innerText = "Fukuoka, Japan 2024";
 
     // Contact section
     contactHeader.innerText = "CONTACT";
