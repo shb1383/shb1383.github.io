@@ -90,7 +90,7 @@ translate.addEventListener('click', () => {
 
     // Blog section
     blogHeader.innerText = "ブログ";
-    blogDescriptionTop3.innerHTML = `Learning has been a bit slow lately with the nice autumn weather and some travel opportunities. I recently got to visit Fukuoka for the first time and took part in the Fukuoka Marathon Fun Run (5.2km). I had a great time exploring the city, trying local foods, and, of course, running. Below is a video with some of the highlights from my trip. Enjoy.`;
+    blogDescriptionTop3.innerHTML = `最近は、秋の心地よい気候や旅行を楽しんでいたこともあり、勉強は少しスローペースになっています。先日、初めて福岡を訪れ、福岡マラソンのファンラン（5.2km）に参加しました。ランニングはもちろん、街歩きや地元の名物料理も満喫し、とても楽しい時間を過ごせました。旅のハイライトをまとめた動画を投稿したので、ぜひご覧ください。`;
     blogDescriptionTop2.innerHTML = `Apple製品の熱烈なファンなので、最近swiftとswiftUIの勉強を始めました。現在、swiftUIの100日チャレンジに挑戦しており、この1ヶ月で基礎練習として、割り勘用の計算機や、国旗当てゲームなど いくつかのiOSアプリを作りました。
     <br></br>
     下のswiftのロゴをクリックすると、私のgithubリポジトリで、コードや今後のプロジェクトを確認することができますので、ぜひご覧ください。`;
