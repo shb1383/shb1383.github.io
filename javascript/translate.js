@@ -90,14 +90,16 @@ translate.addEventListener('click', () => {
 
     // Blog section
     blogHeader.innerText = "ブログ";
-    blogDescriptionTop3.innerHTML = `最近は、秋の心地よい気候や旅行を楽しんでいたこともあり、勉強は少しスローペースになっています。先日、初めて福岡を訪れ、福岡マラソンのファンラン（5.2km）に参加しました。ランニングはもちろん、街歩きや地元の名物料理も満喫し、とても楽しい時間を過ごせました。旅のハイライトをまとめた動画を投稿したので、ぜひご覧ください。`;
+    blogDescriptionTop3.innerHTML = `最近は、秋の心地よい気候や旅行を楽しんでいたこともあり、勉強は少しスローペースになっています。先日、初めて福岡を訪れ、福岡マラソンのファンラン（5.2km）に参加しました。マラソンはもちろん、街歩きや地元の名物料理も満喫し、とても楽しい時間を過ごせました。
+    <br></br>
+    旅のハイライトをまとめた動画を投稿したので、ぜひご覧ください。`;
     blogDescriptionTop2.innerHTML = `Apple製品の熱烈なファンなので、最近swiftとswiftUIの勉強を始めました。現在、swiftUIの100日チャレンジに挑戦しており、この1ヶ月で基礎練習として、割り勘用の計算機や、国旗当てゲームなど いくつかのiOSアプリを作りました。
     <br></br>
     下のswiftのロゴをクリックすると、私のgithubリポジトリで、コードや今後のプロジェクトを確認することができますので、ぜひご覧ください。`;
     blogDescriptionTop.innerHTML = `私のポートフォリオをご覧いただきありがとうございます。こちらのサイトはjavascript、html、cssを使って一から作成しました。私が制作を楽しんだように、皆様にも楽しんでいただければ幸いです。
     <br></br>
     ここでは、エンジニアとしての学びと成長を続ける過程を紹介しています。また、撮影した写真や作成したビデオも時々投稿して参ります。`;
-    blogDescriptionBottom.innerText = "Fukuoka, Japan 2024";
+    blogDescriptionBottom.innerText = "福岡 2024";
 
     // Contact section
     contactHeader.innerText = "コンタクト";
