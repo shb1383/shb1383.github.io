@@ -91,13 +91,13 @@ translate.addEventListener('click', () => {
     // Blog section
     blogHeader.innerText = "ブログ";
     blogDescriptionTop3.innerHTML = `最近は、秋の心地よい気候や旅行を楽しんでいたこともあり、勉強は少しスローペースになっています。先日、初めて福岡を訪れ、福岡マラソンのファンラン（5.2km）に参加しました。マラソンはもちろん、街歩きや地元の名物料理も満喫し、とても楽しい時間を過ごせました。
-    <br></br>
+    <br><br>
     旅のハイライトをまとめた動画を投稿したので、ぜひご覧ください。`;
     blogDescriptionTop2.innerHTML = `Apple製品の熱烈なファンなので、最近swiftとswiftUIの勉強を始めました。現在、swiftUIの100日チャレンジに挑戦しており、この1ヶ月で基礎練習として、割り勘用の計算機や、国旗当てゲームなど いくつかのiOSアプリを作りました。
-    <br></br>
+    <br><br>
     下のswiftのロゴをクリックすると、私のgithubリポジトリで、コードや今後のプロジェクトを確認することができますので、ぜひご覧ください。`;
     blogDescriptionTop.innerHTML = `私のポートフォリオをご覧いただきありがとうございます。こちらのサイトはjavascript、html、cssを使って一から作成しました。私が制作を楽しんだように、皆様にも楽しんでいただければ幸いです。
-    <br></br>
+    <br><br>
     ここでは、エンジニアとしての学びと成長を続ける過程を紹介しています。また、撮影した写真や作成したビデオも時々投稿して参ります。`;
     blogDescriptionBottom.innerText = "福岡 2024";
 
@@ -147,9 +147,11 @@ translate.addEventListener('click', () => {
 
     // Blog section
     blogHeader.innerText = "BLOG";
-    blogDescriptionTop3.innerHTML = `Learning has been a bit slow lately with the nice autumn weather and some travel opportunities. I recently got to visit Fukuoka for the first time and took part in the Fukuoka Marathon Fun Run (5.2km). I had a great time exploring the city, trying local foods, and, of course, running. Below is a video with some of the highlights from my trip. Enjoy.`;
+    blogDescriptionTop3.innerHTML = `Learning has been a bit slow lately with the nice autumn weather and some travel opportunities. I recently got to visit Fukuoka for the first time and took part in the Fukuoka Marathon Fun Run (5.2km). I had a great time exploring the city, trying local foods, and, of course, running.
+    <br><br>
+    Below is a video with some of the highlights from my trip. Enjoy.`;
     blogDescriptionTop2.innerHTML = `As an avid fan of Apple products, I recently decided to learn swift and swiftUI. Over the past month, I've been taking on a 100 days of swiftUI challenge, and I've already built a few small iOS apps to practice the basics. So far, I’ve created a calculator for splitting bills and a game where you guess country flags, among other projects.
-    <br></br>
+    <br><br>
     You can check out the code and future projects as I progress through the course on my github repository by clicking the swift logo below.`;
     blogDescriptionTop.innerHTML = `Welcome to my portfolio. I built this from the ground up using javascript, html, and css. I hope you enjoy it as much as I did creating it. Thank you for visiting.
     <br><br>
