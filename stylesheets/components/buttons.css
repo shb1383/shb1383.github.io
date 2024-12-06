@@ -51,13 +51,13 @@ button:focus {
   transition: all 0.1s ease;
 }
 
-.tripl_buttons {
+.mpulse_buttons, .tripl_buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-#tripl_app_button, #tripl_github_button {
+#mpulse_demo_button, #mpulse_button, #tripl_app_button, #tripl_github_button {
   margin: 5px;
 }
 
