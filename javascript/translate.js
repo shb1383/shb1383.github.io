@@ -27,6 +27,7 @@ var triplDescription = document.getElementById("tripl_description");
 var jurassicSafariDescription = document.getElementById("jurassic_safari_description");
 
 // Get the projects section buttons
+var mpulseDemoButton = document.getElementById("mpulse_demo_button");
 var mpulseButton = document.getElementById("mpulse_button");
 var triplAppButton = document.getElementById("tripl_app_button");
 var triplGithubButton = document.getElementById("tripl_github_button");
@@ -70,6 +71,7 @@ translate.addEventListener('click', () => {
     // Projects section
     projectsHeader.innerText = "プロジェクト";
     mpulseDescription.innerHTML = "周辺地域で開催されるライブイベントを見つけ、あなた<br>にぴったりな体験や世界に出会うことができます。";
+    mpulseDemoButton.innerText = "アプリのデモを見る";
     mpulseButton.innerText = "コードを表示";
     triplDescription.innerHTML = "革新的なトリップアプリで、<br>忘れられない日帰り旅行に出かけましょう。";
     triplAppButton.innerText = "アプリを試す";
@@ -127,6 +129,7 @@ translate.addEventListener('click', () => {
     // Projects section
     projectsHeader.innerText = "PROJECTS";
     mpulseDescription.innerHTML = "Discover a vibrant world of live events in your <br>local and surrounding areas with our mobile app, <br>designed to help you find the perfect <br>experiences to attend.";
+    mpulseDemoButton.innerText = "VIEW APP DEMO";
     mpulseButton.innerText = "VIEW CODE";
     triplDescription.innerHTML = "Embark on spontaneous adventures with our <br>innovative trip app, connecting users for <br>unforgettable day trips.";
     triplAppButton.innerText = "TRY THE APP";
