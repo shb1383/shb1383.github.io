@@ -120,30 +120,38 @@ h5s.forEach(h5 => {
 });
 
 // Gets the hero section background image
-// var heroBackgroundImage = document.querySelector('.hero_background_image');
+var heroBackgroundImage = document.querySelector('.hero_background_image');
 
 // Toggles the hero section background image from light mode to dark mode
-// mode.addEventListener('click', () => {
-  // if (heroBackgroundImage.classList.contains('hero_background_image_light')) {
-    // heroBackgroundImage.classList.remove('hero_background_image_light');
-    // heroBackgroundImage.classList.add('hero_background_image_dark');
-  // } else {
-    // heroBackgroundImage.classList.remove('hero_background_image_dark');
-    // heroBackgroundImage.classList.add('hero_background_image_light');
-  // }
-// });
+mode.addEventListener('click', () => {
+  if (heroBackgroundImage.classList.contains('hero_background_image_light')) {
+    heroBackgroundImage.classList.remove('hero_background_image_light');
+    heroBackgroundImage.classList.add('hero_background_image_dark');
+  } else {
+    heroBackgroundImage.classList.remove('hero_background_image_dark');
+    heroBackgroundImage.classList.add('hero_background_image_light');
+  }
+});
 
 // Toggles the hero text styling from light mode to dark mode
-// mode.addEventListener('click', () => {
+mode.addEventListener('click', () => {
   // Gets the hero header text
   // var heroHeader = document.querySelector('.hero_header');
 
   // Gets the hero about text
-  // var heroAbout = document.querySelector('.hero_about');
+  var heroAbout = document.querySelector('.hero_about');
+
+  if (heroAbout.classList.contains('hero_about_light')) {
+    heroAbout.classList.remove('hero_about_light');
+    heroAbout.classList.add('hero_about_dark');
+  } else {
+    heroAbout.classList.remove('hero_about_dark');
+    heroAbout.classList.add('hero_about_light');
+  }
 
   // heroHeader.classList.toggle('hero_dark');
   // heroAbout.classList.toggle('hero_dark');
-// });
+});
 
 // Gets the about description
 var aboutDescription = document.getElementById('about_description');
