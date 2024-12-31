@@ -41,7 +41,7 @@
   font-size: 48px;
   font-weight: 600;
   /* color: #FFFFFF; */
-  color: #b99637;
+  color: rgb(229, 9, 20);
   text-align: center;
   letter-spacing: -2px;
   /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); */
@@ -54,7 +54,7 @@
   /* font-weight: 525; */
   font-weight: 500;
   /* color: whitesmoke; */
-  color: #b99637;
+  color: rgb(229, 9, 20);
   text-align: center;
   /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); */
 }
