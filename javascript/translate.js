@@ -37,6 +37,7 @@ var jurassicSafariButton = document.getElementById("jurassic_safari_button");
 var aboutDescription = document.getElementById("about_description");
 
 // Get the blog section description
+var blogDescriptionTop4 = document.getElementById("blog_description_top_4");
 var blogDescriptionTop3 = document.getElementById("blog_description_top_3");
 var blogDescriptionTop2 = document.getElementById("blog_description_top_2");
 var blogDescriptionTop = document.getElementById("blog_description_top");
@@ -92,6 +93,9 @@ translate.addEventListener('click', () => {
 
     // Blog section
     blogHeader.innerText = "ブログ";
+    blogDescriptionTop4.innerHTML = `2024年は、技術面でも人生面でも学びと成長の年でした。そして、ウェブ開発者として卒業した年でもあります。
+    <br><br>
+    新年明けましておめでとうございます。2025年がさらに新しく、ワクワクするような機会に満ちた年になりますように。素晴らしい年になることを祈っています。`;
     blogDescriptionTop3.innerHTML = `最近は、秋の心地よい気候や旅行を楽しんでいたこともあり、勉強は少しスローペースになっています。先日、初めて福岡を訪れ、福岡マラソンのファンラン（5.2km）に参加しました。マラソンはもちろん、街歩きや地元の名物料理も満喫し、とても楽しい時間を過ごせました。
     <br><br>
     旅のハイライトをまとめた動画を投稿したので、ぜひご覧ください。`;
@@ -150,6 +154,9 @@ translate.addEventListener('click', () => {
 
     // Blog section
     blogHeader.innerText = "BLOG";
+    blogDescriptionTop4.innerHTML = `2024 has been a year of learning and growth, both in tech and in life. It’s also the year I graduated as a web developer.
+    <br><br>
+    Here’s to 2025 – may it bring even more new and exciting opportunities. Happy New Year.`;
     blogDescriptionTop3.innerHTML = `Learning has been a bit slow lately with the nice autumn weather and some travel opportunities. I recently got to visit Fukuoka for the first time and took part in the Fukuoka Marathon Fun Run (5.2km). I had a great time exploring the city, trying local foods, and, of course, running.
     <br><br>
     Below is a video with some of the highlights from my trip. Enjoy.`;
