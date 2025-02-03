@@ -37,6 +37,7 @@ var jurassicSafariButton = document.getElementById("jurassic_safari_button");
 var aboutDescription = document.getElementById("about_description");
 
 // Get the blog section description
+var blogDescriptionTop5 = document.getElementById("blog_description_top_5");
 var blogDescriptionTop4 = document.getElementById("blog_description_top_4");
 var blogDescriptionTop3 = document.getElementById("blog_description_top_3");
 var blogDescriptionTop2 = document.getElementById("blog_description_top_2");
@@ -93,6 +94,7 @@ translate.addEventListener('click', () => {
 
     // Blog section
     blogHeader.innerText = "ブログ";
+    blogDescriptionTop5.innerHTML = `新しい一年が始まり、求職活動に集中しているため、コーディングは後回しになっています。現時点で共有できる新しいコードはありませんが、近いうちに良い報告ができることを願っています。`;
     blogDescriptionTop4.innerHTML = `2024年は、技術面でも人生面でも学びと成長の年でした。そして、ウェブ開発者として卒業した年でもあります。
     <br><br>
     2025年がさらに新しく、ワクワクするような機会に満ちた年になりますように。よいお年をお過ごしください。`;
@@ -154,6 +156,7 @@ translate.addEventListener('click', () => {
 
     // Blog section
     blogHeader.innerText = "BLOG";
+    blogDescriptionTop5.innerHTML = `The start of the new year has shifted focus to job applications, so coding has taken a backseat. Unfortunately, no new code to share at the moment, but hopefully there will be better news soon.`;
     blogDescriptionTop4.innerHTML = `2024 has been a year of learning and growth, both in tech and in life. It’s also the year I graduated as a web developer.
     <br><br>
     Here’s to 2025 – may it bring even more new and exciting opportunities. Happy New Year.`;
