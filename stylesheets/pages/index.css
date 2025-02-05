@@ -273,6 +273,11 @@
   height: 40px;
 }
 
+#blog_description_top_4 img {
+  width: 560px;
+  height: auto;
+}
+
 /* Contact section styling */
 .contact_email {
   padding-top: 50px;
