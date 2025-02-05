@@ -159,7 +159,11 @@ translate.addEventListener('click', () => {
     blogDescriptionTop5.innerHTML = `The start of the new year has shifted focus to job applications, so coding has taken a backseat. Unfortunately, no new code to share at the moment, but hopefully there will be better news soon.`;
     blogDescriptionTop4.innerHTML = `2024 has been a year of learning and growth, both in tech and in life. It’s also the year I graduated as a web developer.
     <br><br>
-    Here’s to 2025 – may it bring even more new and exciting opportunities. Happy New Year.`;
+    Here’s to 2025 – may it bring even more new and exciting opportunities. Happy New Year.
+    <br><br>
+    <img src="./images/demoday.jpg" alt="headshot">
+    <br><br>
+    Le Wagon Tokyo - Demo Day, Spring 2024`;
     blogDescriptionTop3.innerHTML = `Learning has been a bit slow lately with the nice autumn weather and some travel opportunities. I recently got to visit Fukuoka for the first time and took part in the Fukuoka Marathon Fun Run (5.2km). I had a great time exploring the city, trying local foods, and, of course, running.
     <br><br>
     Below is a video with some of the highlights from my trip. Enjoy.`;
