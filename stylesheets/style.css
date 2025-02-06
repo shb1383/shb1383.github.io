@@ -98,8 +98,13 @@ hr {
   }
 
   #blog_video {
-    height: 183px!important;
     width: 325px!important;
+    height: 183px!important;
+  }
+
+  #blog_description_top_4 img {
+    width: 325px!important;
+    height: auto!important;
   }
 
   .blog_info p {
@@ -196,8 +201,13 @@ hr {
   }
 
   #blog_video {
-    height: 183px!important;
     width: 325px!important;
+    height: 183px!important;
+  }
+
+  #blog_description_top_4 img {
+    width: 325px!important;
+    height: auto!important;
   }
 
   .blog_info p {
