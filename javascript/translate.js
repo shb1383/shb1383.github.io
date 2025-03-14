@@ -133,7 +133,7 @@ translate.addEventListener('click', () => {
     mobileContactNav.innerText = "CONTACT";
 
     // Hero section
-    heroSubheader.innerText = "MULTIMEDIA CONTENT CREATOR";
+    heroSubheader.innerText = "FRONTEND DEVELOPER";
     heroCaption.innerText = "Building aesthetically pleasing & high-quality work through creativity & precision in Tokyo, Japan.";
 
     // Projects section
