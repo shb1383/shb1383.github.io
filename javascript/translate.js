@@ -150,7 +150,7 @@ translate.addEventListener('click', () => {
     // About section
     aboutHeader.innerText = "ABOUT";
     aboutDescription.innerHTML = `
-    Hello, I’m Syrene. I’m a frontend developer from San Diego with a diverse background in web development, video production, and photography.
+    Hello, I’m Syrene. I’m a freelance frontend developer from San Diego with a diverse background in web development, video production, and photography. Currently, I'm working at Inedo as a solutions engineer, creating technical content for DevOps.
     <br><br>
     I first delved into coding while studying Multimedia Production at California State University, Northridge. For our capstone project during my final year, my team created an award-winning VR app that was recognized at our department's annual Multimedia Production showcase. However, upon graduating, I focused on freelancing in video production and photography. A trip to Japan in 2019 inspired me to move here in 2020, where I reignited my passion for tech and completed Le Wagon Tokyo's web development bootcamp.
     <br><br>
