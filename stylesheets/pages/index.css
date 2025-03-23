@@ -227,12 +227,19 @@
 }
 
 /* Blog section styling */
+#blog .blogs {
+  display: flex;
+  overflow-x: auto;
+}
+
 .blog_info {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
+  flex-shrink: 0;
+  width: 1200px;
 }
 
 .blog_entry p {
