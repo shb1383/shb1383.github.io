@@ -238,8 +238,17 @@
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
+  padding-left: 250px;
+  padding-right: 250px;
   flex-shrink: 0;
-  width: 1200px;
+}
+
+.blog_info_first {
+  padding-left: 0px!important;
+}
+
+.blog_info_last {
+  padding-right: 0px!important;
 }
 
 .blog_entry p {
