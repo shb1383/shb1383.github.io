@@ -212,6 +212,10 @@
   height: auto;
 }
 
+.about_info a {
+  text-decoration: underline;
+}
+
 .about_info p {
   font-size: 12px;
   font-weight: 400;
