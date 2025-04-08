@@ -230,6 +230,24 @@
   color: #FFFFFF;
 }
 
+.about_inedo_light {
+  color: #000000;
+}
+
+.about_inedo_light:hover {
+  color: #000000;
+  text-decoration: line-through;
+}
+
+.about_inedo_dark {
+  color: #FFFFFF;
+}
+
+.about_inedo_dark:hover {
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
 /* Blog section styling */
 #blog .blogs {
   display: flex;
