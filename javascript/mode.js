@@ -147,6 +147,20 @@ mode.addEventListener('click', () => {
   }
 });
 
+// Gets the about inedo link
+var aboutInedoLink = document.getElementById('about_inedo_link');
+
+// Toggles the about inedo link styling from light mode to dark mode
+mode.addEventListener('click', () => {
+  if (aboutInedoLink.classList.contains('about_inedo_light')) {
+    aboutInedoLink.classList.remove('about_inedo_light');
+    aboutInedoLink.classList.add('about_inedo_dark');
+  } else {
+    aboutInedoLink.classList.remove('about_inedo_dark');
+    aboutInedoLink.classList.add('about_inedo_light');
+  }
+});
+
 // Gets the CV button
 var cvButton = document.getElementById('cv_button');
 
