@@ -84,7 +84,7 @@ translate.addEventListener('click', () => {
     // About section
     aboutHeader.innerText = "自己紹介";
     aboutDescription.innerHTML = `
-    みなさんこんにちは、サイリーンです。私はアメリカ・サンディエゴ出身のフリーランスフロントエンドエンジニアで、ウェブ開発からビデオ制作、写真撮影まで幅広い経験を持っています。現在は、イネド・ジャパンでソリューションエンジニアとして働き、DevOpsのための技術コンテンツを作成しています。
+    みなさんこんにちは、サイリーンです。私はアメリカ・サンディエゴ出身のフリーランスフロントエンドエンジニアで、ウェブ開発からビデオ制作、写真撮影まで幅広い経験を持っています。現在は、<a href = "https://inedo.co.jp/" id="about_inedo_link" class="about_inedo_light">イネド・ジャパン</a>でソリューションエンジニアとして働き、DevOpsのための技術コンテンツを作成しています。
     <br><br>
     カリフォルニア州立大学ノースリッジ校でマルチメディア制作を学んでいた際に、初めてコーディングに出会いました。最終学年のキャップストーン・プロジェクトでは、私のチームはVRアプリ制作で賞を受賞し、学部の年次マルチメディア・プロダクション・ショーケースで表彰されました。卒業後は映像制作と写真撮影のフリーランスとして活動してきましたが、2019年の日本旅行をきっかけに、翌年には日本へ移住しました。日本での生活を通じてテクノロジーへの興味が再熱し、Le Wagon Tokyoのウェブ開発ブートキャンプへ参加しました。
     <br><br>
@@ -150,7 +150,7 @@ translate.addEventListener('click', () => {
     // About section
     aboutHeader.innerText = "ABOUT";
     aboutDescription.innerHTML = `
-    Hello, I’m Syrene. I’m a freelance frontend developer from San Diego with a diverse background in web development, video production, and photography. Currently, I'm working at Inedo as a solutions engineer, creating technical content for DevOps.
+    Hello, I’m Syrene. I’m a freelance frontend developer from San Diego with a diverse background in web development, video production, and photography. Currently, I'm working at <a href = "https://inedo.com/" id="about_inedo_link" class="about_inedo_light">Inedo</a> as a solutions engineer, creating technical content for DevOps.
     <br><br>
     I first delved into coding while studying Multimedia Production at California State University, Northridge. For our capstone project during my final year, my team created an award-winning VR app that was recognized at our department's annual Multimedia Production showcase. However, upon graduating, I focused on freelancing in video production and photography. A trip to Japan in 2019 inspired me to move here in 2020, where I reignited my passion for tech and completed Le Wagon Tokyo's web development bootcamp.
     <br><br>
