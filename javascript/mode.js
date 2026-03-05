@@ -1,4 +1,4 @@
-// Gets the mode link in the navbar
+// Gets the nav elements
 var mode = document.getElementById('mode');
 
 // Gets the body
