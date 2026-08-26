@@ -67,8 +67,8 @@ translate.addEventListener('click', () => {
     mobileContactNav.innerText = "コンタクト";
 
     // Hero section
-    heroSubheader.innerText = "フロントエンドエンジニア";
-    heroCaption.innerText = "東京を拠点に、創造力と正確性を活かして、美しく高品質な仕事を提供します。";
+    heroSubheader.innerText = "マルチメディアコンテンツクリエイタ";
+    heroCaption.innerText = "名古屋を拠点に、創造力と正確性を活かして、美しく高品質な仕事を提供します。";
 
     // Projects section
     projectsHeader.innerText = "プロジェクト";
@@ -132,8 +132,8 @@ translate.addEventListener('click', () => {
     mobileContactNav.innerText = "CONTACT";
 
     // Hero section
-    heroSubheader.innerText = "FRONTEND DEVELOPER";
-    heroCaption.innerText = "Building aesthetically pleasing & high-quality work through creativity & precision in Tokyo, Japan.";
+    heroSubheader.innerText = "MULTIMEDIA CONTENT CREATOR";
+    heroCaption.innerText = "Building aesthetically pleasing & high-quality work through creativity & precision in Nagoya, Japan.";
 
     // Projects section
     projectsHeader.innerText = "PROJECTS";
@@ -141,7 +141,6 @@ translate.addEventListener('click', () => {
     mpulseDemoButton.innerText = "VIEW APP DEMO";
     mpulseButton.innerText = "VIEW CODE";
     triplDescription.innerHTML = "Embark on spontaneous adventures with our <br>innovative trip app, connecting users for <br>unforgettable day trips.";
-    triplAppButton.innerText = "TRY THE APP";
     triplGithubButton.innerText = "VIEW CODE";
     jurassicSafariDescription.innerHTML = "Explore dinosaurs up close in our immersive VR <br>app, and enjoy an educational adventure where <br>the past comes to life.";
     jurassicSafariButton.innerText = "PREVIEW THE APP";
@@ -149,7 +148,7 @@ translate.addEventListener('click', () => {
     // About section
     aboutHeader.innerText = "ABOUT";
     aboutDescription.innerHTML = `
-    Hello, I’m Syrene. I’m a freelance frontend developer from San Diego with a diverse background in web development, video production, and photography. Currently, I'm working at <a href = "https://inedo.com/" id="about_inedo_link" class="about_inedo_light">Inedo</a> as a solutions engineer, creating technical content for DevOps.
+    Hello, I’m Syrene. I’m a freelance multimedia content creator from San Diego with a diverse background in web development, video production, and photography.
     <br><br>
     I first delved into coding while studying Multimedia Production at California State University, Northridge. For our capstone project during my final year, my team created an award-winning VR app that was recognized at our department's annual Multimedia Production showcase. However, upon graduating, I focused on freelancing in video production and photography. A trip to Japan in 2019 inspired me to move here in 2020, where I reignited my passion for tech and completed Le Wagon Tokyo's web development bootcamp.
     <br><br>
