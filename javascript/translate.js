@@ -76,7 +76,6 @@ translate.addEventListener('click', () => {
     mpulseDemoButton.innerText = "アプリのデモを見る";
     mpulseButton.innerText = "コードを表示";
     triplDescription.innerHTML = "革新的なトリップアプリで、<br>忘れられない日帰り旅行に出かけましょう。";
-    triplAppButton.innerText = "アプリを試す";
     triplGithubButton.innerText = "コードを表示";
     jurassicSafariDescription.innerText = "没入型VRアプリで、恐竜の世界に飛び込み、彼らを観察しながら勉強やアドベンチャーをお楽しみください。";
     jurassicSafariButton.innerText = "アプリをプレビュー";
@@ -84,7 +83,7 @@ translate.addEventListener('click', () => {
     // About section
     aboutHeader.innerText = "自己紹介";
     aboutDescription.innerHTML = `
-    みなさんこんにちは、サイリーンです。私はアメリカ・サンディエゴ出身のフリーランスフロントエンドエンジニアで、ウェブ開発からビデオ制作、写真撮影まで幅広い経験を持っています。現在は、<a href = "https://inedo.co.jp/" id="about_inedo_link" class="about_inedo_light">イネド・ジャパン</a>でソリューションエンジニアとして働き、DevOpsのための技術コンテンツを作成しています。
+    みなさんこんにちは、サイリーンです。私はアメリカ・サンディエゴ出身のフリーランスマルチメディアコンテンツクリエイタで、ウェブ開発からビデオ制作、写真撮影まで幅広い経験を持っています。
     <br><br>
     カリフォルニア州立大学ノースリッジ校でマルチメディア制作を学んでいた際に、初めてコーディングに出会いました。最終学年のキャップストーン・プロジェクトでは、私のチームはVRアプリ制作で賞を受賞し、学部の年次マルチメディア・プロダクション・ショーケースで表彰されました。卒業後は映像制作と写真撮影のフリーランスとして活動してきましたが、2019年の日本旅行をきっかけに、翌年には日本へ移住しました。日本での生活を通じてテクノロジーへの興味が再熱し、Le Wagon Tokyoのウェブ開発ブートキャンプへ参加しました。
     <br><br>
