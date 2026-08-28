@@ -133,7 +133,7 @@ translate.addEventListener('click', () => {
 
     // Hero section
     heroSubheader.innerText = "MULTIMEDIA CONTENT CREATOR";
-    heroCaption.innerText = "Building aesthetically pleasing & high-quality work through creativity & precision in Nagoya, Japan.";
+    heroCaption.innerText = "Creating engaging & high-quality work through creativity & precision in Nagoya, Japan.";
 
     // Projects section
     projectsHeader.innerText = "PROJECTS";
